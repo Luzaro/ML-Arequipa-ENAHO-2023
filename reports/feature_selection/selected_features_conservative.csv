@@ -1,0 +1,19 @@
+﻿variable,mutual_info,rf_importance,rank_mi,rank_rf,rank_promedio,grupo,tipo,descripcion,nulos_pct
+educ_jefe_ord,0.04352313720060197,0.11229000997742541,1.0,1.0,1.0,educacion_jefe,ordinal,Nivel educativo del jefe,0.0
+combustible_limpio,0.029636878051282622,0.046678043090703766,2.0,7.0,4.5,servicios,binaria,Uso de combustible limpio,0.0
+p104,0.026947663478088968,0.06932948848282988,4.0,5.0,4.5,vivienda,numerica,Cantidad de habitaciones,0.3955
+miembros_afiliados_essalud,0.026609970081163725,0.06168212838262789,5.0,6.0,5.5,salud,numerica,Miembros afiliados a EsSalud,0.0
+p103a,0.024158849057309473,0.07216669855124602,7.0,4.0,5.5,vivienda,categorica,Material de techo,0.3955
+n_ninos_0_5,0.028920814852225307,0.03151316826610912,3.0,12.0,7.5,hogar,numerica,Ninos de 0 a 5 anios,0.0
+tam_hogar,0.012416852905629883,0.0937846199089569,13.0,2.0,7.5,hogar,numerica,Tamano del hogar,0.0
+edad_jefe,0.010989944339522273,0.08308100337792775,16.0,3.0,9.5,demografia_jefe,numerica,Edad del jefe del hogar,0.0
+estrato,0.011298734942560396,0.03882640617878039,15.0,10.0,12.5,geografia,categorica,Estrato geografico,0.0
+piso_precario,0.015288767364408637,0.01616035995917609,8.0,18.0,13.0,vivienda,binaria,Indicador de piso precario,0.0
+p105a,0.013314472758060525,0.02264464313331593,11.0,15.0,13.0,vivienda,categorica,Tenencia de vivienda,0.0
+n_ninos_6_16,0.010195726086481116,0.04045505496240144,18.0,8.0,13.0,hogar,numerica,Ninos de 6 a 16 anios,0.0
+internet_hogar,0.01263387269906091,0.02190387670410201,12.0,16.0,14.0,servicios,binaria,Conexion a internet en el hogar,0.0
+miembros_sin_atencion_salud,0.00893991318768883,0.03991974947713503,19.0,9.0,14.0,salud,numerica,Miembros sin atencion en salud,0.0
+p101,0.015005820620573873,0.008581050845856662,9.0,28.0,18.5,vivienda,categorica,Tipo de vivienda,0.3955
+p102,0.0036698000601647074,0.025157895753827906,25.0,14.0,19.5,vivienda,categorica,Material de paredes,0.3955
+acceso_desague_red,0.007903951293812717,0.01330153789860111,20.0,21.0,20.5,servicios,binaria,Acceso a desague por red,0.0
+n_6_16_no_matriculados,0.014983766515302088,0.003596656088781915,10.0,33.0,21.5,educacion,numerica,Conteo de menores no matriculados,0.0

@@ -1,0 +1,36 @@
+﻿variable,grupo,tipo,descripcion,nulos_pct
+edad_jefe,demografia_jefe,numerica,Edad del jefe del hogar,0.0
+sexo_jefe_bin,demografia_jefe,binaria,Sexo del jefe del hogar,0.0
+educ_jefe_ord,educacion_jefe,ordinal,Nivel educativo del jefe,0.0
+tam_hogar,hogar,numerica,Tamano del hogar,0.0
+num_perceptores,hogar,numerica,Numero de perceptores,0.0
+n_ninos_0_5,hogar,numerica,Ninos de 0 a 5 anios,0.0
+n_ninos_6_16,hogar,numerica,Ninos de 6 a 16 anios,0.0
+n_adultos_65_mas,hogar,numerica,Adultos mayores de 65,0.0
+n_6_16_no_matriculados,educacion,numerica,Conteo de menores no matriculados,0.0
+n_6_16_no_asisten,educacion,numerica,Conteo de menores que no asisten,0.0
+children_not_enrolled,educacion,binaria,Hogar con menores no matriculados,0.0
+children_not_attending,educacion,binaria,Hogar con menores que no asisten,0.0
+miembros_sin_atencion_salud,salud,numerica,Miembros sin atencion en salud,0.0
+health_no_attention,salud,binaria,Hogar con al menos un miembro sin atencion,0.0
+miembros_afiliados_essalud,salud,numerica,Miembros afiliados a EsSalud,0.0
+material_piso,vivienda,categorica,Material del piso,0.3955
+piso_precario,vivienda,binaria,Indicador de piso precario,0.0
+p101,vivienda,categorica,Tipo de vivienda,0.3955
+p102,vivienda,categorica,Material de paredes,0.3955
+p103a,vivienda,categorica,Material de techo,0.3955
+p104,vivienda,numerica,Cantidad de habitaciones,0.3955
+p105a,vivienda,categorica,Tenencia de vivienda,0.0
+acceso_agua_red,servicios,binaria,Acceso a agua por red,0.0
+agua_potable_reportada,servicios,binaria,Agua potable reportada,0.0
+agua_disponible_diaria,servicios,binaria,Agua disponible todos los dias,0.0
+agua_segura_proxy,servicios,binaria,Proxy de agua segura,0.0
+acceso_desague_red,servicios,binaria,Acceso a desague por red,0.0
+saneamiento_inadecuado,servicios,binaria,Indicador de saneamiento inadecuado,0.0
+acceso_electricidad,servicios,binaria,Acceso a electricidad,0.0
+combustible_limpio,servicios,binaria,Uso de combustible limpio,0.0
+combustible_precario,servicios,binaria,Uso de combustible precario,0.0
+internet_hogar,servicios,binaria,Conexion a internet en el hogar,0.0
+area_rural_bin,geografia,binaria,Hogar en area rural,0.0
+dominio,geografia,categorica,Dominio geografico,0.0
+estrato,geografia,categorica,Estrato geografico,0.0

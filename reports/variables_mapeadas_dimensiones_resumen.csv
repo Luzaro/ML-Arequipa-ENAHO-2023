@@ -1,0 +1,23 @@
+﻿dimension_analitica,dimension_inei,apta_selectkbest,n_variables
+Conectividad,Conectividad,True,5
+Conectividad,Conectividad,False,4
+Demografia y composicion del hogar,No aplica,True,6
+Demografia y composicion del hogar,No aplica,False,1
+Educacion,Educacion,True,8
+Educacion,Educacion,False,3
+Empleo y prevision social,Empleo y Prevision Social,True,4
+Empleo y prevision social,Empleo y Prevision Social,False,1
+Energia,Energia,True,4
+Energia,Energia,False,10
+Geografia y contexto territorial,No aplica,True,2
+Geografia y contexto territorial,No aplica,False,9
+"Ingresos, gastos y transferencias monetarias",No aplica,False,88
+Ponderacion muestral,No aplica,False,1
+Revision manual,No aplica,False,1
+Salud,Salud,True,7
+Salud,Salud,False,1
+Servicios basicos,Servicios Básicos,True,6
+Servicios basicos,Servicios Básicos,False,6
+Variables relacionadas al objetivo,No aplica,False,1
+Vivienda y entorno,Vivienda y Entorno,True,7
+Vivienda y entorno,Vivienda y Entorno,False,2

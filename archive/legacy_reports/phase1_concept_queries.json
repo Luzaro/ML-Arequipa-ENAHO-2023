@@ -1,0 +1,88 @@
+{
+  "ubigeo": [
+    "ubigeo"
+  ],
+  "conglome": [
+    "conglome"
+  ],
+  "vivienda": [
+    "vivienda"
+  ],
+  "hogar": [
+    "hogar"
+  ],
+  "factor_expansion": [
+    "factor de expansion",
+    "factor07",
+    "facpob07"
+  ],
+  "pobreza_monetaria": [
+    "pobreza monetaria",
+    "pobreza"
+  ],
+  "jefe_hogar": [
+    "jefe de hogar",
+    "parentesco jefe",
+    "p203"
+  ],
+  "educacion_jefe": [
+    "nivel educativo",
+    "p301a"
+  ],
+  "matricula_asistencia": [
+    "matricula",
+    "asistencia escolar"
+  ],
+  "salud_acceso": [
+    "salud",
+    "atencion"
+  ],
+  "material_piso": [
+    "piso",
+    "material piso"
+  ],
+  "agua": [
+    "agua"
+  ],
+  "desague": [
+    "desague",
+    "servicio higienico"
+  ],
+  "electricidad": [
+    "electricidad",
+    "alumbrado"
+  ],
+  "combustible_cocina": [
+    "combustible cocinar",
+    "combustible"
+  ],
+  "tamano_hogar": [
+    "tamano del hogar",
+    "mieperho"
+  ],
+  "num_perceptores": [
+    "perceptores",
+    "ingreso"
+  ],
+  "ingreso_hogar": [
+    "ingreso del hogar",
+    "inghog1d"
+  ],
+  "edad_jefe": [
+    "edad del jefe",
+    "p208a"
+  ],
+  "sexo_jefe": [
+    "sexo del jefe",
+    "p207"
+  ],
+  "area_urbana_rural": [
+    "urbana rural",
+    "estrato",
+    "dominio"
+  ],
+  "ponderadores": [
+    "ponderador",
+    "factor07"
+  ]
+}

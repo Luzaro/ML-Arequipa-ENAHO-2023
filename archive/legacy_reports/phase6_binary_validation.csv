@@ -1,0 +1,15 @@
+﻿variable,unique_values,is_binary_01
+sexo_jefe_bin,"[0, 1]",True
+piso_precario,"[0, 1]",True
+acceso_agua_red,"[0, 1]",True
+agua_potable_reportada,"[0, 1]",True
+agua_segura_proxy,"[0, 1]",True
+acceso_desague_red,"[0, 1]",True
+acceso_electricidad,"[0, 1]",True
+combustible_limpio,"[0, 1]",True
+combustible_precario,"[0, 1]",True
+internet_hogar,"[0, 1]",True
+health_no_attention,"[0, 1]",True
+children_not_enrolled,"[0, 1]",True
+children_not_attending,"[0, 1]",True
+area_rural_bin,"[0, 1]",True

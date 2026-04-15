@@ -1,0 +1,29 @@
+{
+  "phase": "SCENARIO_B_DEDUP",
+  "passed": true,
+  "rows": 1517,
+  "cols_before": 74,
+  "cols_after": 55,
+  "variables_descartadas": [
+    "internet_hogar_enaho",
+    "hogar_con_ninos_no_asisten",
+    "al_menos_un_6_16_no_asiste",
+    "hogar_con_ninos_no_matriculados",
+    "al_menos_un_6_16_no_matriculado",
+    "nivel_educativo_jefe_cat",
+    "al_menos_un_ingreso_laboral_hogar",
+    "combustible_principal_cocina",
+    "es_area_rural",
+    "al_menos_un_enfermedad_4_sem",
+    "al_menos_un_sintoma_4_sem",
+    "health_no_attention",
+    "agua_segura_proxy",
+    "material_piso_cat",
+    "monto_total_transferencias_publicas",
+    "monto_total_programas_sociales_alimentarios",
+    "monto_total_programas_sociales_no_alimentarios",
+    "recibe_programa_social_alimentario",
+    "recibe_programa_social_no_alimentario"
+  ],
+  "hogar_id_unique": true
+}

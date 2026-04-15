@@ -1,0 +1,20 @@
+{
+  "phase": "SCENARIO_B_MODELING",
+  "passed": true,
+  "dataset_detected": "enaho_arequipa_escenario_b_clean.parquet",
+  "target_detected": "target_pobreza_monetaria_bin",
+  "n_top30_full": 30,
+  "n_numeric_full": 23,
+  "n_categorical_full": 7,
+  "models_run": [
+    "XGBoostClassifier",
+    "DecisionTreeClassifier",
+    "LogisticRegression",
+    "RandomForestClassifier",
+    "SVC"
+  ],
+  "best_model_by_recall_pobre": {
+    "feature_set": "top30_full",
+    "model": "XGBoostClassifier"
+  }
+}

@@ -1,0 +1,6 @@
+﻿merge_name,base_rows_before,addon_rows,rows_after_merge,duplicated_households_after_merge,new_columns_added
+modulo01_context,1517,2119,1517,0,p101|p102|p103|p103a|p104|p105a|p106|p110|p110a1|p110c|p111a|p1121|p112a|p1131|p1132|p1133|p1135|p1136|p1137|p1139|p113a|p1141|p1142|p1143|p1144|p1145|p114b1|p114b2|p114b3
+modulo02_roster,1517,1517,1517,0,tam_hogar_mod2|n_ninos_0_5|n_ninos_6_16|n_adultos_65_mas|jefe_hogar|sexo_jefe|edad_jefe|codigo_parentesco_jefe|num_jefes_detectados
+modulo03_education,1517,1517,1517,0,personas_con_mod_educ|n_6_16_total|n_6_16_matriculados|n_6_16_no_matriculados|n_6_16_no_asisten|any_6_16_no_matriculados|any_6_16_no_asisten|educ_jefe_nivel|educ_jefe_anio|educ_jefe_grado
+modulo04_health,1517,1517,1517,0,personas_con_mod_salud|miembros_con_sintoma_4w|miembros_con_enfermedad_4w|miembros_sin_atencion_salud|miembros_afiliados_essalud|any_sintoma_4w|any_enfermedad_4w|any_sin_atencion_salud
+modulo05_employment,1517,1517,1517,0,personas_con_mod_empleo|miembros_con_ingreso_laboral|jefe_con_ingreso_laboral|any_ingreso_laboral_hogar

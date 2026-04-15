@@ -1,0 +1,106 @@
+﻿usa_combustible_limpio,usa_combustible_precario,dispositivo_servicio_digital_2,material_techo,nivel_educativo_jefe_ord,dispositivo_servicio_digital_3,piso_precario,num_habitaciones,acceso_internet_hogar_derivado,dispositivo_servicio_digital_1,material_pared,tam_hogar,num_ninos_0_5,num_ninos_6_16,num_miembros_afiliados_essalud,estrato_geografico,acceso_desague_red,y_true,y_score,y_pred
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,1,2.0,1,pase,adobe,7,0,4,0,area de empadronamiento rural (aer) compuesto,0,0,0.9715813354069925,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,"madera (pona, tornillo, etc)",4,1,1,0,de 2 000 a 19 999 habitantes,0,0,0.7821516943254712,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,5.0,1,conexion fija,adobe,4,0,1,0, de 500 a 1 999 habitantes,1,0,0.5210132463320388,1
+1,0,pase,concreto armado,4.0,conexion movil prepago,0,2.0,1,conexion fija,ladrillo o bloque de cemento,5,1,1,0, de 20 000 a 49 999 habitantes,1,0,0.8460572715827994,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,4,1,1,0, de 500 a 1 999 habitantes,1,0,0.7525305575152791,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,1,1.0,1,pase,adobe,4,0,2,0,area de empadronamiento rural (aer) compuesto,0,0,0.9275828092679711,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,3,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.6863247561115233,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,1,de 2 000 a 19 999 habitantes,0,0,0.5795240298652464,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,5,1,2,0, de 20 000 a 49 999 habitantes,0,0,0.8855407457263587,1
+0,1,,"planchas de calamina, fibra de cemento o similares",6.0,,1,1.0,0,,piedra o sillar con cal o cemento,1,0,0,0,area de empadronamiento rural (aer) simple,0,0,0.6341705803755375,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,2.0,1,pase,piedra o sillar con cal o cemento,3,1,0,0, de 500 000 a más habitantes,1,0,0.6825648665027497,1
+1,0,pase,concreto armado,1.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,2,0,0,0,de 2 000 a 19 999 habitantes,1,0,0.6299009451811429,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,4.0,1,conexion fija,ladrillo o bloque de cemento,6,1,0,1, de 500 000 a más habitantes,1,0,0.6429200424412456,1
+1,0,,concreto armado,5.0,,0,2.0,0,,ladrillo o bloque de cemento,3,0,1,0, de 500 000 a más habitantes,1,0,0.6838461629752566,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,3,1,0,0, de 20 000 a 49 999 habitantes,0,0,0.7562098308136931,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",1.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,1,0,0.7748695911565975,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,4,0,2,0, de 500 000 a más habitantes,1,0,0.675181081079555,1
+1,0,pase,concreto armado,5.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,6,1,2,5, de 20 000 a 49 999 habitantes,0,0,0.7539186432191881,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,1.0,1,pase,adobe,2,0,0,0, de 500 a 1 999 habitantes,1,0,0.8097158524764583,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,3,1,0,0, de 20 000 a 49 999 habitantes,0,0,0.7562098308136931,1
+1,0,conexion movil post pago control,concreto armado,6.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,5,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.582314177029833,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,1.0,1,conexion fija,triplay/calamina/estera,5,0,2,0,area de empadronamiento rural (aer) simple,0,0,0.7915994448121518,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,2,0,0,0,de 2 000 a 19 999 habitantes,0,0,0.7627684843937889,1
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,pase,0,3.0,1,conexion fija,ladrillo o bloque de cemento,4,0,0,1, de 20 000 a 49 999 habitantes,1,0,0.587256853863472,1
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,1.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.5276965195090891,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,2,0, de 500 000 a más habitantes,0,0,0.5186603772969542,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",3.0,pase,0,5.0,1,pase,"madera (pona, tornillo, etc)",6,1,2,5, de 500 000 a más habitantes,1,0,0.5887526937540287,1
+0,1,pase,concreto armado,8.0,conexion movil prepago,0,3.0,1,conexion fija,ladrillo o bloque de cemento,6,0,0,1, de 500 a 1 999 habitantes,1,0,0.7698054928308454,1
+0,1,,"planchas de calamina, fibra de cemento o similares",4.0,,0,6.0,0,,adobe,6,0,0,0, de 500 000 a más habitantes,1,0,0.9753948472897932,1
+1,0,pase,concreto armado,3.0,pase,0,3.0,1,conexion fija,ladrillo o bloque de cemento,4,0,1,0, de 500 000 a más habitantes,1,0,0.5981558155730271,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,1.0,1,pase,piedra o sillar con cal o cemento,3,0,0,0,de 2 000 a 19 999 habitantes,0,0,0.9007006963201992,1
+1,0,conexion movil post pago control,concreto armado,4.0,conexion movil prepago,0,2.0,1,conexion fija,ladrillo o bloque de cemento,6,0,1,2, de 500 000 a más habitantes,1,0,0.5537683357789439,1
+0,1,pase,concreto armado,3.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.8925312007373936,1
+0,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,2.0,0,,adobe,2,0,0,0,area de empadronamiento rural (aer) compuesto,0,0,0.8242525124434716,1
+1,0,conexion movil post pago control,concreto armado,8.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,7,0,4,1, de 500 000 a más habitantes,1,0,0.7679944016942165,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,3,0,1,0, de 500 000 a más habitantes,0,0,0.6305766550195157,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",7.0,conexion movil prepago,0,3.0,1,conexion fija,ladrillo o bloque de cemento,5,1,1,4, de 500 000 a más habitantes,1,0,0.5285005691214936,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",1.0,conexion movil prepago,0,2.0,1,pase,"madera (pona, tornillo, etc)",3,0,0,0,de 2 000 a 19 999 habitantes,0,0,0.7582523244492141,1
+0,0,,"planchas de calamina, fibra de cemento o similares",3.0,,1,1.0,0,,piedra con barro,1,0,0,0,area de empadronamiento rural (aer) simple,0,0,0.7481349294624197,1
+0,0,,"planchas de calamina, fibra de cemento o similares",5.0,,0,1.0,0,,ladrillo o bloque de cemento,1,0,0,1,de 2 000 a 19 999 habitantes,1,0,0.8270342363881774,1
+1,0,,"planchas de calamina, fibra de cemento o similares",1.0,,0,1.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 500 a 1 999 habitantes,1,0,0.75799573183293,1
+0,1,pase,concreto armado,6.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,5,0,2,2, de 500 000 a más habitantes,0,0,0.802739235628464,1
+0,1,pase,caña o estera con torta de barro o cemento,3.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,2,0,0,0,de 2 000 a 19 999 habitantes,1,0,0.8052092005189996,1
+0,1,conexion movil post pago control,otro material,5.0,pase,1,2.0,1,pase,otro material,5,1,3,0, de 500 a 1 999 habitantes,1,0,0.8644408018841544,1
+0,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,4.0,1,pase,adobe,2,0,1,0,area de empadronamiento rural (aer) compuesto,0,0,0.5095070382432868,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,5.0,1,conexion fija,ladrillo o bloque de cemento,5,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.5556345584606833,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",1.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,2,0,0,0, de 500 a 1 999 habitantes,1,0,0.5775392800593971,1
+0,1,pase,tejas,5.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,4,1,0,0, de 500 a 1 999 habitantes,1,0,0.6355436525195788,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",7.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,3,0,1,2, de 20 000 a 49 999 habitantes,0,0,0.5114964591519162,1
+1,0,conexion movil post pago control,concreto armado,6.0,pase,0,4.0,1,conexion fija,ladrillo o bloque de cemento,7,1,1,0, de 500 000 a más habitantes,1,0,0.7048369529648002,1
+0,1,,"planchas de calamina, fibra de cemento o similares",1.0,,0,2.0,0,,piedra o sillar con cal o cemento,1,0,0,0, de 500 000 a más habitantes,1,0,0.8186885723771554,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,5.0,1,conexion fija,ladrillo o bloque de cemento,6,1,1,2,de 2 000 a 19 999 habitantes,1,0,0.6793682698539504,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",1.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,3,0,1,0, de 500 000 a más habitantes,0,0,0.7105122818490662,1
+1,0,conexion movil post pago control,concreto armado,6.0,conexion movil prepago,0,5.0,1,pase,ladrillo o bloque de cemento,6,1,0,2,de 2 000 a 19 999 habitantes,1,0,0.5624205020022816,1
+1,0,pase,concreto armado,5.0,conexion movil prepago,0,6.0,1,pase,ladrillo o bloque de cemento,7,1,0,0, de 500 000 a más habitantes,1,0,0.8277831189384957,1
+0,1,conexion movil post pago control,concreto armado,3.0,conexion movil prepago,0,5.0,1,pase,ladrillo o bloque de cemento,6,0,2,0, de 500 000 a más habitantes,1,0,0.852429079522794,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,2.0,1,pase,adobe,3,0,1,0,area de empadronamiento rural (aer) simple,0,0,0.9074291142806301,1
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,adobe,6,0,1,0, de 500 a 1 999 habitantes,0,0,0.9359050997054411,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,3.0,1,conexion fija,ladrillo o bloque de cemento,3,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.614102560231729,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,pase,0,3.0,1,pase,piedra o sillar con cal o cemento,5,0,2,0,de 2 000 a 19 999 habitantes,0,0,0.6946896329837041,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,adobe,3,0,1,1,de 2 000 a 19 999 habitantes,1,0,0.5111047862909661,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,1,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.5525518463063567,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,1,0,0, de 20 000 a 49 999 habitantes,0,0,0.6166568362878463,1
+1,0,conexion movil post pago control,madera,7.0,conexion movil prepago,0,4.0,1,pase,"madera (pona, tornillo, etc)",7,2,3,0, de 500 a 1 999 habitantes,1,0,0.8632998993454033,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,1,0,0, de 20 000 a 49 999 habitantes,1,0,0.8278579840188166,1
+1,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,3.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.56133931339908,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,6,0,2,3,de 2 000 a 19 999 habitantes,1,0,0.7401803295988444,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,5,0,2,0, de 500 000 a más habitantes,1,0,0.8305906087535704,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,1,1.0,1,pase,adobe,4,1,0,3,area de empadronamiento rural (aer) compuesto,0,0,0.8793735881499823,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",1.0,conexion movil prepago,0,1.0,1,pase,piedra o sillar con cal o cemento,3,0,1,0, de 500 000 a más habitantes,1,0,0.7793865793082795,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,pase,0,2.0,1,pase,ladrillo o bloque de cemento,7,0,2,0, de 500 000 a más habitantes,1,0,0.9165851255634826,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,6.0,1,conexion fija,ladrillo o bloque de cemento,6,0,1,1, de 20 000 a 49 999 habitantes,1,0,0.5436339108885644,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,4,1,1,0,de 2 000 a 19 999 habitantes,0,0,0.6881696649631853,1
+1,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,1.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,1,0,0.7116961784374469,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",7.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,5,0,1,0, de 500 000 a más habitantes,0,0,0.635196920868487,1
+1,0,,"planchas de calamina, fibra de cemento o similares",4.0,,0,1.0,0,,piedra o sillar con cal o cemento,1,0,0,0, de 500 000 a más habitantes,1,0,0.5044613764227097,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,2,0,0,0, de 20 000 a 49 999 habitantes,1,0,0.6505233524891763,1
+0,1,,"planchas de calamina, fibra de cemento o similares",4.0,,1,5.0,0,,adobe,1,1,2,0,area de empadronamiento rural (aer) compuesto,0,0,0.6558667559192746,1
+1,0,conexion movil post pago control,concreto armado,3.0,pase,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,0,0,de 2 000 a 19 999 habitantes,1,0,0.5834836012256799,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,1,2.0,1,pase,ladrillo o bloque de cemento,3,0,0,0, de 500 a 1 999 habitantes,1,0,0.7946975993881769,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.7075948100165544,1
+0,0,,"planchas de calamina, fibra de cemento o similares",3.0,,1,1.0,0,,piedra con barro,2,0,0,0,area de empadronamiento rural (aer) simple,0,0,0.8502005520327268,1
+0,1,,"planchas de calamina, fibra de cemento o similares",3.0,,0,2.0,0,,ladrillo o bloque de cemento,2,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.9044801492161878,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,1.0,1,pase,piedra o sillar con cal o cemento,2,0,0,0, de 500 000 a más habitantes,0,0,0.6694787524767372,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,4,0,2,0, de 20 000 a 49 999 habitantes,1,0,0.5688317413106262,1
+1,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,1.0,0,,"madera (pona, tornillo, etc)",1,0,0,0, de 20 000 a 49 999 habitantes,0,0,0.5836064013863633,1
+1,0,pase,concreto armado,4.0,conexion movil prepago,0,3.0,1,conexion fija,ladrillo o bloque de cemento,5,0,2,0, de 20 000 a 49 999 habitantes,0,0,0.7481022548784821,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",8.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,5,0,2,4, de 500 000 a más habitantes,0,0,0.5675844938149187,1
+1,0,pase,concreto armado,5.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,5,1,1,2, de 500 000 a más habitantes,1,0,0.6500275536461027,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,3.0,1,pase,"madera (pona, tornillo, etc)",5,0,2,0,de 2 000 a 19 999 habitantes,0,0,0.8911926216563576,1
+1,0,conexion movil post pago control,,6.0,pase,0,,1,pase,,5,0,1,0, de 20 000 a 49 999 habitantes,1,0,0.5597129378242948,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,5,0,2,0, de 20 000 a 49 999 habitantes,0,0,0.7114830905828057,1
+1,0,pase,concreto armado,3.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 500 a 1 999 habitantes,1,0,0.6941119858639203,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",8.0,pase,0,2.0,1,pase,ladrillo o bloque de cemento,4,1,1,0, de 20 000 a 49 999 habitantes,0,0,0.5643796530268287,1
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",4.0,pase,0,4.0,1,conexion fija,ladrillo o bloque de cemento,4,1,1,0,de 2 000 a 19 999 habitantes,1,0,0.6311309626820739,1
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,1.0,0,,ladrillo o bloque de cemento,3,2,0,0, de 20 000 a 49 999 habitantes,1,0,0.9147482294323959,1
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,4.0,1,pase,adobe,8,0,4,0,de 2 000 a 19 999 habitantes,1,0,0.9900985927915837,1
+0,1,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,2,0,0,2, de 500 a 1 999 habitantes,1,0,0.5324505250935122,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,3.0,1,pase,"madera (pona, tornillo, etc)",4,0,1,0, de 500 a 1 999 habitantes,0,0,0.6354748286331509,1
+1,0,pase,concreto armado,1.0,conexion movil prepago,0,5.0,1,pase,ladrillo o bloque de cemento,3,0,0,0, de 20 000 a 49 999 habitantes,1,0,0.5250817639075601,1
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,5,1,2,0,de 2 000 a 19 999 habitantes,1,0,0.8336551812363436,1
+1,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,2.0,0,,adobe,2,0,0,0,area de empadronamiento rural (aer) simple,0,0,0.7837668537217816,1
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,1,3.0,1,pase,adobe,4,0,0,0,area de empadronamiento rural (aer) compuesto,1,0,0.5800714712163674,1
+1,0,pase,"planchas de calamina, fibra de cemento o similares",8.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,5,2,1,0,area de empadronamiento rural (aer) compuesto,0,0,0.7308894139714626,1
+0,1,,"planchas de calamina, fibra de cemento o similares",3.0,,1,1.0,0,,piedra con barro,2,0,0,0,area de empadronamiento rural (aer) simple,0,0,0.8531840436597737,1

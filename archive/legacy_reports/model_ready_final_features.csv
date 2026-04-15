@@ -1,0 +1,19 @@
+﻿variable_original,variable_final,rol,incluir_entrenamiento,grupo,descripcion
+edad_jefe,edad_jefe,feature,True,demografia_jefe,Edad del jefe del hogar
+n_6_16_no_matriculados,num_6_16_no_matriculados,feature,True,educacion,Conteo de menores no matriculados
+educ_jefe_ord,nivel_educativo_jefe_ord,feature,True,educacion_jefe,Nivel educativo del jefe
+estrato,estrato_geografico,feature,True,geografia,Estrato geografico
+n_ninos_0_5,num_ninos_0_5,feature,True,hogar,Ninos de 0 a 5 anios
+n_ninos_6_16,num_ninos_6_16,feature,True,hogar,Ninos de 6 a 16 anios
+tam_hogar,tam_hogar,feature,True,hogar,Tamano del hogar
+miembros_afiliados_essalud,num_miembros_afiliados_essalud,feature,True,salud,Miembros afiliados a EsSalud
+miembros_sin_atencion_salud,num_miembros_sin_atencion_salud,feature,True,salud,Miembros sin atencion en salud
+acceso_desague_red,acceso_desague_red,feature,True,servicios,Acceso a desague por red
+internet_hogar,acceso_internet_hogar,feature,True,servicios,Conexion a internet en el hogar
+combustible_limpio,usa_combustible_limpio,feature,True,servicios,Uso de combustible limpio
+p102,material_pared,feature,True,vivienda,Material de paredes
+p103a,material_techo,feature,True,vivienda,Material de techo
+p104,num_habitaciones,feature,True,vivienda,Cantidad de habitaciones
+piso_precario,piso_precario,feature,True,vivienda,Indicador de piso precario
+p105a,tenencia_vivienda,feature,True,vivienda,Tenencia de vivienda
+p101,tipo_vivienda,feature,True,vivienda,Tipo de vivienda

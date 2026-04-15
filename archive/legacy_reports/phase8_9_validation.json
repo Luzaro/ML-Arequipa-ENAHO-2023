@@ -1,0 +1,12 @@
+{
+  "phase": "FASE 8-9",
+  "passed": true,
+  "analytical_rows": 1517,
+  "analytical_cols": 257,
+  "model_ready_rows": 1517,
+  "model_ready_cols": 178,
+  "target_present": true,
+  "constant_cols": 29,
+  "high_redundancy_pairs": 15,
+  "features_finales": 177
+}

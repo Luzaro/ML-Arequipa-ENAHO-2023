@@ -1,0 +1,10 @@
+{
+  "phase": "MODEL_READY_FINAL",
+  "passed": true,
+  "rows": 1517,
+  "cols": 31,
+  "hogar_id_unique": true,
+  "target_present": true,
+  "weight_present": true,
+  "n_final_features": 18
+}

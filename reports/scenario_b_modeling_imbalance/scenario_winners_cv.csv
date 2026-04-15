@@ -1,0 +1,4 @@
+﻿feature_set,model,strategy,threshold,recall,precision,f1,roc_auc,pr_auc,scenario_label,objective
+top20_full,Logistic,smote,0.2,0.9370499419279907,0.2697433340993474,0.4186548010530863,0.8660908228493408,0.5471742383472359,maxima_deteccion,Maximizar recall con precision minima aceptable
+top20_full,XGBoost,smote,0.3,0.5897793263646922,0.5083555025769856,0.5435775832809461,0.8649892278639253,0.5030011856164168,mejor_equilibrio,Maximizar f1 manteniendo buen pr_auc
+top20_sin_leakage,Logistic,weighted,0.5,0.753890824622532,0.33659054862357457,0.4646984608555436,0.8399663980282115,0.48416272402219107,sin_leakage,Maximizar pr_auc/f1 usando variables sin leakage

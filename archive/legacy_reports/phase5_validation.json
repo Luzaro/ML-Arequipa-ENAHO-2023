@@ -1,0 +1,9 @@
+{
+  "phase": "FASE 5",
+  "passed": true,
+  "hogares_finales": 1517,
+  "duplicated_households": 0,
+  "chief_households_with_issues": 0,
+  "chief_education_missing": 0,
+  "output_path": "C:\\Users\\the master\\Documents\\New project\\data\\interim\\enaho_arequipa_hogar_base_phase5.pkl"
+}

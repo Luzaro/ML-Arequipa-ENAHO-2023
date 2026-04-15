@@ -1,0 +1,71 @@
+﻿variable_original,variable_renombrada,dimension_analitica,descripcion,observacion
+hogar_id,hogar_id,Identificacion,Identificador unico del hogar: ubigeo_conglome_vivienda_hogar,Creada para trazabilidad; no entra a modelado.
+factor07,factor_expansion_anual,Ponderacion,Factor de expansión anual del hogar,Se conserva para análisis ponderado; no entra a modelado.
+target_pobreza_bin,target_pobreza_monetaria_bin,Objetivo,Condición oficial de pobreza monetaria binaria,Variable dependiente.
+internet_hogar,acceso_internet_hogar_derivado,Conectividad,Acceso a internet en el hogar,Variable candidata del escenario B.
+p1144,internet_hogar_enaho,Conectividad,Acceso a internet en el hogar,Variable candidata del escenario B.
+p114b1,dispositivo_servicio_digital_1,Conectividad,Tenencia de dispositivo o servicio digital 1,Variable candidata del escenario B.
+p114b2,dispositivo_servicio_digital_2,Conectividad,Tenencia de dispositivo o servicio digital 2,Variable candidata del escenario B.
+p114b3,dispositivo_servicio_digital_3,Conectividad,Tenencia de dispositivo o servicio digital 3,Variable candidata del escenario B.
+edad_jefe,edad_jefe,Demografia y composicion del hogar,Edad del jefe del hogar,Variable candidata del escenario B.
+n_adultos_65_mas,num_adultos_65_mas,Demografia y composicion del hogar,Número de adultos de 65 años o más,Variable candidata del escenario B.
+n_ninos_0_5,num_ninos_0_5,Demografia y composicion del hogar,Número de niños de 0 a 5 años,Variable candidata del escenario B.
+n_ninos_6_16,num_ninos_6_16,Demografia y composicion del hogar,Número de niños de 6 a 16 años,Variable candidata del escenario B.
+sexo_jefe_bin,sexo_jefe_bin,Demografia y composicion del hogar,Sexo del jefe del hogar,Variable candidata del escenario B.
+tam_hogar,tam_hogar,Demografia y composicion del hogar,Tamaño del hogar,Variable candidata del escenario B.
+any_6_16_no_asisten,al_menos_un_6_16_no_asiste,Educacion,Existe al menos un menor de 6 a 16 años que no asiste,Variable candidata del escenario B.
+any_6_16_no_matriculados,al_menos_un_6_16_no_matriculado,Educacion,Existe al menos un menor de 6 a 16 años no matriculado,Variable candidata del escenario B.
+children_not_attending,hogar_con_ninos_no_asisten,Educacion,Hogar con niños en edad escolar que no asisten,Variable candidata del escenario B.
+children_not_enrolled,hogar_con_ninos_no_matriculados,Educacion,Hogar con niños en edad escolar no matriculados,Variable candidata del escenario B.
+educ_jefe,nivel_educativo_jefe_cat,Educacion,Nivel educativo del jefe del hogar,Variable candidata del escenario B.
+educ_jefe_ord,nivel_educativo_jefe_ord,Educacion,Nivel educativo ordinal del jefe del hogar,Variable candidata del escenario B.
+n_6_16_no_asisten,num_6_16_no_asisten,Educacion,Número de personas de 6 a 16 que no asisten,Variable candidata del escenario B.
+n_6_16_no_matriculados,num_6_16_no_matriculados,Educacion,Número de personas de 6 a 16 no matriculadas,Variable candidata del escenario B.
+any_ingreso_laboral_hogar,al_menos_un_ingreso_laboral_hogar,Empleo y prevision social,Existe al menos un miembro con ingreso laboral,Variable candidata del escenario B.
+jefe_con_ingreso_laboral,jefe_con_ingreso_laboral,Empleo y prevision social,Jefe del hogar con ingreso laboral,Variable candidata del escenario B.
+miembros_con_ingreso_laboral,num_miembros_con_ingreso_laboral,Empleo y prevision social,Miembros con ingreso laboral,Variable candidata del escenario B.
+num_perceptores,num_perceptores_hogar,Empleo y prevision social,Número de perceptores del hogar,Variable candidata del escenario B.
+acceso_electricidad,acceso_electricidad,Energia,Acceso a electricidad,Variable candidata del escenario B.
+combustible_limpio,usa_combustible_limpio,Energia,Uso de combustible limpio para cocinar,Variable candidata del escenario B.
+combustible_precario,usa_combustible_precario,Energia,Uso de combustible precario para cocinar,Variable candidata del escenario B.
+combustible_principal,combustible_principal_cocina,Energia,Combustible principal para cocinar,Variable candidata del escenario B.
+area_rural_bin,es_area_rural,Geografia y contexto territorial,Indicador de área rural,Variable candidata del escenario B.
+estrato,estrato_geografico,Geografia y contexto territorial,Estrato geográfico,Variable candidata del escenario B.
+any_enfermedad_4w,al_menos_un_enfermedad_4_sem,Salud,Existe al menos un miembro con enfermedad en últimas 4 semanas,Variable candidata del escenario B.
+any_sintoma_4w,al_menos_un_sintoma_4_sem,Salud,Existe al menos un miembro con síntoma o malestar en últimas 4 semanas,Variable candidata del escenario B.
+health_no_attention,health_no_attention,Salud,Hogar con al menos un miembro sin atencion de salud,Variable candidata del escenario B.
+miembros_afiliados_essalud,num_miembros_afiliados_essalud,Salud,Miembros afiliados a EsSalud,Variable candidata del escenario B.
+miembros_con_enfermedad_4w,num_miembros_con_enfermedad_4_sem,Salud,Miembros con enfermedad en últimas 4 semanas,Variable candidata del escenario B.
+miembros_con_sintoma_4w,num_miembros_con_sintoma_4_sem,Salud,Miembros con síntoma o malestar en últimas 4 semanas,Variable candidata del escenario B.
+miembros_sin_atencion_salud,num_miembros_sin_atencion_salud,Salud,Miembros sin atención en salud,Variable candidata del escenario B.
+acceso_agua_red,acceso_agua_red,Servicios basicos,Acceso a agua por red pública,Variable candidata del escenario B.
+acceso_desague_red,acceso_desague_red,Servicios basicos,Acceso a desagüe por red pública,Variable candidata del escenario B.
+agua_disponible_diaria,agua_disponible_diaria,Servicios basicos,Disponibilidad diaria de agua,Variable candidata del escenario B.
+agua_potable_reportada,agua_potable_reportada,Servicios basicos,Agua reportada como potable,Variable candidata del escenario B.
+agua_segura_proxy,agua_segura_proxy,Servicios basicos,Indicador proxy de agua segura,Variable candidata del escenario B.
+saneamiento_inadecuado,saneamiento_inadecuado,Servicios basicos,Indicador de saneamiento inadecuado,Variable candidata del escenario B.
+material_piso,material_piso_cat,Vivienda y entorno,Material predominante del piso,Variable candidata del escenario B.
+p101,tipo_vivienda,Vivienda y entorno,Tipo de vivienda,Variable candidata del escenario B.
+p102,material_pared,Vivienda y entorno,Material predominante de la pared,Variable candidata del escenario B.
+p103a,material_techo,Vivienda y entorno,Material predominante del techo,Variable candidata del escenario B.
+p104,num_habitaciones,Vivienda y entorno,Cantidad de habitaciones,Variable candidata del escenario B.
+p105a,tenencia_vivienda,Vivienda y entorno,Tenencia de la vivienda,Variable candidata del escenario B.
+piso_precario,piso_precario,Vivienda y entorno,Indicador de piso precario,Variable candidata del escenario B.
+inghog2d,ingreso_neto_total_hogar,programas_sociales,Ingreso neto total del hogar,Variable candidata del escenario B.
+ingtpuhd,monto_total_transferencias_publicas,programas_sociales,Ingreso total por transferencias públicas,Variable candidata del escenario B.
+monto_programas_sociales_alimentarios,monto_total_programas_sociales_alimentarios,programas_sociales,Monto total de apoyos sociales alimentarios,Variable candidata del escenario B.
+monto_programas_sociales_no_alimentarios,monto_total_programas_sociales_no_alimentarios,programas_sociales,Monto total de programas sociales no alimentarios,Variable candidata del escenario B.
+recibe_programa_social_alimentario,recibe_programa_social_alimentario,programas_sociales,Indicador de recepción de programa social alimentario,Variable candidata del escenario B.
+recibe_programa_social_no_alimentario,recibe_programa_social_no_alimentario,programas_sociales,Indicador de recepción de programa social no alimentario,Variable candidata del escenario B.
+ingtpu16,monto_bono_alimentario,programas_sociales,Ingreso por bono alimentario,Variable candidata del escenario B.
+sg27,monto_apoyo_ollas_comunes,programas_sociales,Apoyo alimentario por ollas comunes,Variable candidata del escenario B.
+sig28,monto_ingresos_gastos_ollas_comunes,programas_sociales,Ingreso/gasto por alimentos consumidos por ollas comunes,Variable candidata del escenario B.
+ingtpu01,monto_juntos,programas_sociales,Ingreso por Juntos,Variable candidata del escenario B.
+ingtpu02,monto_otras_transferencias_publicas,programas_sociales,Ingreso por otras transferencias públicas,Variable candidata del escenario B.
+ingtpu03,monto_pension_65,programas_sociales,Ingreso por Pensión 65,Variable candidata del escenario B.
+ingtpu04,monto_beca_18,programas_sociales,Ingreso por Beca 18,Variable candidata del escenario B.
+ingtpu05,monto_bono_gas,programas_sociales,Ingreso por Bono del Gas,Variable candidata del escenario B.
+ingtpu10,monto_bono_electricidad,programas_sociales,Ingreso por Bono Electricidad,Variable candidata del escenario B.
+ingtpu12,monto_bono_onp_jubilados,programas_sociales,Ingreso por bono ONP para jubilados,Variable candidata del escenario B.
+ingtpu13,monto_programa_contigo,programas_sociales,Ingreso por programa Contigo,Variable candidata del escenario B.
+ingtpu14,monto_bono_yanapay,programas_sociales,Ingreso por bono Yanapay,Variable candidata del escenario B.

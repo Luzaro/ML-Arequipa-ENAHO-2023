@@ -1,0 +1,10 @@
+{
+  "phase": "SCENARIO_B_RENAME",
+  "passed": true,
+  "rows": 1517,
+  "cols": 74,
+  "hogar_id_unique": true,
+  "variables_escenario_b": 67,
+  "target_present": true,
+  "factor_present": true
+}

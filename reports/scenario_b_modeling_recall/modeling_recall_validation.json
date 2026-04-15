@@ -1,0 +1,11 @@
+{
+  "phase": "SCENARIO_B_MODELING_RECALL",
+  "passed": true,
+  "feature_set_official": "top30_full",
+  "n_selected_models": 3,
+  "selected_aliases": [
+    "RADAR MAX",
+    "XGB BALANCE",
+    "LGBM PRECISO"
+  ]
+}

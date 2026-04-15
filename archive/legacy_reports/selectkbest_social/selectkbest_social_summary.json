@@ -1,0 +1,16 @@
+{
+  "n_candidates": 67,
+  "n_significativas_5pct": 40,
+  "top10": [
+    "combustible_limpio",
+    "p114b3",
+    "combustible_precario",
+    "p103a",
+    "educ_jefe_ord",
+    "piso_precario",
+    "inghog2d",
+    "p104",
+    "internet_hogar",
+    "p1144"
+  ]
+}

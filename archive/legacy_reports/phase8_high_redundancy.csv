@@ -1,0 +1,16 @@
+﻿col_a,col_b,abs_corr
+totmieho,personas_con_mod_educ,0.982342
+totmieho,personas_con_mod_salud,1.0
+totmieho,tam_hogar,0.991422
+ia01hd,ga04hd,0.99959
+ia01hd,p106,0.999192
+ga04hd,p106,0.999634
+ingbruhd,ingnethd,0.985096
+insedthd,insedlhd,0.998724
+ingtpuhd,ingtpu02,0.984594
+ingmo1hd,ingmo2hd,0.992396
+personas_con_mod_educ,personas_con_mod_salud,0.982342
+any_6_16_no_matriculados,children_not_enrolled,1.0
+any_6_16_no_asisten,children_not_attending,1.0
+personas_con_mod_salud,tam_hogar,0.991422
+any_sin_atencion_salud,health_no_attention,1.0

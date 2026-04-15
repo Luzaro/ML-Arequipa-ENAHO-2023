@@ -1,0 +1,14 @@
+﻿download_code,module_code,module_name,zip_path,table_name,table_format,table_size_bytes,table_full_path
+906-Modulo01,1,Características de la Vivienda y del Hogar,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo01.zip,enaho01-2023-100,stata,29311279,906-Modulo01/enaho01-2023-100.dta
+906-Modulo02,2,Características de los Miembros del Hogar,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo02.zip,enaho01-2023-200,stata,10511802,906-Modulo02/enaho01-2023-200.dta
+906-Modulo02,2,Características de los Miembros del Hogar,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo02.zip,enaho_tabla_ciuo_88,stata,349153,906-Modulo02/enaho_tabla_ciuo_88.dta
+906-Modulo02,2,Características de los Miembros del Hogar,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo02.zip,enaho_tabla_cno,stata,56727,906-Modulo02/enaho_tabla_cno_2015.dta
+906-Modulo03,3,Educación,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo03.zip,enaho01a-2023-300,stata,89845719,906-Modulo03/enaho01a-2023-300.dta
+906-Modulo04,4,Salud,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo04.zip,enaho01a-2023-400,stata,210486154,906-Modulo04/enaho01a-2023-400.dta
+906-Modulo05,5,Empleo e Ingresos,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo05.zip,enaho01a-2023-500,stata,187590515,906-Modulo05/enaho01a-2023-500.dta
+906-Modulo05,5,Empleo e Ingresos,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo05.zip,enaho_tabla_ciiu_rev3,stata,19384,906-Modulo05/enaho_tabla_ciiu_rev3.dta
+906-Modulo05,5,Empleo e Ingresos,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo05.zip,enaho_tabla_ciiu_rev4,stata,70413,906-Modulo05/enaho_tabla_ciiu_rev4.dta
+906-Modulo05,5,Empleo e Ingresos,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo05.zip,enaho_tabla_ciuo_88,stata,349153,906-Modulo05/enaho_tabla_ciuo_88.dta
+906-Modulo05,5,Empleo e Ingresos,C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo05.zip,enaho_tabla_cno,stata,56727,906-Modulo05/enaho_tabla_cno_2015.dta
+906-Modulo34,34,Sumarias ( Variables Calculadas ),C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo34.zip,sumaria-2023-12g,stata,30232692,906-Modulo34/sumaria-2023-12g.dta
+906-Modulo34,34,Sumarias ( Variables Calculadas ),C:\Users\the master\Documents\New project\data\raw\enaho_2023_anual\906-Modulo34.zip,sumaria-2023,stata,21341776,906-Modulo34/sumaria-2023.dta

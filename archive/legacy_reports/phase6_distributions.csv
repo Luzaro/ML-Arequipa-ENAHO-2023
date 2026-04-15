@@ -1,0 +1,23 @@
+﻿variable,tipo,nulos_pct,min,p25,p50,p75,max,rare_categories
+edad_jefe,numerica,0.0,19.0,40.0,51.0,63.0,98.0,
+sexo_jefe_bin,numerica,0.0,0.0,0.0,1.0,1.0,1.0,
+educ_jefe,categorica,0.0,,,,,,"[""educacion inicial""]"
+educ_jefe_ord,numerica,0.0,1.0,5.0,6.0,8.0,11.0,
+tam_hogar,numerica,0.0,1.0,2.0,3.0,4.0,10.0,
+num_perceptores,numerica,0.0,0.0,1.0,2.0,3.0,7.0,
+material_piso,categorica,0.3955,,,,,,"[NaN, ""otro material""]"
+piso_precario,numerica,0.0,0.0,0.0,0.0,0.0,1.0,
+acceso_agua_red,numerica,0.0,0.0,1.0,1.0,1.0,1.0,
+agua_potable_reportada,numerica,0.0,0.0,1.0,1.0,1.0,1.0,
+agua_segura_proxy,numerica,0.0,0.0,0.0,1.0,1.0,1.0,
+acceso_desague_red,numerica,0.0,0.0,0.0,1.0,1.0,1.0,
+acceso_electricidad,numerica,0.0,0.0,1.0,1.0,1.0,1.0,
+combustible_limpio,numerica,0.0,0.0,1.0,1.0,1.0,1.0,
+combustible_precario,numerica,0.0,0.0,0.0,0.0,0.0,1.0,
+internet_hogar,numerica,0.0,0.0,1.0,1.0,1.0,1.0,
+area_urbana_rural,categorica,0.0,,,,,,[]
+health_no_attention,numerica,0.0,0.0,0.0,1.0,1.0,1.0,
+children_not_enrolled,numerica,0.0,0.0,0.0,0.0,0.0,1.0,
+children_not_attending,numerica,0.0,0.0,0.0,0.0,0.0,1.0,
+ingreso_hogar,numerica,0.0,122.29792785644531,19899.9921875,34846.45703125,57832.546875,580850.3125,
+ingreso_percapita,numerica,0.0,122.29792785644531,7731.35302734375,12296.346354166666,19348.0,202842.265625,

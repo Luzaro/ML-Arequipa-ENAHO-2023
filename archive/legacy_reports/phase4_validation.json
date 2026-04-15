@@ -1,0 +1,10 @@
+{
+  "phase": "FASE 4",
+  "passed": true,
+  "filter_rule": "departamento = ubigeo[:2] == \"04\"",
+  "tables_processed": 13,
+  "tables_with_ubigeo": 7,
+  "sumaria_summary_exported": true,
+  "all_filtered_rows_are_arequipa": true,
+  "target_dir": "C:\\Users\\the master\\Documents\\New project\\data\\interim\\phase4_arequipa"
+}

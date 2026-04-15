@@ -1,0 +1,55 @@
+{
+  "dataset_source": "enaho_arequipa_escenario_b_clean",
+  "feature_set_official": "top30_full",
+  "missing_top20_columns": [],
+  "models_exported": [
+    {
+      "group": "baseline",
+      "alias": "LR-30",
+      "file_name": "logistic_regression_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.5,
+      "strategy": "weighted"
+    },
+    {
+      "group": "baseline",
+      "alias": "RF-30",
+      "file_name": "random_forest_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.5,
+      "strategy": "weighted"
+    },
+    {
+      "group": "baseline",
+      "alias": "XGB-30",
+      "file_name": "xgboost_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.5,
+      "strategy": "weighted"
+    },
+    {
+      "group": "tuned",
+      "alias": "RADAR MAX",
+      "file_name": "logistic_smote_deteccion_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.2,
+      "strategy": "smote"
+    },
+    {
+      "group": "tuned",
+      "alias": "XGB BALANCE",
+      "file_name": "xgboost_weighted_equilibrio_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.4,
+      "strategy": "weighted"
+    },
+    {
+      "group": "tuned",
+      "alias": "LGBM PRECISO",
+      "file_name": "lightgbm_smote_precision_top30_full_pipeline.pkl",
+      "feature_set": "top30_full",
+      "threshold": 0.35,
+      "strategy": "smote"
+    }
+  ]
+}

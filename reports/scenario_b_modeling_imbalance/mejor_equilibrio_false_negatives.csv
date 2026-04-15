@@ -1,0 +1,32 @@
+﻿usa_combustible_limpio,usa_combustible_precario,dispositivo_servicio_digital_2,material_techo,nivel_educativo_jefe_ord,dispositivo_servicio_digital_3,piso_precario,ingreso_neto_total_hogar,num_habitaciones,acceso_internet_hogar_derivado,dispositivo_servicio_digital_1,material_pared,tam_hogar,num_ninos_0_5,num_ninos_6_16,num_miembros_afiliados_essalud,estrato_geografico,monto_juntos,acceso_desague_red,monto_bono_gas,y_true,y_score,y_pred
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",8.0,conexion movil prepago,0,20002.326171875,3.0,1,pase,ladrillo o bloque de cemento,4,1,0,0, de 20 000 a 49 999 habitantes,0,1,0,1,0.28839967,0
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,25072.626953125,3.0,1,pase,ladrillo o bloque de cemento,4,0,0,0,area de empadronamiento rural (aer) compuesto,0,0,0,1,0.22541673,0
+0,1,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,12261.5439453125,1.0,1,pase,adobe,1,0,0,0, de 500 a 1 999 habitantes,0,1,0,1,0.14898573,0
+0,1,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,0,29557.435546875,1.0,1,pase,ladrillo o bloque de cemento,4,0,1,3, de 500 000 a más habitantes,0,0,0,1,0.12660022,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,11657.9248046875,1.0,0,,"madera (pona, tornillo, etc)",1,0,0,0, de 500 000 a más habitantes,0,0,0,1,0.03002711,0
+1,0,,"planchas de calamina, fibra de cemento o similares",4.0,,1,26919.916015625,1.0,0,,piedra con barro,2,0,0,0,area de empadronamiento rural (aer) simple,0,0,303,1,0.09008156,0
+0,1,,"planchas de calamina, fibra de cemento o similares",5.0,,0,17237.072265625,3.0,1,conexion fija,ladrillo o bloque de cemento,3,0,0,0,area de empadronamiento rural (aer) compuesto,0,0,0,1,0.012419503,0
+0,1,,"planchas de calamina, fibra de cemento o similares",6.0,,1,69384.96875,3.0,1,conexion fija,adobe,6,0,2,1, de 500 a 1 999 habitantes,1216,0,0,1,0.015739031,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,35193.98828125,1.0,1,pase,adobe,4,1,0,1, de 500 a 1 999 habitantes,0,0,0,1,0.13493653,0
+1,0,,tejas,3.0,,0,4399.609375,1.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 500 a 1 999 habitantes,0,1,308,1,0.054997727,0
+1,0,pase,"planchas de calamina, fibra de cemento o similares",3.0,conexion movil prepago,0,20358.38671875,2.0,1,pase,ladrillo o bloque de cemento,3,1,0,0, de 500 000 a más habitantes,1190,0,0,1,0.2892964,0
+0,1,,concreto armado,5.0,,0,13679.259765625,3.0,0,,ladrillo o bloque de cemento,3,0,2,0,de 2 000 a 19 999 habitantes,0,1,0,1,0.11903961,0
+0,1,,"planchas de calamina, fibra de cemento o similares",5.0,,0,49371.16015625,3.0,0,,"madera (pona, tornillo, etc)",7,0,3,0, de 20 000 a 49 999 habitantes,0,0,0,1,0.2975284,0
+0,1,pase,triplay/estera/carrizo,5.0,conexion movil prepago,1,35633.33203125,4.0,1,pase,quincha (caña con barro),4,0,1,0,area de empadronamiento rural (aer) simple,0,1,0,1,0.09459156,0
+0,0,,"planchas de calamina, fibra de cemento o similares",3.0,,1,18929.408203125,1.0,0,,adobe,2,0,0,2,area de empadronamiento rural (aer) compuesto,0,1,0,1,0.2801776,0
+0,1,,"planchas de calamina, fibra de cemento o similares",3.0,,1,16827.80078125,3.0,0,,adobe,1,0,0,0,area de empadronamiento rural (aer) compuesto,0,0,0,1,0.03053852,0
+0,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,1,55394.4296875,1.0,1,pase,piedra con barro,4,0,0,0,area de empadronamiento rural (aer) simple,0,0,0,1,0.13778922,0
+1,0,pase,concreto armado,6.0,pase,0,22595.77734375,5.0,1,conexion fija,ladrillo o bloque de cemento,6,0,0,2, de 500 000 a más habitantes,0,1,0,1,0.27659252,0
+0,0,pase,concreto armado,6.0,conexion movil prepago,0,16333.7685546875,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 500 000 a más habitantes,0,1,0,1,0.0025821824,0
+0,1,pase,concreto armado,4.0,conexion movil prepago,0,31445.177734375,4.0,1,pase,ladrillo o bloque de cemento,4,0,0,0, de 500 000 a más habitantes,0,0,0,1,0.24814776,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,1,18432.984375,4.0,1,conexion fija,adobe,3,0,0,0, de 500 a 1 999 habitantes,0,1,0,1,0.024548577,0
+1,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,5540.2822265625,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,0,1,0,1,0.17443272,0
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,37716.0,4.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 500 000 a más habitantes,0,1,0,1,0.272033,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,11354.2021484375,2.0,1,conexion fija,ladrillo o bloque de cemento,3,0,2,2, de 500 000 a más habitantes,0,1,0,1,0.12350887,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",7.0,pase,0,39046.98046875,3.0,1,pase,ladrillo o bloque de cemento,6,1,2,0, de 20 000 a 49 999 habitantes,0,0,0,1,0.09533484,0
+1,0,pase,"planchas de calamina, fibra de cemento o similares",5.0,conexion movil prepago,1,20677.560546875,1.0,1,pase,adobe,3,1,0,0, de 500 a 1 999 habitantes,0,1,0,1,0.22124228,0
+0,1,conexion movil post pago control,concreto armado,6.0,pase,0,32599.744140625,3.0,1,pase,ladrillo o bloque de cemento,4,0,2,0,area de empadronamiento rural (aer) simple,0,1,0,1,0.09040422,0
+1,0,pase,concreto armado,11.0,conexion movil prepago,0,49769.22265625,4.0,1,pase,ladrillo o bloque de cemento,6,0,2,1, de 20 000 a 49 999 habitantes,0,1,0,1,0.21833977,0
+1,0,,"planchas de calamina, fibra de cemento o similares",3.0,,0,21163.203125,2.0,0,,triplay/calamina/estera,2,0,0,0,de 2 000 a 19 999 habitantes,0,0,0,1,0.28826517,0
+1,0,,concreto armado,4.0,,0,16194.984375,1.0,1,conexion fija,ladrillo o bloque de cemento,4,1,1,0, de 20 000 a 49 999 habitantes,0,0,0,1,0.15551351,0
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,16508.95703125,1.0,1,pase,ladrillo o bloque de cemento,4,1,1,0, de 500 000 a más habitantes,0,1,0,1,0.25566888,0

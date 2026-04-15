@@ -1,0 +1,16 @@
+﻿usa_combustible_limpio,usa_combustible_precario,dispositivo_servicio_digital_2,material_techo,nivel_educativo_jefe_ord,dispositivo_servicio_digital_3,piso_precario,num_habitaciones,acceso_internet_hogar_derivado,dispositivo_servicio_digital_1,material_pared,tam_hogar,num_ninos_0_5,num_ninos_6_16,num_miembros_afiliados_essalud,estrato_geografico,acceso_desague_red,y_true,y_score,y_pred
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",8.0,conexion movil prepago,0,3.0,1,pase,ladrillo o bloque de cemento,4,1,0,0, de 20 000 a 49 999 habitantes,1,1,0.4300050810794874,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,1.0,0,,"madera (pona, tornillo, etc)",1,0,0,0, de 500 000 a más habitantes,0,1,0.32952290085007896,0
+0,1,,"planchas de calamina, fibra de cemento o similares",5.0,,0,3.0,1,conexion fija,ladrillo o bloque de cemento,3,0,0,0,area de empadronamiento rural (aer) compuesto,0,1,0.22162731375915054,0
+1,0,,tejas,3.0,,0,1.0,0,,ladrillo o bloque de cemento,1,0,0,0, de 500 a 1 999 habitantes,1,1,0.3339163632737058,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,pase,0,3.0,1,pase,ladrillo o bloque de cemento,4,0,2,0, de 500 000 a más habitantes,0,1,0.4608869466297708,0
+1,0,pase,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,4.0,1,conexion fija,ladrillo o bloque de cemento,4,0,2,0, de 500 000 a más habitantes,0,1,0.46931010089533076,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,4,0,2,0, de 500 000 a más habitantes,0,1,0.4838833262355051,0
+1,0,pase,concreto armado,6.0,pase,0,5.0,1,conexion fija,ladrillo o bloque de cemento,6,0,0,2, de 500 000 a más habitantes,1,1,0.4669791174974142,0
+0,0,pase,concreto armado,6.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 500 000 a más habitantes,1,1,0.3665557582486136,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,1,4.0,1,conexion fija,adobe,3,0,0,0, de 500 a 1 999 habitantes,1,1,0.18546559539010132,0
+1,0,pase,"planchas de calamina, fibra de cemento o similares",4.0,conexion movil prepago,0,1.0,1,pase,ladrillo o bloque de cemento,1,0,0,0, de 20 000 a 49 999 habitantes,1,1,0.4369310432103117,0
+1,0,pase,concreto armado,6.0,conexion movil prepago,0,4.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 500 000 a más habitantes,1,1,0.4292233727894247,0
+1,0,,"planchas de calamina, fibra de cemento o similares",6.0,,0,2.0,1,conexion fija,ladrillo o bloque de cemento,3,0,2,2, de 500 000 a más habitantes,1,1,0.1892313529592684,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,3.0,1,pase,"madera (pona, tornillo, etc)",4,1,0,0, de 20 000 a 49 999 habitantes,1,1,0.4298124657428265,0
+1,0,conexion movil post pago control,"planchas de calamina, fibra de cemento o similares",6.0,conexion movil prepago,0,2.0,1,pase,ladrillo o bloque de cemento,4,0,1,0, de 500 000 a más habitantes,1,1,0.46236820094964837,0

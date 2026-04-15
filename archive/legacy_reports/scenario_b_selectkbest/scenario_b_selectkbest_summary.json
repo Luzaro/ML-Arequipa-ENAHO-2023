@@ -1,0 +1,31 @@
+{
+  "n_candidate_features": 48,
+  "n_expanded_features": 87,
+  "n_constant_expanded_features": 0,
+  "n_significant_features_5pct": 35,
+  "recommended_k": 20,
+  "top_features": [
+    "usa_combustible_limpio",
+    "usa_combustible_precario",
+    "dispositivo_servicio_digital_2",
+    "material_techo",
+    "nivel_educativo_jefe_ord",
+    "dispositivo_servicio_digital_3",
+    "piso_precario",
+    "ingreso_neto_total_hogar",
+    "num_habitaciones",
+    "acceso_internet_hogar_derivado",
+    "dispositivo_servicio_digital_1",
+    "material_pared",
+    "tam_hogar",
+    "num_ninos_0_5",
+    "num_ninos_6_16",
+    "num_miembros_afiliados_essalud",
+    "estrato_geografico",
+    "monto_juntos",
+    "acceso_desague_red",
+    "monto_bono_gas"
+  ],
+  "selected_dataset_parquet": "C:\\Users\\the master\\Documents\\New project\\data\\processed\\enaho_arequipa_escenario_b_top20.parquet",
+  "selected_dataset_csv": "C:\\Users\\the master\\Documents\\New project\\data\\processed\\enaho_arequipa_escenario_b_top20.csv"
+}

@@ -1,0 +1,14 @@
+﻿table_id,has_ubigeo,before_rows,after_rows,dept_codes_found_after,filter_rule,filtered_path
+906-Modulo01__enaho01_2023_100,True,44378,2119,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo01__enaho01_2023_100.pkl
+906-Modulo02__enaho01_2023_200,True,119747,5134,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo02__enaho01_2023_200.pkl
+906-Modulo02__enaho_tabla_ciuo_88,False,5195,5195,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo02__enaho_tabla_ciuo_88.pkl
+906-Modulo02__enaho_tabla_cno,False,473,473,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo02__enaho_tabla_cno.pkl
+906-Modulo03__enaho01a_2023_300,True,108354,4708,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo03__enaho01a_2023_300.pkl
+906-Modulo04__enaho01a_2023_400,True,112530,4851,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo04__enaho01a_2023_400.pkl
+906-Modulo05__enaho01a_2023_500,True,86654,3903,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo05__enaho01a_2023_500.pkl
+906-Modulo05__enaho_tabla_ciiu_rev3,False,296,296,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo05__enaho_tabla_ciiu_rev3.pkl
+906-Modulo05__enaho_tabla_ciiu_rev4,False,419,419,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo05__enaho_tabla_ciiu_rev4.pkl
+906-Modulo05__enaho_tabla_ciuo_88,False,5195,5195,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo05__enaho_tabla_ciuo_88.pkl
+906-Modulo05__enaho_tabla_cno,False,473,473,[],sin_ubigeo_no_aplica,C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo05__enaho_tabla_cno.pkl
+906-Modulo34__sumaria_2023,True,33886,1517,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo34__sumaria_2023.pkl
+906-Modulo34__sumaria_2023_12g,True,33886,1517,['04'],"ubigeo.str[:2] == ""04""",C:\Users\the master\Documents\New project\data\interim\phase4_arequipa\906-Modulo34__sumaria_2023_12g.pkl

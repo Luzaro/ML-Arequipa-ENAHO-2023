@@ -1,0 +1,16 @@
+{
+  "phase": "FASE 1",
+  "passed": true,
+  "catalog_source": "bundled_load_catalog",
+  "catalog_age": "2026-03-31T16:40:16.441705+00:00",
+  "catalog_rows_flat": 5932,
+  "enaho_2023_anual_module_rows": 6,
+  "module_count": 6,
+  "available_survey_labels": [
+    "Condiciones de Vida y Pobreza - ENAHO"
+  ],
+  "available_period_labels": [
+    "Anual - (Ene-Dic)"
+  ],
+  "missing_concepts": []
+}

@@ -1,0 +1,44 @@
+﻿variable,n_categorias,missing_pct,top_categoria,top_n,rare_categorias_lt_10
+mes,12,0.0,11,137,0
+ubigeo,64,0.0,040104,189,28
+dominio,2,0.0,sierra sur,1094,0
+estrato,6,0.0, de 500 000 a más habitantes,767,0
+estrsocial,6,0.0,e,586,0
+pobrezav,4,0.0,no vulnerable,935,0
+nconglome,254,0.0,43765,9,254
+sub_conglome,6,0.0,00,1148,2
+p101,7,0.3955,casa independiente,1380,3
+p102,9,0.3955,ladrillo o bloque de cemento,1185,1
+p103,8,0.3955,cemento,954,2
+p103a,9,0.3955,concreto armado,874,6
+p105a,7,0.0,"propia, totalmente pagada",1095,1
+p110,8,0.0,"red publica, dentro de la vivienda",1097,0
+p110a1,3,15.7548,si,1199,0
+p110c,3,15.7548,si,1129,0
+p111a,7,0.0,red publica de desagüe dentro de la vivienda,1017,0
+p1121,2,0.0,electricidad,1438,0
+p112a,4,5.2076,con medidor de uso exclusivo para la vivienda,1042,1
+p1131,2,0.0,pase,1462,0
+p1132,2,0.0,gas (balon glp),1433,0
+p1133,2,0.0,pase,1503,0
+p1135,2,0.0,pase,1514,1
+p1136,2,0.0,pase,1350,0
+p1137,2,0.0,pase,1157,0
+p1139,2,0.0,pase,1475,0
+p113a,8,0.7251,gas (balon glp),1269,1
+p1141,2,0.0,pase,1375,0
+p1142,2,0.0,telefono celular,1483,0
+p1143,2,0.0,pase,1131,0
+p1144,2,0.0,conexion a internet,1382,0
+p1145,2,0.0,pase,1488,0
+p114b1,3,8.8991,pase,874,0
+p114b2,3,10.4153,conexion movil post pago control,813,0
+p114b3,3,10.4153,conexion movil prepago,733,0
+provincia_cod,8,0.0,0401,1010,0
+distrito_cod,64,0.0,040104,189,28
+educ_jefe,11,0.0,secundaria completa,473,1
+material_piso,8,0.3955,cemento,954,2
+fuente_agua,8,0.0,"red publica, dentro de la vivienda",1097,0
+tipo_desague,7,0.0,red publica de desagüe dentro de la vivienda,1017,0
+combustible_principal,8,0.7251,gas (balon glp),1269,1
+area_urbana_rural,2,0.0,urbana,1317,0

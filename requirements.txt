@@ -1,0 +1,16 @@
+inei-microdatos
+pandas
+numpy
+pyreadstat
+pyarrow
+scikit-learn
+imbalanced-learn
+xgboost
+lightgbm
+streamlit
+matplotlib
+seaborn
+joblib
+jupyter
+notebook
+ipykernel

@@ -1,0 +1,17 @@
+﻿variable_final,descripcion,tablas_fuente,columnas_fuente,tipo,regla_transformacion,porcentaje_nulos,observaciones
+edad_jefe,Edad del jefe del hogar,Modulo02,"p203,p208a",numerica,p208a del miembro con p203=jefe/jefa,0.0,Validado contra identificacion del jefe desde Modulo02
+sexo_jefe_bin,Sexo del jefe del hogar,Modulo02,"p203,p207",binaria,"hombre=1, mujer=0 para jefe",0.0,Conserva sexo_jefe textual en dataset base
+educ_jefe,Nivel educativo del jefe,"Modulo02,Modulo03","p203,p301a",categorica,Mapeo de p301a del jefe usando etiquetas oficiales ENAHO,0.0,No se construyo anios_educ_jefe por ambiguedad en homologacion exacta de anos/grados
+tam_hogar,Tamano del hogar,Sumaria,mieperho,numerica,Copia de mieperho,0.0,Se valida contra tam_hogar_mod2
+num_perceptores,Numero de perceptores del hogar,Sumaria,percepho,numerica,Copia de percepho,0.0,Variable oficial de Sumaria
+material_piso,Material predominante del piso,Modulo01,p103,categorica,Normalizacion textual a minusculas,0.3955,Se complementa con piso_precario
+piso_precario,Indicador proxy de piso precario,Modulo01,p103,binaria,1 si piso es tierra u otro material,0.0,Proxy simple y explicita
+agua_segura_proxy,Indicador proxy de agua mas segura,Modulo01,"p110,p110a1",binaria,1 si fuente es red publica y p110a1 reporta agua potable,0.0,"Proxy, no equivalente exacto a definicion normativa externa"
+acceso_desague_red,Acceso a desague por red publica,Modulo01,p111a,binaria,1 si p111a contiene red publica,0.0,Mantiene tambien tipo_desague
+acceso_electricidad,Acceso a electricidad,Modulo01,p1121,binaria,1 si p1121=electricidad,0.0,Basado en alumbrado del hogar
+combustible_limpio,Combustible principal limpio para cocinar,Modulo01,p113a,binaria,"1 si combustible principal es electricidad, GLP o gas natural",0.0,Se complementa con combustible_precario
+internet_hogar,Hogar con conexion a internet,Modulo01,p1144,binaria,1 si p1144 indica conexion a internet,0.0,Indicador directo del hogar
+area_urbana_rural,Condicion urbana o rural,Sumaria,estrato,categorica,rural si estrato contiene rural; en otro caso urbana,0.0,Derivado textual del estrato
+health_no_attention,Hogar con al menos un miembro sin atencion de salud,Modulo04,p4091..p40911,binaria,1 si algun miembro reporta motivo de no acudir al centro de salud,0.0,Agregado persona->hogar
+children_not_enrolled,Hogar con menores 6-16 no matriculados,"Modulo02,Modulo03","p208a,p306",binaria,1 si existe al menos una persona 6-16 con p306=2,0.0,Agregado persona->hogar
+ingreso_hogar,Ingreso bruto total del hogar,Sumaria,inghog1d,numerica,Copia de inghog1d,0.0,Riesgo potencial de leakage a evaluar en FASE 9

@@ -1,0 +1,20 @@
+{
+  "phase": "FASE 7",
+  "target_source_table": "Sumaria",
+  "target_source_variable": "pobreza",
+  "target_source_label": "pobreza",
+  "target_raw_frequencies": {
+    "no pobre": 1310,
+    "pobre no extremo": 171,
+    "pobre extremo": 36
+  },
+  "target_binary_frequencies": {
+    "0": 1310,
+    "1": 207
+  },
+  "target_nulls": 0,
+  "target_rows_before_dropna": 1517,
+  "target_rows_after_dropna": 1517,
+  "target_is_binary": true,
+  "target_passed": true
+}

@@ -1,0 +1,11 @@
+﻿variable_agregada,fuente,nivel_origen,regla
+tam_hogar_mod2,Modulo02,persona,nunique(codperso) por hogar
+edad_jefe,Modulo02,persona,p208a del miembro con p203 == 1
+sexo_jefe,Modulo02,persona,p207 del miembro con p203 == 1
+n_ninos_6_16,Modulo02,persona,conteo de p208a entre 6 y 16
+educ_jefe_nivel,Modulo03,persona,p301a del jefe de hogar identificado en Modulo02
+n_6_16_no_matriculados,Modulo03,persona,conteo de p306 == 2 para edades 6-16
+any_6_16_no_asisten,Modulo03,persona,indicador de algun p307 == 2 para edades 6-16
+miembros_sin_atencion_salud,Modulo04,persona,conteo si alguna razon p4091..p40911 es distinta de pase/nulo
+any_sin_atencion_salud,Modulo04,persona,1 si miembros_sin_atencion_salud > 0
+miembros_con_ingreso_laboral,Modulo05,persona,conteo si algun ingreso positivo en p524a1/p530a/p538a1/p541a

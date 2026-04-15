@@ -1,0 +1,22 @@
+{
+  "phase": "VARIABLE_DIMENSION_MAPPING",
+  "passed": true,
+  "n_features_input": 177,
+  "n_features_mapped": 177,
+  "n_candidates_selectkbest": 49,
+  "dimensiones_analiticas": [
+    "Conectividad",
+    "Demografia y composicion del hogar",
+    "Educacion",
+    "Empleo y prevision social",
+    "Energia",
+    "Geografia y contexto territorial",
+    "Ingresos, gastos y transferencias monetarias",
+    "Ponderacion muestral",
+    "Revision manual",
+    "Salud",
+    "Servicios basicos",
+    "Variables relacionadas al objetivo",
+    "Vivienda y entorno"
+  ]
+}

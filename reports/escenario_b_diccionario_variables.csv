@@ -1,0 +1,75 @@
+﻿variable_final,variable_origen,descripcion,dimension_analitica,modulo_fuente,tipo_logico,dtype_dataset,nulos_pct,rol,observaciones
+hogar_id,hogar_id,Identificador unico del hogar: ubigeo_conglome_vivienda_hogar,Identificacion,No determinado,identificador,str,0.0,identificador,
+conglome,conglome,conglome,No aplica,Identificacion ENAHO,identificador,str,0.0,identificador,
+vivienda,vivienda,vivienda,No aplica,Identificacion ENAHO,identificador,str,0.0,identificador,
+hogar,hogar,hogar,No aplica,Identificacion ENAHO,identificador,str,0.0,identificador,
+ubigeo,ubigeo,Ubicación geográfica,Geografia y contexto territorial,Sumaria,categorica,str,0.0,identificador,
+factor_expansion_anual,factor07,Factor de expansión anual del hogar,Ponderacion,Sumaria,numerica,float32,0.0,ponderador,No ingresa a la matriz X; usar para análisis ponderado.
+target_pobreza_monetaria_bin,target_pobreza_bin,Condición oficial de pobreza monetaria binaria,Objetivo,No determinado,target_binario,int64,0.0,target,Variable dependiente; no usar como feature.
+acceso_internet_hogar_derivado,internet_hogar,Acceso a internet en el hogar,Conectividad,Modulo01,binaria,int64,0.0,feature_candidata,Derivada desde la variable original de internet; posible redundancia con internet_hogar_enaho.
+internet_hogar_enaho,p1144,Acceso a internet en el hogar,Conectividad,Modulo01,categorica,string,0.0,feature_candidata,Variable original del cuestionario; posible redundancia con acceso_internet_hogar_derivado.
+dispositivo_servicio_digital_1,p114b1,Tenencia de dispositivo o servicio digital 1,Conectividad,Modulo01,categorica,string,8.8991,feature_candidata,
+dispositivo_servicio_digital_2,p114b2,Tenencia de dispositivo o servicio digital 2,Conectividad,Modulo01,categorica,string,10.4153,feature_candidata,
+dispositivo_servicio_digital_3,p114b3,Tenencia de dispositivo o servicio digital 3,Conectividad,Modulo01,categorica,string,10.4153,feature_candidata,
+edad_jefe,edad_jefe,Edad del jefe del hogar,Demografia y composicion del hogar,Modulo02,numerica,float64,0.0,feature_candidata,
+num_adultos_65_mas,n_adultos_65_mas,Número de adultos de 65 años o más,Demografia y composicion del hogar,Modulo02,numerica,int64,0.0,feature_candidata,
+num_ninos_0_5,n_ninos_0_5,Número de niños de 0 a 5 años,Demografia y composicion del hogar,Modulo02,numerica,int64,0.0,feature_candidata,
+num_ninos_6_16,n_ninos_6_16,Número de niños de 6 a 16 años,Demografia y composicion del hogar,Modulo02,numerica,int64,0.0,feature_candidata,
+sexo_jefe_bin,sexo_jefe_bin,Sexo del jefe del hogar,Demografia y composicion del hogar,Modulo02,binaria,int64,0.0,feature_candidata,
+tam_hogar,tam_hogar,Tamaño del hogar,Demografia y composicion del hogar,Sumaria,numerica,int8,0.0,feature_candidata,
+al_menos_un_6_16_no_asiste,any_6_16_no_asisten,Existe al menos un menor de 6 a 16 años que no asiste,Educacion,Modulo03,binaria,int64,0.0,feature_candidata,Indicador binario del mismo fenómeno medido también por hogar_con_ninos_no_asisten y num_6_16_no_asisten.
+al_menos_un_6_16_no_matriculado,any_6_16_no_matriculados,Existe al menos un menor de 6 a 16 años no matriculado,Educacion,Modulo03,binaria,int64,0.0,feature_candidata,Indicador binario del mismo fenómeno medido también por hogar_con_ninos_no_matriculados y num_6_16_no_matriculados.
+hogar_con_ninos_no_asisten,children_not_attending,Hogar con niños en edad escolar que no asisten,Educacion,Modulo03,binaria,int64,0.0,feature_candidata,Duplicado semántico del indicador al_menos_un_6_16_no_asiste; revisar antes de modelar.
+hogar_con_ninos_no_matriculados,children_not_enrolled,Hogar con niños en edad escolar no matriculados,Educacion,Modulo03,binaria,int64,0.0,feature_candidata,Duplicado semántico del indicador al_menos_un_6_16_no_matriculado; revisar antes de modelar.
+nivel_educativo_jefe_cat,educ_jefe,Nivel educativo del jefe del hogar,Educacion,Modulo02/Modulo03,categorica,str,0.0,feature_candidata,Versión categórica del nivel educativo; evaluar frente a la versión ordinal.
+nivel_educativo_jefe_ord,educ_jefe_ord,Nivel educativo ordinal del jefe del hogar,Educacion,Modulo02/Modulo03,numerica,float64,0.0,feature_candidata,Versión ordinal del nivel educativo; evaluar frente a la versión categórica.
+num_6_16_no_asisten,n_6_16_no_asisten,Número de personas de 6 a 16 que no asisten,Educacion,Modulo03,numerica,int64,0.0,feature_candidata,
+num_6_16_no_matriculados,n_6_16_no_matriculados,Número de personas de 6 a 16 no matriculadas,Educacion,Modulo03,numerica,int64,0.0,feature_candidata,
+al_menos_un_ingreso_laboral_hogar,any_ingreso_laboral_hogar,Existe al menos un miembro con ingreso laboral,Empleo y prevision social,Modulo05,binaria,int64,0.0,feature_candidata,
+jefe_con_ingreso_laboral,jefe_con_ingreso_laboral,Jefe del hogar con ingreso laboral,Empleo y prevision social,Modulo05,binaria,int64,0.0,feature_candidata,
+num_miembros_con_ingreso_laboral,miembros_con_ingreso_laboral,Miembros con ingreso laboral,Empleo y prevision social,Modulo05,numerica,int64,0.0,feature_candidata,
+num_perceptores_hogar,num_perceptores,Número de perceptores del hogar,Empleo y prevision social,Sumaria,numerica,int8,0.0,feature_candidata,
+acceso_electricidad,acceso_electricidad,Acceso a electricidad,Energia,Modulo01,binaria,int64,0.0,feature_candidata,
+usa_combustible_limpio,combustible_limpio,Uso de combustible limpio para cocinar,Energia,Modulo01,binaria,int64,0.0,feature_candidata,
+usa_combustible_precario,combustible_precario,Uso de combustible precario para cocinar,Energia,Modulo01,binaria,int64,0.0,feature_candidata,
+combustible_principal_cocina,combustible_principal,Combustible principal para cocinar,Energia,Modulo01,categorica,str,0.7251,feature_candidata,
+es_area_rural,area_rural_bin,Indicador de área rural,Geografia y contexto territorial,Derivada,binaria,int64,0.0,feature_candidata,
+estrato_geografico,estrato,Estrato geográfico,Geografia y contexto territorial,Sumaria,categorica,string,0.0,feature_candidata,
+al_menos_un_enfermedad_4_sem,any_enfermedad_4w,Existe al menos un miembro con enfermedad en últimas 4 semanas,Salud,Modulo04,binaria,int64,0.0,feature_candidata,
+al_menos_un_sintoma_4_sem,any_sintoma_4w,Existe al menos un miembro con síntoma o malestar en últimas 4 semanas,Salud,Modulo04,binaria,int64,0.0,feature_candidata,
+health_no_attention,health_no_attention,Hogar con al menos un miembro sin atencion de salud,Salud,Sumaria,binaria,int64,0.0,feature_candidata,
+num_miembros_afiliados_essalud,miembros_afiliados_essalud,Miembros afiliados a EsSalud,Salud,Modulo04,numerica,int64,0.0,feature_candidata,
+num_miembros_con_enfermedad_4_sem,miembros_con_enfermedad_4w,Miembros con enfermedad en últimas 4 semanas,Salud,Modulo04,numerica,int64,0.0,feature_candidata,
+num_miembros_con_sintoma_4_sem,miembros_con_sintoma_4w,Miembros con síntoma o malestar en últimas 4 semanas,Salud,Modulo04,numerica,int64,0.0,feature_candidata,
+num_miembros_sin_atencion_salud,miembros_sin_atencion_salud,Miembros sin atención en salud,Salud,Modulo04,numerica,int64,0.0,feature_candidata,
+acceso_agua_red,acceso_agua_red,Acceso a agua por red pública,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+acceso_desague_red,acceso_desague_red,Acceso a desagüe por red pública,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+agua_disponible_diaria,agua_disponible_diaria,Disponibilidad diaria de agua,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+agua_potable_reportada,agua_potable_reportada,Agua reportada como potable,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+agua_segura_proxy,agua_segura_proxy,Indicador proxy de agua segura,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+saneamiento_inadecuado,saneamiento_inadecuado,Indicador de saneamiento inadecuado,Servicios basicos,Modulo01,binaria,int64,0.0,feature_candidata,
+material_piso_cat,material_piso,Material predominante del piso,Vivienda y entorno,Modulo01,categorica,str,0.3955,feature_candidata,Variable categórica original; posible redundancia parcial con piso_precario.
+tipo_vivienda,p101,Tipo de vivienda,Vivienda y entorno,Modulo01,categorica,string,0.3955,feature_candidata,
+material_pared,p102,Material predominante de la pared,Vivienda y entorno,Modulo01,categorica,string,0.3955,feature_candidata,
+material_techo,p103a,Material predominante del techo,Vivienda y entorno,Modulo01,categorica,string,0.3955,feature_candidata,
+num_habitaciones,p104,Cantidad de habitaciones,Vivienda y entorno,Modulo01,numerica,float64,0.3955,feature_candidata,
+tenencia_vivienda,p105a,Tenencia de la vivienda,Vivienda y entorno,Modulo01,categorica,string,0.0,feature_candidata,
+piso_precario,piso_precario,Indicador de piso precario,Vivienda y entorno,Modulo01,binaria,int64,0.0,feature_candidata,Proxy binario derivado desde material_piso_cat.
+ingreso_neto_total_hogar,inghog2d,Ingreso neto total del hogar,programas_sociales,Sumaria,numerica,float64,0.0,feature_candidata,Variable monetaria potente pero cercana al target monetario; interpretar con cautela.
+monto_total_transferencias_publicas,ingtpuhd,Ingreso total por transferencias públicas,programas_sociales,Sumaria,numerica,int32,0.0,feature_candidata,Agregado de transferencias públicas; puede solaparse con montos específicos y con monto_total_programas_sociales_no_alimentarios.
+monto_total_programas_sociales_alimentarios,monto_programas_sociales_alimentarios,Monto total de apoyos sociales alimentarios,programas_sociales,No determinado,numerica,float32,0.0,feature_candidata,Agregado derivado de apoyos alimentarios; revisar frente a sus componentes.
+monto_total_programas_sociales_no_alimentarios,monto_programas_sociales_no_alimentarios,Monto total de programas sociales no alimentarios,programas_sociales,No determinado,numerica,int64,0.0,feature_candidata,Agregado derivado de programas públicos no alimentarios; puede solaparse con monto_total_transferencias_publicas.
+recibe_programa_social_alimentario,recibe_programa_social_alimentario,Indicador de recepción de programa social alimentario,programas_sociales,No determinado,numerica,int64,0.0,feature_candidata,Indicador binario derivado de monto_total_programas_sociales_alimentarios.
+recibe_programa_social_no_alimentario,recibe_programa_social_no_alimentario,Indicador de recepción de programa social no alimentario,programas_sociales,No determinado,numerica,int64,0.0,feature_candidata,Indicador binario derivado de monto_total_programas_sociales_no_alimentarios.
+monto_bono_alimentario,ingtpu16,Ingreso por bono alimentario,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_apoyo_ollas_comunes,sg27,Apoyo alimentario por ollas comunes,programas_sociales,Sumaria,numerica,float32,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_ingresos_gastos_ollas_comunes,sig28,Ingreso/gasto por alimentos consumidos por ollas comunes,programas_sociales,Sumaria,numerica,float32,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_juntos,ingtpu01,Ingreso por Juntos,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_otras_transferencias_publicas,ingtpu02,Ingreso por otras transferencias públicas,programas_sociales,Sumaria,numerica,int32,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_pension_65,ingtpu03,Ingreso por Pensión 65,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_beca_18,ingtpu04,Ingreso por Beca 18,programas_sociales,Sumaria,numerica,int32,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_bono_gas,ingtpu05,Ingreso por Bono del Gas,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_bono_electricidad,ingtpu10,Ingreso por Bono Electricidad,programas_sociales,Sumaria,numerica,int8,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_bono_onp_jubilados,ingtpu12,Ingreso por bono ONP para jubilados,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_programa_contigo,ingtpu13,Ingreso por programa Contigo,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.
+monto_bono_yanapay,ingtpu14,Ingreso por bono Yanapay,programas_sociales,Sumaria,numerica,int16,0.0,feature_candidata,Variable monetaria de apoyo/programa social; evaluar por riesgo de proximidad conceptual al target.

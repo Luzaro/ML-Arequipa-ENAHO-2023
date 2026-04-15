@@ -1,0 +1,7 @@
+﻿group,alias,file_name,model_label,feature_set,threshold,strategy,n_features,n_rows_trained,target_null_rows_dropped,path
+baseline,LR-30,logistic_regression_top30_full_pipeline.pkl,LogisticRegression baseline top30_full,top30_full,0.5,weighted,30,1517,0,C:\Users\the master\Documents\New project\models\baseline\logistic_regression_top30_full_pipeline.pkl
+baseline,RF-30,random_forest_top30_full_pipeline.pkl,RandomForest baseline top30_full,top30_full,0.5,weighted,30,1517,0,C:\Users\the master\Documents\New project\models\baseline\random_forest_top30_full_pipeline.pkl
+baseline,XGB-30,xgboost_top30_full_pipeline.pkl,XGBoost baseline top30_full,top30_full,0.5,weighted,30,1517,0,C:\Users\the master\Documents\New project\models\baseline\xgboost_top30_full_pipeline.pkl
+tuned,RADAR MAX,logistic_smote_deteccion_top30_full_pipeline.pkl,Logistic smote maxima deteccion top30_full,top30_full,0.2,smote,30,1517,0,C:\Users\the master\Documents\New project\models\tuned\logistic_smote_deteccion_top30_full_pipeline.pkl
+tuned,XGB BALANCE,xgboost_weighted_equilibrio_top30_full_pipeline.pkl,XGBoost weighted equilibrio top30_full,top30_full,0.4,weighted,30,1517,0,C:\Users\the master\Documents\New project\models\tuned\xgboost_weighted_equilibrio_top30_full_pipeline.pkl
+tuned,LGBM PRECISO,lightgbm_smote_precision_top30_full_pipeline.pkl,LightGBM smote precision top30_full,top30_full,0.35,smote,30,1517,0,C:\Users\the master\Documents\New project\models\tuned\lightgbm_smote_precision_top30_full_pipeline.pkl

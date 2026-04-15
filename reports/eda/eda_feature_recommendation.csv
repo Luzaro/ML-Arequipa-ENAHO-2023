@@ -1,0 +1,177 @@
+﻿variable,decision_eda,motivo
+mes,incluir_conservador,feature defendible para EDA/modelado inicial
+ubigeo,incluir_conservador,feature defendible para EDA/modelado inicial
+dominio,incluir_conservador,feature defendible para EDA/modelado inicial
+estrato,incluir_conservador,feature defendible para EDA/modelado inicial
+totmieho,incluir_conservador,feature defendible para EDA/modelado inicial
+ia01hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ia02hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ig03hd1,incluir_conservador,feature defendible para EDA/modelado inicial
+ig03hd2,incluir_conservador,feature defendible para EDA/modelado inicial
+ig03hd3,incluir_conservador,feature defendible para EDA/modelado inicial
+ig03hd4,incluir_conservador,feature defendible para EDA/modelado inicial
+ga03hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ga04hd,incluir_conservador,feature defendible para EDA/modelado inicial
+sg23,incluir_conservador,feature defendible para EDA/modelado inicial
+sig24,incluir_conservador,feature defendible para EDA/modelado inicial
+sg25,incluir_conservador,feature defendible para EDA/modelado inicial
+sig26,incluir_conservador,feature defendible para EDA/modelado inicial
+sg27,incluir_conservador,feature defendible para EDA/modelado inicial
+sig28,incluir_conservador,feature defendible para EDA/modelado inicial
+sg42,incluir_conservador,feature defendible para EDA/modelado inicial
+sg421,incluir_conservador,feature defendible para EDA/modelado inicial
+sg422,incluir_conservador,feature defendible para EDA/modelado inicial
+sg42d,incluir_conservador,feature defendible para EDA/modelado inicial
+sg42d1,incluir_conservador,feature defendible para EDA/modelado inicial
+sg42d2,incluir_conservador,feature defendible para EDA/modelado inicial
+ingbruhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingnethd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+pagesphd,incluir_conservador,feature defendible para EDA/modelado inicial
+ingindhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingauthd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+insedthd,incluir_conservador,feature defendible para EDA/modelado inicial
+insedlhd,incluir_conservador,feature defendible para EDA/modelado inicial
+paesechd,incluir_conservador,feature defendible para EDA/modelado inicial
+ingseihd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+isecauhd,incluir_conservador,feature defendible para EDA/modelado inicial
+ingexthd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtrahd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtexhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingrenhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingoexhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+g05hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ig06hd,incluir_conservador,feature defendible para EDA/modelado inicial
+g05hd1,incluir_conservador,feature defendible para EDA/modelado inicial
+ig06hd1,incluir_conservador,feature defendible para EDA/modelado inicial
+g05hd2,incluir_conservador,feature defendible para EDA/modelado inicial
+ig06hd2,incluir_conservador,feature defendible para EDA/modelado inicial
+g07hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ig08hd,incluir_conservador,feature defendible para EDA/modelado inicial
+ingtprhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpuhd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu01,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu02,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu03,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu04,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu05,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu10,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu12,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu13,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu14,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingtpu16,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru14hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru14hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru14hd4,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru42hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru42hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru43hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru43hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru43hd3,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru71hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru72hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru73hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru73hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru73hd3,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru74hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru81hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru82hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru82hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru83hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru83hd2,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru83hd3,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru83hd4,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru84hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru84hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru85hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru86hd1,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gru87hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingmo1hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ingmo2hd,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+inghog2d,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+gashog1d,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+ld,incluir_conservador,feature defendible para EDA/modelado inicial
+estrsocial,incluir_conservador,feature defendible para EDA/modelado inicial
+lineav,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+pobrezav,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+factor07,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+nconglome,incluir_conservador,feature defendible para EDA/modelado inicial
+sub_conglome,incluir_conservador,feature defendible para EDA/modelado inicial
+p101,incluir_conservador,feature defendible para EDA/modelado inicial
+p102,incluir_conservador,feature defendible para EDA/modelado inicial
+p103,incluir_conservador,feature defendible para EDA/modelado inicial
+p103a,incluir_conservador,feature defendible para EDA/modelado inicial
+p104,incluir_conservador,feature defendible para EDA/modelado inicial
+p105a,incluir_conservador,feature defendible para EDA/modelado inicial
+p106,incluir_conservador,feature defendible para EDA/modelado inicial
+p110,incluir_conservador,feature defendible para EDA/modelado inicial
+p110a1,incluir_conservador,feature defendible para EDA/modelado inicial
+p110c,incluir_conservador,feature defendible para EDA/modelado inicial
+p111a,incluir_conservador,feature defendible para EDA/modelado inicial
+p1121,incluir_conservador,feature defendible para EDA/modelado inicial
+p112a,incluir_conservador,feature defendible para EDA/modelado inicial
+p1131,incluir_conservador,feature defendible para EDA/modelado inicial
+p1132,incluir_conservador,feature defendible para EDA/modelado inicial
+p1133,incluir_conservador,feature defendible para EDA/modelado inicial
+p1135,incluir_conservador,feature defendible para EDA/modelado inicial
+p1136,incluir_conservador,feature defendible para EDA/modelado inicial
+p1137,incluir_conservador,feature defendible para EDA/modelado inicial
+p1139,incluir_conservador,feature defendible para EDA/modelado inicial
+p113a,incluir_conservador,feature defendible para EDA/modelado inicial
+p1141,incluir_conservador,feature defendible para EDA/modelado inicial
+p1142,incluir_conservador,feature defendible para EDA/modelado inicial
+p1143,incluir_conservador,feature defendible para EDA/modelado inicial
+p1144,incluir_conservador,feature defendible para EDA/modelado inicial
+p1145,incluir_conservador,feature defendible para EDA/modelado inicial
+p114b1,incluir_conservador,feature defendible para EDA/modelado inicial
+p114b2,incluir_conservador,feature defendible para EDA/modelado inicial
+p114b3,incluir_conservador,feature defendible para EDA/modelado inicial
+n_ninos_0_5,incluir_conservador,feature defendible para EDA/modelado inicial
+n_ninos_6_16,incluir_conservador,feature defendible para EDA/modelado inicial
+n_adultos_65_mas,incluir_conservador,feature defendible para EDA/modelado inicial
+edad_jefe,incluir_conservador,feature defendible para EDA/modelado inicial
+personas_con_mod_educ,incluir_conservador,feature defendible para EDA/modelado inicial
+n_6_16_total,incluir_conservador,feature defendible para EDA/modelado inicial
+n_6_16_matriculados,incluir_conservador,feature defendible para EDA/modelado inicial
+n_6_16_no_matriculados,incluir_conservador,feature defendible para EDA/modelado inicial
+n_6_16_no_asisten,incluir_conservador,feature defendible para EDA/modelado inicial
+any_6_16_no_matriculados,incluir_conservador,feature defendible para EDA/modelado inicial
+any_6_16_no_asisten,incluir_conservador,feature defendible para EDA/modelado inicial
+personas_con_mod_salud,incluir_conservador,feature defendible para EDA/modelado inicial
+miembros_con_sintoma_4w,incluir_conservador,feature defendible para EDA/modelado inicial
+miembros_con_enfermedad_4w,incluir_conservador,feature defendible para EDA/modelado inicial
+miembros_sin_atencion_salud,incluir_conservador,feature defendible para EDA/modelado inicial
+miembros_afiliados_essalud,incluir_conservador,feature defendible para EDA/modelado inicial
+any_sintoma_4w,incluir_conservador,feature defendible para EDA/modelado inicial
+any_enfermedad_4w,incluir_conservador,feature defendible para EDA/modelado inicial
+personas_con_mod_empleo,incluir_conservador,feature defendible para EDA/modelado inicial
+miembros_con_ingreso_laboral,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+jefe_con_ingreso_laboral,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+any_ingreso_laboral_hogar,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+provincia_cod,incluir_conservador,feature defendible para EDA/modelado inicial
+distrito_cod,incluir_conservador,feature defendible para EDA/modelado inicial
+sexo_jefe_bin,incluir_conservador,feature defendible para EDA/modelado inicial
+educ_jefe_ord,incluir_conservador,feature defendible para EDA/modelado inicial
+educ_jefe,incluir_conservador,feature defendible para EDA/modelado inicial
+tam_hogar,incluir_conservador,feature defendible para EDA/modelado inicial
+num_perceptores,incluir_conservador,feature defendible para EDA/modelado inicial
+gasto_hogar,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+material_piso,incluir_conservador,feature defendible para EDA/modelado inicial
+piso_precario,incluir_conservador,feature defendible para EDA/modelado inicial
+fuente_agua,incluir_conservador,feature defendible para EDA/modelado inicial
+acceso_agua_red,incluir_conservador,feature defendible para EDA/modelado inicial
+agua_potable_reportada,incluir_conservador,feature defendible para EDA/modelado inicial
+agua_disponible_diaria,incluir_conservador,feature defendible para EDA/modelado inicial
+agua_segura_proxy,incluir_conservador,feature defendible para EDA/modelado inicial
+tipo_desague,incluir_conservador,feature defendible para EDA/modelado inicial
+acceso_desague_red,incluir_conservador,feature defendible para EDA/modelado inicial
+saneamiento_inadecuado,incluir_conservador,feature defendible para EDA/modelado inicial
+acceso_electricidad,incluir_conservador,feature defendible para EDA/modelado inicial
+combustible_principal,incluir_conservador,feature defendible para EDA/modelado inicial
+combustible_limpio,incluir_conservador,feature defendible para EDA/modelado inicial
+combustible_precario,incluir_conservador,feature defendible para EDA/modelado inicial
+internet_hogar,incluir_conservador,feature defendible para EDA/modelado inicial
+area_urbana_rural,incluir_conservador,feature defendible para EDA/modelado inicial
+area_rural_bin,incluir_conservador,feature defendible para EDA/modelado inicial
+children_not_enrolled,incluir_conservador,feature defendible para EDA/modelado inicial
+children_not_attending,excluir_conservador,riesgo de fuga o cercania monetaria a pobreza oficial
+target_pobreza_bin,target,variable objetivo

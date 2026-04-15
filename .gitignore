@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+logs/
+*.log
+.streamlit/
+.DS_Store
+
+# Datos fuente pesados o sensibles
+data/raw/
+data/interim/
+
+# Artefactos temporales
+*.tmp
+*.temp

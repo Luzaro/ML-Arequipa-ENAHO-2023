@@ -1,0 +1,1849 @@
+{
+  "catalog": [
+    {
+      "category": "ENAHO Anterior",
+      "value": "Condiciones de vida y pobreza - ENAHO PANEL",
+      "label": "Condiciones de vida y pobreza - ENAHO PANEL",
+      "years": {
+        "2023": {
+          "2019 Anual - 2023 Anual": {
+            "period_value": "194",
+            "modules": [
+              {
+                "survey_code": "912",
+                "module_code": "1474",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "912-Modulo1474",
+                "stata_code": "912-Modulo1474",
+                "spss_code": "912-Modulo1474"
+              },
+              {
+                "survey_code": "912",
+                "module_code": "1475",
+                "module_name": "Educación",
+                "csv_code": "912-Modulo1475",
+                "stata_code": "912-Modulo1475",
+                "spss_code": "912-Modulo1475"
+              },
+              {
+                "survey_code": "912",
+                "module_code": "1476",
+                "module_name": "Salud",
+                "csv_code": "912-Modulo1476",
+                "stata_code": "912-Modulo1476",
+                "spss_code": "912-Modulo1476"
+              },
+              {
+                "survey_code": "912",
+                "module_code": "1477",
+                "module_name": "Empleo e Ingresos",
+                "csv_code": "912-Modulo1477",
+                "stata_code": "912-Modulo1477",
+                "spss_code": "912-Modulo1477"
+              },
+              {
+                "survey_code": "912",
+                "module_code": "1478",
+                "module_name": "Sumarias ( Variables Calculadas )",
+                "csv_code": "912-Modulo1478",
+                "stata_code": "912-Modulo1478",
+                "spss_code": "912-Modulo1478"
+              },
+              {
+                "survey_code": "912",
+                "module_code": "1479",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "912-Modulo1479",
+                "stata_code": "912-Modulo1479",
+                "spss_code": "912-Modulo1479"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Ficha Técnica",
+                "zip_path": "2023-194/01_Ficha_Tecnica.zip",
+                "ficha_params": [
+                  "912",
+                  "01",
+                  "2023",
+                  "194",
+                  "01%5FFicha%5FTecnica"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Cuestionario ENAHO01 2019",
+                "zip_path": "2023-194/02_CUESTIONARIO_ENAHO01_2019.zip",
+                "ficha_params": [
+                  "912",
+                  "02",
+                  "2023",
+                  "194",
+                  "02%5FCUESTIONARIO%5FENAHO01%5F2019"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Cuestionario ENAHO01 2020",
+                "zip_path": "2023-194/03_CUESTIONARIO_ENAHO01_2020.zip",
+                "ficha_params": [
+                  "912",
+                  "03",
+                  "2023",
+                  "194",
+                  "03%5FCUESTIONARIO%5FENAHO01%5F2020"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Cuestionario ENAHO01 2021",
+                "zip_path": "2023-194/04_CUESTIONARIO_ENAHO01_2021.zip",
+                "ficha_params": [
+                  "912",
+                  "04",
+                  "2023",
+                  "194",
+                  "04%5FCUESTIONARIO%5FENAHO01%5F2021"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Cuestionario ENAHO01 2022",
+                "zip_path": "2023-194/05_CUESTIONARIO_ENAHO01_2022.zip",
+                "ficha_params": [
+                  "912",
+                  "05",
+                  "2023",
+                  "194",
+                  "05%5FCUESTIONARIO%5FENAHO01%5F2022"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Cuestionario ENAHO01 2023",
+                "zip_path": "2023-194/06_CUESTIONARIO_ENAHO01_2023.zip",
+                "ficha_params": [
+                  "912",
+                  "06",
+                  "2023",
+                  "194",
+                  "06%5FCUESTIONARIO%5FENAHO01%5F2023"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Cuestionario ENAHO01A 2019",
+                "zip_path": "2023-194/07_CUESTIONARIO_ENAHO01A_2019.zip",
+                "ficha_params": [
+                  "912",
+                  "07",
+                  "2023",
+                  "194",
+                  "07%5FCUESTIONARIO%5FENAHO01A%5F2019"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Cuestionario ENAHO01A 2020",
+                "zip_path": "2023-194/08_CUESTIONARIO_ENAHO01A_2020.zip",
+                "ficha_params": [
+                  "912",
+                  "08",
+                  "2023",
+                  "194",
+                  "08%5FCUESTIONARIO%5FENAHO01A%5F2020"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Cuestionario ENAHO01A 2021",
+                "zip_path": "2023-194/09_CUESTIONARIO_ENAHO01A_2021.zip",
+                "ficha_params": [
+                  "912",
+                  "09",
+                  "2023",
+                  "194",
+                  "09%5FCUESTIONARIO%5FENAHO01A%5F2021"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario ENAHO01A 2022",
+                "zip_path": "2023-194/10_CUESTIONARIO_ENAHO01A_2022.zip",
+                "ficha_params": [
+                  "912",
+                  "10",
+                  "2023",
+                  "194",
+                  "10%5FCUESTIONARIO%5FENAHO01A%5F2022"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario ENAHO01A 2023",
+                "zip_path": "2023-194/11_CUESTIONARIO_ENAHO01A_2023.zip",
+                "ficha_params": [
+                  "912",
+                  "11",
+                  "2023",
+                  "194",
+                  "11%5FCUESTIONARIO%5FENAHO01A%5F2023"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Deflactacion",
+                "zip_path": "2023-194/12_DEFLACTACION.zip",
+                "ficha_params": [
+                  "912",
+                  "12",
+                  "2023",
+                  "194",
+                  "12%5FDEFLACTACION"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Diccionario Panel 2019-2023",
+                "zip_path": "2023-194/13_DICCIONARIO_PANEL-2019-2023.zip",
+                "ficha_params": [
+                  "912",
+                  "13",
+                  "2023",
+                  "194",
+                  "13%5FDICCIONARIO%5FPANEL%2D2019%2D2023"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Imputación Ingreso Productor Agropecuario",
+                "zip_path": "2023-194/14_Imputacion-Ingreso-Productor-Agropec.zip",
+                "ficha_params": [
+                  "912",
+                  "14",
+                  "2023",
+                  "194",
+                  "14%5FImputacion%2DIngreso%2DProductor%2DAgropec"
+                ]
+              },
+              {
+                "doc_code": "15",
+                "doc_name": "Imputación Ingreso Trabajador Independiente",
+                "zip_path": "2023-194/15_Imputacion-Ingreso-Trabajador-Indepe.zip",
+                "ficha_params": [
+                  "912",
+                  "15",
+                  "2023",
+                  "194",
+                  "15%5FImputacion%2DIngreso%2DTrabajador%2DIndepe"
+                ]
+              },
+              {
+                "doc_code": "16",
+                "doc_name": "Imputaciones ENAHO01",
+                "zip_path": "2023-194/16_Imputaciones_Enaho01.zip",
+                "ficha_params": [
+                  "912",
+                  "16",
+                  "2023",
+                  "194",
+                  "16%5FImputaciones%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "17",
+                "doc_name": "Imputaciones ENAHO01A",
+                "zip_path": "2023-194/17_Imputacion_Enaho01A.zip",
+                "ficha_params": [
+                  "912",
+                  "17",
+                  "2023",
+                  "194",
+                  "17%5FImputacion%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "18",
+                "doc_name": "Procedimiento-Imputacion-HOT-DECK",
+                "zip_path": "2023-194/18_Procedimiento_Imputacion-Hot-Deck.zip",
+                "ficha_params": [
+                  "912",
+                  "18",
+                  "2023",
+                  "194",
+                  "18%5FProcedimiento%5FImputacion%2DHot%2DDeck"
+                ]
+              },
+              {
+                "doc_code": "19",
+                "doc_name": "Relaciones-Logicas-Enaho01",
+                "zip_path": "2023-194/19_Relaciones_Logicas_Enaho01.zip",
+                "ficha_params": [
+                  "912",
+                  "19",
+                  "2023",
+                  "194",
+                  "19%5FRelaciones%5FLogicas%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "20",
+                "doc_name": "Relaciones-Logicas-Enaho01A",
+                "zip_path": "2023-194/20_Relaciones_Logicas_Enaho01A.zip",
+                "ficha_params": [
+                  "912",
+                  "20",
+                  "2023",
+                  "194",
+                  "20%5FRelaciones%5FLogicas%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "21",
+                "doc_name": "Sumaria Panel 2019-2023",
+                "zip_path": "2023-194/21_Sumaria_PANEL_2019-2023.zip",
+                "ficha_params": [
+                  "912",
+                  "21",
+                  "2023",
+                  "194",
+                  "21%5FSumaria%5FPANEL%5F2019%2D2023"
+                ]
+              },
+              {
+                "doc_code": "22",
+                "doc_name": "Sumaria Panel 2019-2023 12 Grupos",
+                "zip_path": "2023-194/22_Sumaria_PANEL_2019-2023-12G.zip",
+                "ficha_params": [
+                  "912",
+                  "22",
+                  "2023",
+                  "194",
+                  "22%5FSumaria%5FPANEL%5F2019%2D2023%2D12G"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "category": "ENAHO Actualizada",
+      "value": "Condiciones de Vida y Pobreza - ENAHO",
+      "label": "Condiciones de Vida y Pobreza - ENAHO",
+      "years": {
+        "2023": {
+          "Anual - (Ene-Dic)": {
+            "period_value": "55",
+            "modules": [
+              {
+                "survey_code": "906",
+                "module_code": "1",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "906-Modulo01",
+                "stata_code": "906-Modulo01",
+                "spss_code": "906-Modulo01"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "2",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "906-Modulo02",
+                "stata_code": "906-Modulo02",
+                "spss_code": "906-Modulo02"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "3",
+                "module_name": "Educación",
+                "csv_code": "906-Modulo03",
+                "stata_code": "906-Modulo03",
+                "spss_code": "906-Modulo03"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "4",
+                "module_name": "Salud",
+                "csv_code": "906-Modulo04",
+                "stata_code": "906-Modulo04",
+                "spss_code": "906-Modulo04"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "5",
+                "module_name": "Empleo e Ingresos",
+                "csv_code": "906-Modulo05",
+                "stata_code": "906-Modulo05",
+                "spss_code": "906-Modulo05"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "7",
+                "module_name": "Gastos en Alimentos y Bebidas (Módulo 601)",
+                "csv_code": "906-Modulo07",
+                "stata_code": "906-Modulo07",
+                "spss_code": "906-Modulo07"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "8",
+                "module_name": "Instituciones Beneficas",
+                "csv_code": "906-Modulo08",
+                "stata_code": "906-Modulo08",
+                "spss_code": "906-Modulo08"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "9",
+                "module_name": "Mantenimiento de la Vivienda",
+                "csv_code": "906-Modulo09",
+                "stata_code": "906-Modulo09",
+                "spss_code": "906-Modulo09"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "10",
+                "module_name": "Transportes y Comunicaciones",
+                "csv_code": "906-Modulo10",
+                "stata_code": "906-Modulo10",
+                "spss_code": "906-Modulo10"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "11",
+                "module_name": "Servicios a la Vivienda",
+                "csv_code": "906-Modulo11",
+                "stata_code": "906-Modulo11",
+                "spss_code": "906-Modulo11"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "12",
+                "module_name": "Esparcimiento , Diversion y Servicios de Cultura",
+                "csv_code": "906-Modulo12",
+                "stata_code": "906-Modulo12",
+                "spss_code": "906-Modulo12"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "13",
+                "module_name": "Vestido y Calzado",
+                "csv_code": "906-Modulo13",
+                "stata_code": "906-Modulo13",
+                "spss_code": "906-Modulo13"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "15",
+                "module_name": "Gastos de Transferencias",
+                "csv_code": "906-Modulo15",
+                "stata_code": "906-Modulo15",
+                "spss_code": "906-Modulo15"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "16",
+                "module_name": "Muebles y Enseres",
+                "csv_code": "906-Modulo16",
+                "stata_code": "906-Modulo16",
+                "spss_code": "906-Modulo16"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "17",
+                "module_name": "Otros Bienes y Servicios",
+                "csv_code": "906-Modulo17",
+                "stata_code": "906-Modulo17",
+                "spss_code": "906-Modulo17"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "18",
+                "module_name": "Equipamiento del Hogar",
+                "csv_code": "906-Modulo18",
+                "stata_code": "906-Modulo18",
+                "spss_code": "906-Modulo18"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "22",
+                "module_name": "Producción Agrícola",
+                "csv_code": "906-Modulo22",
+                "stata_code": "906-Modulo22",
+                "spss_code": "906-Modulo22"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "23",
+                "module_name": "Subproductos Agricolas",
+                "csv_code": "906-Modulo23",
+                "stata_code": "906-Modulo23",
+                "spss_code": "906-Modulo23"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "24",
+                "module_name": "Producción Forestal",
+                "csv_code": "906-Modulo24",
+                "stata_code": "906-Modulo24",
+                "spss_code": "906-Modulo24"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "25",
+                "module_name": "Gastos en Actividades Agricolas y/o Forestales",
+                "csv_code": "906-Modulo25",
+                "stata_code": "906-Modulo25",
+                "spss_code": "906-Modulo25"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "26",
+                "module_name": "Producción Pecuaria",
+                "csv_code": "906-Modulo26",
+                "stata_code": "906-Modulo26",
+                "spss_code": "906-Modulo26"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "27",
+                "module_name": "Subproductos Pecuarios",
+                "csv_code": "906-Modulo27",
+                "stata_code": "906-Modulo27",
+                "spss_code": "906-Modulo27"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "28",
+                "module_name": "Gastos en Actividades Pecuarias",
+                "csv_code": "906-Modulo28",
+                "stata_code": "906-Modulo28",
+                "spss_code": "906-Modulo28"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "34",
+                "module_name": "Sumarias ( Variables Calculadas )",
+                "csv_code": "906-Modulo34",
+                "stata_code": "906-Modulo34",
+                "spss_code": "906-Modulo34"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "37",
+                "module_name": "Programas Sociales  (Miembros del Hogar)",
+                "csv_code": "906-Modulo37",
+                "stata_code": "906-Modulo37",
+                "spss_code": "906-Modulo37"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "77",
+                "module_name": "Ingresos del Trabajador Independiente",
+                "csv_code": "906-Modulo77",
+                "stata_code": "906-Modulo77",
+                "spss_code": "906-Modulo77"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "78",
+                "module_name": "Bienes y Servicios de Cuidados Personales",
+                "csv_code": "906-Modulo78",
+                "stata_code": "906-Modulo78",
+                "spss_code": "906-Modulo78"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "84",
+                "module_name": "Participación Ciudadana",
+                "csv_code": "906-Modulo84",
+                "stata_code": "906-Modulo84",
+                "spss_code": "906-Modulo84"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "85",
+                "module_name": "Gobernabilidad, Democracia y Transparencia",
+                "csv_code": "906-Modulo85",
+                "stata_code": "906-Modulo85",
+                "spss_code": "906-Modulo85"
+              },
+              {
+                "survey_code": "906",
+                "module_code": "1825",
+                "module_name": "Beneficiarios de Instituciones sin fines de lucro: Olla Común",
+                "csv_code": "906-Modulo1825",
+                "stata_code": "906-Modulo1825",
+                "spss_code": "906-Modulo1825"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Rutinas medición pobreza",
+                "zip_path": "2023-55/1_Rutinas-medicion-pobreza.zip",
+                "ficha_params": [
+                  "906",
+                  "01",
+                  "2023",
+                  "55",
+                  "1%5FRutinas%2Dmedicion%2Dpobreza"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Ficha Técnica",
+                "zip_path": "2023-55/2_FichaTecnica.zip",
+                "ficha_params": [
+                  "906",
+                  "02",
+                  "2023",
+                  "55",
+                  "2%5FFichaTecnica"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Metodología - Cálculo factor de expansión anual",
+                "zip_path": "2023-55/3_Metodologia-Calculo_factor_de_expansion_anual.zip",
+                "ficha_params": [
+                  "906",
+                  "03",
+                  "2023",
+                  "55",
+                  "3%5FMetodologia%2DCalculo%5Ffactor%5Fde%5Fexpansion%5Fanual"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Estratificación del marco",
+                "zip_path": "2023-55/4_Estratificacion_del_marco.zip",
+                "ficha_params": [
+                  "906",
+                  "04",
+                  "2023",
+                  "55",
+                  "4%5FEstratificacion%5Fdel%5Fmarco"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Plan de Trabajo",
+                "zip_path": "2023-55/5_Plan-Trabajo.zip",
+                "ficha_params": [
+                  "906",
+                  "05",
+                  "2023",
+                  "55",
+                  "5%5FPlan%2DTrabajo"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Calidad-ENAHO",
+                "zip_path": "2023-55/6_Calidad-ENAHO.zip",
+                "ficha_params": [
+                  "906",
+                  "06",
+                  "2023",
+                  "55",
+                  "6%5FCalidad%2DENAHO"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Informe técnico de pobreza",
+                "zip_path": "2023-55/7_Informe_tecnico_de_pobreza.zip",
+                "ficha_params": [
+                  "906",
+                  "07",
+                  "2023",
+                  "55",
+                  "7%5FInforme%5Ftecnico%5Fde%5Fpobreza"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Cuestionario ENAHO.01",
+                "zip_path": "2023-55/8_CUESTIONARIO-ENAHO01.zip",
+                "ficha_params": [
+                  "906",
+                  "08",
+                  "2023",
+                  "55",
+                  "8%5FCUESTIONARIO%2DENAHO01"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Cuestionario ENAHO.01A",
+                "zip_path": "2023-55/9_CUESTIONARIO-ENAHO01A.zip",
+                "ficha_params": [
+                  "906",
+                  "09",
+                  "2023",
+                  "55",
+                  "9%5FCUESTIONARIO%2DENAHO01A"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario ENAHO.01B",
+                "zip_path": "2023-55/10_CUESTIONARIO-ENAHO01B.zip",
+                "ficha_params": [
+                  "906",
+                  "10",
+                  "2023",
+                  "55",
+                  "10%5FCUESTIONARIO%2DENAHO01B"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario ENAHO.02",
+                "zip_path": "2023-55/11_CUESTIONARIO-ENAHO02.zip",
+                "ficha_params": [
+                  "906",
+                  "11",
+                  "2023",
+                  "55",
+                  "11%5FCUESTIONARIO%2DENAHO02"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Cuestionario ENAHO.04",
+                "zip_path": "2023-55/12_CUESTIONARIO-ENAHO04.zip",
+                "ficha_params": [
+                  "906",
+                  "12",
+                  "2023",
+                  "55",
+                  "12%5FCUESTIONARIO%2DENAHO04"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Manual de Encuestador",
+                "zip_path": "2023-55/13_Manual_del_Encuestador.zip",
+                "ficha_params": [
+                  "906",
+                  "13",
+                  "2023",
+                  "55",
+                  "13%5FManual%5Fdel%5FEncuestador"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Manual de Consistencia",
+                "zip_path": "2023-55/14_Manual_Consistencia.zip",
+                "ficha_params": [
+                  "906",
+                  "14",
+                  "2023",
+                  "55",
+                  "14%5FManual%5FConsistencia"
+                ]
+              },
+              {
+                "doc_code": "15",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01",
+                "zip_path": "2023-55/15_Relaciones-Logicas-Enaho01.zip",
+                "ficha_params": [
+                  "906",
+                  "15",
+                  "2023",
+                  "55",
+                  "15%5FRelaciones%2DLogicas%2DEnaho01"
+                ]
+              },
+              {
+                "doc_code": "16",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-55/16_Relaciones-Logicas-Enaho01A.zip",
+                "ficha_params": [
+                  "906",
+                  "16",
+                  "2023",
+                  "55",
+                  "16%5FRelaciones%2DLogicas%2DEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "17",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01B",
+                "zip_path": "2023-55/17_Relaciones-Logicas-Enaho01B.zip",
+                "ficha_params": [
+                  "906",
+                  "17",
+                  "2023",
+                  "55",
+                  "17%5FRelaciones%2DLogicas%2DEnaho01B"
+                ]
+              },
+              {
+                "doc_code": "18",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.02",
+                "zip_path": "2023-55/18_Relaciones-Logicas-Enaho02.zip",
+                "ficha_params": [
+                  "906",
+                  "18",
+                  "2023",
+                  "55",
+                  "18%5FRelaciones%2DLogicas%2DEnaho02"
+                ]
+              },
+              {
+                "doc_code": "19",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.04",
+                "zip_path": "2023-55/19_Relaciones-Logicas-Enaho04.zip",
+                "ficha_params": [
+                  "906",
+                  "19",
+                  "2023",
+                  "55",
+                  "19%5FRelaciones%2DLogicas%2DEnaho04"
+                ]
+              },
+              {
+                "doc_code": "20",
+                "doc_name": "Diccionario",
+                "zip_path": "2023-55/20_Diccionario_2023.zip",
+                "ficha_params": [
+                  "906",
+                  "20",
+                  "2023",
+                  "55",
+                  "20%5FDiccionario%5F2023"
+                ]
+              },
+              {
+                "doc_code": "21",
+                "doc_name": "Deflactacion",
+                "zip_path": "2023-55/21_Deflactacion.zip",
+                "ficha_params": [
+                  "906",
+                  "21",
+                  "2023",
+                  "55",
+                  "21%5FDeflactacion"
+                ]
+              },
+              {
+                "doc_code": "22",
+                "doc_name": "Imputación Enaho 01",
+                "zip_path": "2023-55/22_Imputacion-Enaho01.zip",
+                "ficha_params": [
+                  "906",
+                  "22",
+                  "2023",
+                  "55",
+                  "22%5FImputacion%2DEnaho01"
+                ]
+              },
+              {
+                "doc_code": "23",
+                "doc_name": "Imputación Enaho 01A",
+                "zip_path": "2023-55/23_Imputacion-Enaho01A.zip",
+                "ficha_params": [
+                  "906",
+                  "23",
+                  "2023",
+                  "55",
+                  "23%5FImputacion%2DEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "24",
+                "doc_name": "Imputación Ingreso Productor Agropecuario",
+                "zip_path": "2023-55/24_Imputacion-Ingreso-Productor-Agropec.zip",
+                "ficha_params": [
+                  "906",
+                  "24",
+                  "2023",
+                  "55",
+                  "24%5FImputacion%2DIngreso%2DProductor%2DAgropec"
+                ]
+              },
+              {
+                "doc_code": "25",
+                "doc_name": "Imputación Ingreso Trabajador Independiente",
+                "zip_path": "2023-55/25_Imputacion-Ingreso-Trabajador-Indepen.zip",
+                "ficha_params": [
+                  "906",
+                  "25",
+                  "2023",
+                  "55",
+                  "25%5FImputacion%2DIngreso%2DTrabajador%2DIndepen"
+                ]
+              },
+              {
+                "doc_code": "26",
+                "doc_name": "Procedimiento-Imputacion-Hot-Deck",
+                "zip_path": "2023-55/26_Procedimiento-Imputacion-Hot-Deck.zip",
+                "ficha_params": [
+                  "906",
+                  "26",
+                  "2023",
+                  "55",
+                  "26%5FProcedimiento%2DImputacion%2DHot%2DDeck"
+                ]
+              },
+              {
+                "doc_code": "27",
+                "doc_name": "Variables Calculadas - Sumarias",
+                "zip_path": "2023-55/27_Sumaria_2023.zip",
+                "ficha_params": [
+                  "906",
+                  "27",
+                  "2023",
+                  "55",
+                  "27%5FSumaria%5F2023"
+                ]
+              },
+              {
+                "doc_code": "28",
+                "doc_name": "Variables Calculadas - Sumarias 12 Grupos",
+                "zip_path": "2023-55/28_Sumaria_2023-12G.zip",
+                "ficha_params": [
+                  "906",
+                  "28",
+                  "2023",
+                  "55",
+                  "28%5FSumaria%5F2023%2D12G"
+                ]
+              }
+            ]
+          },
+          "Trimestre 1": {
+            "period_value": "63",
+            "modules": [
+              {
+                "survey_code": "842",
+                "module_code": "1",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "842-Modulo01",
+                "stata_code": "842-Modulo01",
+                "spss_code": "842-Modulo01"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "2",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "842-Modulo02",
+                "stata_code": "842-Modulo02",
+                "spss_code": "842-Modulo02"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "3",
+                "module_name": "Educación",
+                "csv_code": "842-Modulo03",
+                "stata_code": "842-Modulo03",
+                "spss_code": "842-Modulo03"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "4",
+                "module_name": "Salud",
+                "csv_code": "842-Modulo04",
+                "stata_code": "842-Modulo04",
+                "spss_code": "842-Modulo04"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "7",
+                "module_name": "Gastos en Alimentos y Bebidas (Módulo 601)",
+                "csv_code": "842-Modulo07",
+                "stata_code": "842-Modulo07",
+                "spss_code": "842-Modulo07"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "37",
+                "module_name": "Programas Sociales  (Miembros del Hogar)",
+                "csv_code": "842-Modulo37",
+                "stata_code": "842-Modulo37",
+                "spss_code": "842-Modulo37"
+              },
+              {
+                "survey_code": "842",
+                "module_code": "85",
+                "module_name": "Gobernabilidad, Democracia y Transparencia",
+                "csv_code": "842-Modulo85",
+                "stata_code": "842-Modulo85",
+                "spss_code": "842-Modulo85"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Ficha Tecnica",
+                "zip_path": "2023-63/01_Ficha_Tecnica.zip",
+                "ficha_params": [
+                  "842",
+                  "01",
+                  "2023",
+                  "63",
+                  "01%5FFicha%5FTecnica"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Diccionario de Datos",
+                "zip_path": "2023-63/02_Diccionario_de_Datos.zip",
+                "ficha_params": [
+                  "842",
+                  "02",
+                  "2023",
+                  "63",
+                  "02%5FDiccionario%5Fde%5FDatos"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01",
+                "zip_path": "2023-63/03_Imputaciones_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "842",
+                  "03",
+                  "2023",
+                  "63",
+                  "03%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-63/04_Imputaciones_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "842",
+                  "04",
+                  "2023",
+                  "63",
+                  "04%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Imputaciones para el Módulo - Trabajador Independiente",
+                "zip_path": "2023-63/05_Imputaciones_para_el_Modulo_Trabajador_Independiente.zip",
+                "ficha_params": [
+                  "842",
+                  "05",
+                  "2023",
+                  "63",
+                  "05%5FImputaciones%5Fpara%5Fel%5FModulo%5FTrabajador%5FIndependiente"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Imputaciones para el Módulo - Productor Agropecuario",
+                "zip_path": "2023-63/06_Imputaciones_para_el_Modulo_Productor_Agropecuario.zip",
+                "ficha_params": [
+                  "842",
+                  "06",
+                  "2023",
+                  "63",
+                  "06%5FImputaciones%5Fpara%5Fel%5FModulo%5FProductor%5FAgropecuario"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Deflactación mensual",
+                "zip_path": "2023-63/07_Deflactacion_mensual.zip",
+                "ficha_params": [
+                  "842",
+                  "07",
+                  "2023",
+                  "63",
+                  "07%5FDeflactacion%5Fmensual"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01",
+                "zip_path": "2023-63/08_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "842",
+                  "08",
+                  "2023",
+                  "63",
+                  "08%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-63/09_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "842",
+                  "09",
+                  "2023",
+                  "63",
+                  "09%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario Enaho.01",
+                "zip_path": "2023-63/10_Cuestionario_Enaho01.zip",
+                "ficha_params": [
+                  "842",
+                  "10",
+                  "2023",
+                  "63",
+                  "10%5FCuestionario%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario Enaho.01A",
+                "zip_path": "2023-63/11_Cuestionario_Enaho01A.zip",
+                "ficha_params": [
+                  "842",
+                  "11",
+                  "2023",
+                  "63",
+                  "11%5FCuestionario%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Cuestionario ENAHO.01B",
+                "zip_path": "2023-63/12_Cuestionario_Enaho01B.zip",
+                "ficha_params": [
+                  "842",
+                  "12",
+                  "2023",
+                  "63",
+                  "12%5FCuestionario%5FEnaho01B"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Cuestionario ENAHO.02",
+                "zip_path": "2023-63/13_Cuestionario_Enaho02.zip",
+                "ficha_params": [
+                  "842",
+                  "13",
+                  "2023",
+                  "63",
+                  "13%5FCuestionario%5FEnaho02"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Cuestionario ENAHO.04",
+                "zip_path": "2023-63/14_Cuestionario_Enaho04.zip",
+                "ficha_params": [
+                  "842",
+                  "14",
+                  "2023",
+                  "63",
+                  "14%5FCuestionario%5FEnaho04"
+                ]
+              }
+            ]
+          },
+          "Trimestre 2": {
+            "period_value": "64",
+            "modules": [
+              {
+                "survey_code": "852",
+                "module_code": "1",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "852-Modulo01",
+                "stata_code": "852-Modulo01",
+                "spss_code": "852-Modulo01"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "2",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "852-Modulo02",
+                "stata_code": "852-Modulo02",
+                "spss_code": "852-Modulo02"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "3",
+                "module_name": "Educación",
+                "csv_code": "852-Modulo03",
+                "stata_code": "852-Modulo03",
+                "spss_code": "852-Modulo03"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "4",
+                "module_name": "Salud",
+                "csv_code": "852-Modulo04",
+                "stata_code": "852-Modulo04",
+                "spss_code": "852-Modulo04"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "7",
+                "module_name": "Gastos en Alimentos y Bebidas (Módulo 601)",
+                "csv_code": "852-Modulo07",
+                "stata_code": "852-Modulo07",
+                "spss_code": "852-Modulo07"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "37",
+                "module_name": "Programas Sociales  (Miembros del Hogar)",
+                "csv_code": "852-Modulo37",
+                "stata_code": "852-Modulo37",
+                "spss_code": "852-Modulo37"
+              },
+              {
+                "survey_code": "852",
+                "module_code": "85",
+                "module_name": "Gobernabilidad, Democracia y Transparencia",
+                "csv_code": "852-Modulo85",
+                "stata_code": "852-Modulo85",
+                "spss_code": "852-Modulo85"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Ficha Tecnica",
+                "zip_path": "2023-64/01_Ficha_Tecnica.zip",
+                "ficha_params": [
+                  "852",
+                  "01",
+                  "2023",
+                  "64",
+                  "01%5FFicha%5FTecnica"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Diccionario de Datos",
+                "zip_path": "2023-64/02_Diccionario_de_Datos.zip",
+                "ficha_params": [
+                  "852",
+                  "02",
+                  "2023",
+                  "64",
+                  "02%5FDiccionario%5Fde%5FDatos"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01",
+                "zip_path": "2023-64/03_Imputaciones_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "852",
+                  "03",
+                  "2023",
+                  "64",
+                  "03%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-64/04_Imputaciones_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "852",
+                  "04",
+                  "2023",
+                  "64",
+                  "04%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Imputaciones para el Módulo - Trabajador Independiente",
+                "zip_path": "2023-64/05_Imputaciones_para_el_Modulo_Trabajador_Independiente.zip",
+                "ficha_params": [
+                  "852",
+                  "05",
+                  "2023",
+                  "64",
+                  "05%5FImputaciones%5Fpara%5Fel%5FModulo%5FTrabajador%5FIndependiente"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Imputaciones para el Módulo - Productor Agropecuario",
+                "zip_path": "2023-64/06_Imputaciones_para_el_Modulo_Productor_Agropecuario.zip",
+                "ficha_params": [
+                  "852",
+                  "06",
+                  "2023",
+                  "64",
+                  "06%5FImputaciones%5Fpara%5Fel%5FModulo%5FProductor%5FAgropecuario"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Deflactación mensual",
+                "zip_path": "2023-64/07_Deflactacion_mensual.zip",
+                "ficha_params": [
+                  "852",
+                  "07",
+                  "2023",
+                  "64",
+                  "07%5FDeflactacion%5Fmensual"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01",
+                "zip_path": "2023-64/08_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "852",
+                  "08",
+                  "2023",
+                  "64",
+                  "08%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-64/09_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "852",
+                  "09",
+                  "2023",
+                  "64",
+                  "09%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario Enaho.01",
+                "zip_path": "2023-64/10_Cuestionario_Enaho01.zip",
+                "ficha_params": [
+                  "852",
+                  "10",
+                  "2023",
+                  "64",
+                  "10%5FCuestionario%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario Enaho.01A",
+                "zip_path": "2023-64/11_Cuestionario_Enaho01A.zip",
+                "ficha_params": [
+                  "852",
+                  "11",
+                  "2023",
+                  "64",
+                  "11%5FCuestionario%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Cuestionario ENAHO.01B",
+                "zip_path": "2023-64/12_Cuestionario_Enaho01B.zip",
+                "ficha_params": [
+                  "852",
+                  "12",
+                  "2023",
+                  "64",
+                  "12%5FCuestionario%5FEnaho01B"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Cuestionario ENAHO.02",
+                "zip_path": "2023-64/13_Cuestionario_Enaho02.zip",
+                "ficha_params": [
+                  "852",
+                  "13",
+                  "2023",
+                  "64",
+                  "13%5FCuestionario%5FEnaho02"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Cuestionario ENAHO.04",
+                "zip_path": "2023-64/14_Cuestionario_Enaho04.zip",
+                "ficha_params": [
+                  "852",
+                  "14",
+                  "2023",
+                  "64",
+                  "14%5FCuestionario%5FEnaho04"
+                ]
+              }
+            ]
+          },
+          "Trimestre 3": {
+            "period_value": "65",
+            "modules": [
+              {
+                "survey_code": "867",
+                "module_code": "1",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "867-Modulo01",
+                "stata_code": "867-Modulo01",
+                "spss_code": "867-Modulo01"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "2",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "867-Modulo02",
+                "stata_code": "867-Modulo02",
+                "spss_code": "867-Modulo02"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "3",
+                "module_name": "Educación",
+                "csv_code": "867-Modulo03",
+                "stata_code": "867-Modulo03",
+                "spss_code": "867-Modulo03"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "4",
+                "module_name": "Salud",
+                "csv_code": "867-Modulo04",
+                "stata_code": "867-Modulo04",
+                "spss_code": "867-Modulo04"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "7",
+                "module_name": "Gastos en Alimentos y Bebidas (Módulo 601)",
+                "csv_code": "867-Modulo07",
+                "stata_code": "867-Modulo07",
+                "spss_code": "867-Modulo07"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "37",
+                "module_name": "Programas Sociales  (Miembros del Hogar)",
+                "csv_code": "867-Modulo37",
+                "stata_code": "867-Modulo37",
+                "spss_code": "867-Modulo37"
+              },
+              {
+                "survey_code": "867",
+                "module_code": "85",
+                "module_name": "Gobernabilidad, Democracia y Transparencia",
+                "csv_code": "867-Modulo85",
+                "stata_code": "867-Modulo85",
+                "spss_code": "867-Modulo85"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Ficha Tecnica",
+                "zip_path": "2023-65/01_Ficha_Tecnica.zip",
+                "ficha_params": [
+                  "867",
+                  "01",
+                  "2023",
+                  "65",
+                  "01%5FFicha%5FTecnica"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Diccionario de Datos",
+                "zip_path": "2023-65/02_Diccionario_de_Datos.zip",
+                "ficha_params": [
+                  "867",
+                  "02",
+                  "2023",
+                  "65",
+                  "02%5FDiccionario%5Fde%5FDatos"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01",
+                "zip_path": "2023-65/03_Imputaciones_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "867",
+                  "03",
+                  "2023",
+                  "65",
+                  "03%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-65/04_Imputaciones_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "867",
+                  "04",
+                  "2023",
+                  "65",
+                  "04%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Imputaciones para el Módulo - Trabajador Independiente",
+                "zip_path": "2023-65/05_Imputaciones_para_el_Modulo_Trabajador_Independiente.zip",
+                "ficha_params": [
+                  "867",
+                  "05",
+                  "2023",
+                  "65",
+                  "05%5FImputaciones%5Fpara%5Fel%5FModulo%5FTrabajador%5FIndependiente"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Imputaciones para el Módulo - Productor Agropecuario",
+                "zip_path": "2023-65/06_Imputaciones_para_el_Modulo_Productor_Agropecuario.zip",
+                "ficha_params": [
+                  "867",
+                  "06",
+                  "2023",
+                  "65",
+                  "06%5FImputaciones%5Fpara%5Fel%5FModulo%5FProductor%5FAgropecuario"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Deflactación mensual",
+                "zip_path": "2023-65/07_Deflactacion_mensual.zip",
+                "ficha_params": [
+                  "867",
+                  "07",
+                  "2023",
+                  "65",
+                  "07%5FDeflactacion%5Fmensual"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01",
+                "zip_path": "2023-65/08_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "867",
+                  "08",
+                  "2023",
+                  "65",
+                  "08%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-65/09_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "867",
+                  "09",
+                  "2023",
+                  "65",
+                  "09%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario Enaho.01",
+                "zip_path": "2023-65/10_Cuestionario_Enaho01.zip",
+                "ficha_params": [
+                  "867",
+                  "10",
+                  "2023",
+                  "65",
+                  "10%5FCuestionario%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario Enaho.01A",
+                "zip_path": "2023-65/11_Cuestionario_Enaho01A.zip",
+                "ficha_params": [
+                  "867",
+                  "11",
+                  "2023",
+                  "65",
+                  "11%5FCuestionario%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Cuestionario ENAHO.01B",
+                "zip_path": "2023-65/12_Cuestionario_Enaho01B.zip",
+                "ficha_params": [
+                  "867",
+                  "12",
+                  "2023",
+                  "65",
+                  "12%5FCuestionario%5FEnaho01B"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Cuestionario ENAHO.02",
+                "zip_path": "2023-65/13_Cuestionario_Enaho02.zip",
+                "ficha_params": [
+                  "867",
+                  "13",
+                  "2023",
+                  "65",
+                  "13%5FCuestionario%5FEnaho02"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Cuestionario ENAHO.04",
+                "zip_path": "2023-65/14_Cuestionario_Enaho04.zip",
+                "ficha_params": [
+                  "867",
+                  "14",
+                  "2023",
+                  "65",
+                  "14%5FCuestionario%5FEnaho04"
+                ]
+              }
+            ]
+          },
+          "Trimestre 4": {
+            "period_value": "66",
+            "modules": [
+              {
+                "survey_code": "901",
+                "module_code": "1",
+                "module_name": "Características de la Vivienda y del Hogar",
+                "csv_code": "901-Modulo01",
+                "stata_code": "901-Modulo01",
+                "spss_code": "901-Modulo01"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "2",
+                "module_name": "Características de los Miembros del Hogar",
+                "csv_code": "901-Modulo02",
+                "stata_code": "901-Modulo02",
+                "spss_code": "901-Modulo02"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "3",
+                "module_name": "Educación",
+                "csv_code": "901-Modulo03",
+                "stata_code": "901-Modulo03",
+                "spss_code": "901-Modulo03"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "4",
+                "module_name": "Salud",
+                "csv_code": "901-Modulo04",
+                "stata_code": "901-Modulo04",
+                "spss_code": "901-Modulo04"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "7",
+                "module_name": "Gastos en Alimentos y Bebidas (Módulo 601)",
+                "csv_code": "901-Modulo07",
+                "stata_code": "901-Modulo07",
+                "spss_code": "901-Modulo07"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "37",
+                "module_name": "Programas Sociales  (Miembros del Hogar)",
+                "csv_code": "901-Modulo37",
+                "stata_code": "901-Modulo37",
+                "spss_code": "901-Modulo37"
+              },
+              {
+                "survey_code": "901",
+                "module_code": "85",
+                "module_name": "Gobernabilidad, Democracia y Transparencia",
+                "csv_code": "901-Modulo85",
+                "stata_code": "901-Modulo85",
+                "spss_code": "901-Modulo85"
+              }
+            ],
+            "docs": [
+              {
+                "doc_code": "1",
+                "doc_name": "Ficha Tecnica",
+                "zip_path": "2023-66/01_Ficha_Tecnica.zip",
+                "ficha_params": [
+                  "901",
+                  "01",
+                  "2023",
+                  "66",
+                  "01%5FFicha%5FTecnica"
+                ]
+              },
+              {
+                "doc_code": "2",
+                "doc_name": "Diccionario de Datos",
+                "zip_path": "2023-66/02_Diccionario_de_Datos.zip",
+                "ficha_params": [
+                  "901",
+                  "02",
+                  "2023",
+                  "66",
+                  "02%5FDiccionario%5Fde%5FDatos"
+                ]
+              },
+              {
+                "doc_code": "3",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01",
+                "zip_path": "2023-66/03_Imputaciones_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "901",
+                  "03",
+                  "2023",
+                  "66",
+                  "03%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "4",
+                "doc_name": "Imputaciones para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-66/04_Imputaciones_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "901",
+                  "04",
+                  "2023",
+                  "66",
+                  "04%5FImputaciones%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "5",
+                "doc_name": "Imputaciones para el Módulo - Trabajador Independiente",
+                "zip_path": "2023-66/05_Imputaciones_para_el_Modulo_Trabajador_Independiente.zip",
+                "ficha_params": [
+                  "901",
+                  "05",
+                  "2023",
+                  "66",
+                  "05%5FImputaciones%5Fpara%5Fel%5FModulo%5FTrabajador%5FIndependiente"
+                ]
+              },
+              {
+                "doc_code": "6",
+                "doc_name": "Imputaciones para el Módulo - Productor Agropecuario",
+                "zip_path": "2023-66/06_Imputaciones_para_el_Modulo_Productor_Agropecuario.zip",
+                "ficha_params": [
+                  "901",
+                  "06",
+                  "2023",
+                  "66",
+                  "06%5FImputaciones%5Fpara%5Fel%5FModulo%5FProductor%5FAgropecuario"
+                ]
+              },
+              {
+                "doc_code": "7",
+                "doc_name": "Deflactación mensual",
+                "zip_path": "2023-66/07_Deflactacion_mensual.zip",
+                "ficha_params": [
+                  "901",
+                  "07",
+                  "2023",
+                  "66",
+                  "07%5FDeflactacion%5Fmensual"
+                ]
+              },
+              {
+                "doc_code": "8",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01",
+                "zip_path": "2023-66/08_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01.zip",
+                "ficha_params": [
+                  "901",
+                  "08",
+                  "2023",
+                  "66",
+                  "08%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01"
+                ]
+              },
+              {
+                "doc_code": "9",
+                "doc_name": "Relaciones Lógicas para el Cuestionario ENAHO.01A",
+                "zip_path": "2023-66/09_Relaciones_Logicas_para_el_Cuestionario_ENAHO_01A.zip",
+                "ficha_params": [
+                  "901",
+                  "09",
+                  "2023",
+                  "66",
+                  "09%5FRelaciones%5FLogicas%5Fpara%5Fel%5FCuestionario%5FENAHO%5F01A"
+                ]
+              },
+              {
+                "doc_code": "10",
+                "doc_name": "Cuestionario Enaho.01",
+                "zip_path": "2023-66/10_Cuestionario_Enaho01.zip",
+                "ficha_params": [
+                  "901",
+                  "10",
+                  "2023",
+                  "66",
+                  "10%5FCuestionario%5FEnaho01"
+                ]
+              },
+              {
+                "doc_code": "11",
+                "doc_name": "Cuestionario Enaho.01A",
+                "zip_path": "2023-66/11_Cuestionario_Enaho01A.zip",
+                "ficha_params": [
+                  "901",
+                  "11",
+                  "2023",
+                  "66",
+                  "11%5FCuestionario%5FEnaho01A"
+                ]
+              },
+              {
+                "doc_code": "12",
+                "doc_name": "Cuestionario ENAHO.01B",
+                "zip_path": "2023-66/12_Cuestionario_Enaho01B.zip",
+                "ficha_params": [
+                  "901",
+                  "12",
+                  "2023",
+                  "66",
+                  "12%5FCuestionario%5FEnaho01B"
+                ]
+              },
+              {
+                "doc_code": "13",
+                "doc_name": "Cuestionario ENAHO.02",
+                "zip_path": "2023-66/13_Cuestionario_Enaho02.zip",
+                "ficha_params": [
+                  "901",
+                  "13",
+                  "2023",
+                  "66",
+                  "13%5FCuestionario%5FEnaho02"
+                ]
+              },
+              {
+                "doc_code": "14",
+                "doc_name": "Cuestionario ENAHO.04",
+                "zip_path": "2023-66/14_Cuestionario_Enaho04.zip",
+                "ficha_params": [
+                  "901",
+                  "14",
+                  "2023",
+                  "66",
+                  "14%5FCuestionario%5FEnaho04"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "source": "portal_build_catalog"
+}

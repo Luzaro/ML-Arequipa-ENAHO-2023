@@ -1,0 +1,12 @@
+{
+  "rows": 1517,
+  "cols": 176,
+  "households_with_any_null": 541,
+  "households_without_nulls": 976,
+  "target_counts": {
+    "0": 1310,
+    "1": 207
+  },
+  "eda_dir": "C:\\Users\\the master\\Documents\\New project\\reports\\eda",
+  "figures_dir": "C:\\Users\\the master\\Documents\\New project\\reports\\eda\\figures"
+}

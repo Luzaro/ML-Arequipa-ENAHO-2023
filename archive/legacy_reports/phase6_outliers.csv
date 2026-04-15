@@ -1,0 +1,6 @@
+﻿variable,lower_bound,upper_bound,outlier_count
+edad_jefe,5.5,97.5,1
+tam_hogar,-1.0,7.0,14
+num_perceptores,-2.0,6.0,1
+ingreso_hogar,-36998.83984375,114731.37890625,98
+ingreso_percapita,-9693.617431640625,36772.970458984375,100

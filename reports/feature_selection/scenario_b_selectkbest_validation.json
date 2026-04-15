@@ -1,0 +1,10 @@
+{
+  "phase": "SCENARIO_B_SELECTKBEST",
+  "passed": true,
+  "candidate_features": 48,
+  "expanded_features": 87,
+  "constant_expanded_features": 0,
+  "recommended_k": 30,
+  "selected_rows": 1517,
+  "selected_cols": 37
+}

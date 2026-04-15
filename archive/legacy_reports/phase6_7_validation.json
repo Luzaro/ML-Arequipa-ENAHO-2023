@@ -1,0 +1,8 @@
+{
+  "phase": "FASE 6-7",
+  "passed": true,
+  "phase6_rows": 1517,
+  "phase7_rows": 1517,
+  "target_variable": "target_pobreza_bin",
+  "target_source_variable": "pobreza"
+}

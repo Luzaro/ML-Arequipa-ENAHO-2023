@@ -1,0 +1,41 @@
+{
+  "dataset": "enaho_arequipa_escenario_b_clean",
+  "target": "target_pobreza_monetaria_bin",
+  "test_size": 0.3,
+  "feature_set_official": "top30_full",
+  "official_candidates": [
+    {
+      "scenario_label": "maxima_deteccion",
+      "story_name": "Maxima deteccion",
+      "alias": "RADAR MAX",
+      "objective": "Maximizar recall para no dejar hogares pobres fuera.",
+      "feature_set": "top30_full",
+      "model_name": "Logistic",
+      "model_family": "LogisticRegression",
+      "strategy": "smote",
+      "threshold": 0.2
+    },
+    {
+      "scenario_label": "mejor_equilibrio",
+      "story_name": "Mejor equilibrio",
+      "alias": "XGB BALANCE",
+      "objective": "Equilibrar recall y precision con mejor F1 global.",
+      "feature_set": "top30_full",
+      "model_name": "XGBoost",
+      "model_family": "XGBoostClassifier",
+      "strategy": "weighted",
+      "threshold": 0.4
+    },
+    {
+      "scenario_label": "precision_controlada",
+      "story_name": "Mayor precision",
+      "alias": "LGBM PRECISO",
+      "objective": "Elevar precision sin perder sensibilidad util.",
+      "feature_set": "top30_full",
+      "model_name": "LightGBM",
+      "model_family": "LightGBMClassifier",
+      "strategy": "smote",
+      "threshold": 0.35
+    }
+  ]
+}

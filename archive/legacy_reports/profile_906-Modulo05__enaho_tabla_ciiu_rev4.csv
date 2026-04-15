@@ -1,0 +1,3 @@
+﻿table_id,zip_name,table_name,column_name,original_column_name,dtype,null_count,null_pct,n_unique
+906-Modulo05__enaho_tabla_ciiu_rev4,906-Modulo05.zip,enaho_tabla_ciiu_rev4,codrev4,codrev4,str,0,0.0,418
+906-Modulo05__enaho_tabla_ciiu_rev4,906-Modulo05.zip,enaho_tabla_ciiu_rev4,rnombre,rnombre,str,0,0.0,418

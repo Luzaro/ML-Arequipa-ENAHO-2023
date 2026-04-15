@@ -1,0 +1,8 @@
+{
+  "phase": "FASE 3",
+  "passed": true,
+  "tables_profiled": 13,
+  "profiles_generated": 13,
+  "missing_merge_tables": [],
+  "standardized_tables_dir": "C:\\Users\\the master\\Documents\\New project\\data\\interim\\phase3_standardized"
+}

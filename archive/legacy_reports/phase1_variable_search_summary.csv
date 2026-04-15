@@ -1,0 +1,43 @@
+﻿concept,query,result_count_raw,result_count_filtered,status
+ubigeo,ubigeo,60,6,ok
+conglome,conglome,196,21,ok
+vivienda,vivienda,346,57,ok
+hogar,hogar,3849,623,ok
+factor_expansion,factor de expansion,44,6,ok
+factor_expansion,factor07,43,4,ok
+factor_expansion,facpob07,21,1,ok
+pobreza_monetaria,pobreza monetaria,0,0,sin_resultados
+pobreza_monetaria,pobreza,24,4,ok
+jefe_hogar,jefe de hogar,0,0,sin_resultados
+jefe_hogar,parentesco jefe,0,0,sin_resultados
+jefe_hogar,p203,67,6,ok
+educacion_jefe,nivel educativo,0,0,sin_resultados
+educacion_jefe,p301a,30,5,ok
+matricula_asistencia,matricula,88,28,ok
+matricula_asistencia,asistencia escolar,0,0,sin_resultados
+salud_acceso,salud,663,165,ok
+salud_acceso,atencion,179,48,ok
+material_piso,piso,6,1,ok
+material_piso,material piso,0,0,sin_resultados
+agua,agua,175,29,ok
+desague,desague,0,0,sin_resultados
+desague,servicio higienico,6,2,ok
+electricidad,electricidad,132,26,ok
+electricidad,alumbrado,37,6,ok
+combustible_cocina,combustible cocinar,0,0,sin_resultados
+combustible_cocina,combustible,108,21,ok
+tamano_hogar,tamano del hogar,0,0,sin_resultados
+tamano_hogar,mieperho,6,1,ok
+num_perceptores,perceptores,6,1,ok
+num_perceptores,ingreso,1996,336,ok
+ingreso_hogar,ingreso del hogar,0,0,sin_resultados
+ingreso_hogar,inghog1d,8,1,ok
+edad_jefe,edad del jefe,0,0,sin_resultados
+edad_jefe,p208a,24,4,ok
+sexo_jefe,sexo del jefe,0,0,sin_resultados
+sexo_jefe,p207,25,4,ok
+area_urbana_rural,urbana rural,0,0,sin_resultados
+area_urbana_rural,estrato,78,7,ok
+area_urbana_rural,dominio,60,6,ok
+ponderadores,ponderador,0,0,sin_resultados
+ponderadores,factor07,43,4,ok

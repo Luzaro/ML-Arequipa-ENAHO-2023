@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-04-11T03:46:28.755013",
+  "source_phase7": "C:\\Users\\the master\\Documents\\New project\\data\\interim\\enaho_arequipa_hogar_phase7.pkl",
+  "output_parquet": "C:\\Users\\the master\\Documents\\New project\\data\\processed\\enaho_arequipa_model_ready_final.parquet",
+  "output_csv": "C:\\Users\\the master\\Documents\\New project\\data\\processed\\enaho_arequipa_model_ready_final.csv",
+  "target_column": "target_pobreza_monetaria_bin",
+  "weight_column": "factor_expansion_anual",
+  "id_columns": [
+    "hogar_id",
+    "conglome",
+    "vivienda",
+    "hogar",
+    "ubigeo"
+  ],
+  "feature_columns": [
+    "nivel_educativo_jefe_ord",
+    "usa_combustible_limpio",
+    "num_habitaciones",
+    "num_miembros_afiliados_essalud",
+    "material_techo",
+    "num_ninos_0_5",
+    "tam_hogar",
+    "edad_jefe",
+    "estrato_geografico",
+    "piso_precario",
+    "tenencia_vivienda",
+    "num_ninos_6_16",
+    "acceso_internet_hogar",
+    "num_miembros_sin_atencion_salud",
+    "tipo_vivienda",
+    "material_pared",
+    "acceso_desague_red",
+    "num_6_16_no_matriculados"
+  ],
+  "n_rows": 1517,
+  "n_cols": 31
+}

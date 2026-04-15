@@ -1,0 +1,36 @@
+﻿variable,grupo,tipo,descripcion,nulos_pct,mutual_info,rf_importance,rank_mi,rank_rf,rank_promedio
+educ_jefe_ord,educacion_jefe,ordinal,Nivel educativo del jefe,0.0,0.04352313720060197,0.11229000997742541,1.0,1.0,1.0
+p104,vivienda,numerica,Cantidad de habitaciones,0.3955,0.026947663478088968,0.06932948848282988,4.0,5.0,4.5
+combustible_limpio,servicios,binaria,Uso de combustible limpio,0.0,0.029636878051282622,0.046678043090703766,2.0,7.0,4.5
+miembros_afiliados_essalud,salud,numerica,Miembros afiliados a EsSalud,0.0,0.026609970081163725,0.06168212838262789,5.0,6.0,5.5
+p103a,vivienda,categorica,Material de techo,0.3955,0.024158849057309473,0.07216669855124602,7.0,4.0,5.5
+n_ninos_0_5,hogar,numerica,Ninos de 0 a 5 anios,0.0,0.028920814852225307,0.03151316826610912,3.0,12.0,7.5
+tam_hogar,hogar,numerica,Tamano del hogar,0.0,0.012416852905629883,0.0937846199089569,13.0,2.0,7.5
+combustible_precario,servicios,binaria,Uso de combustible precario,0.0,0.025501748425932558,0.03504324769949695,6.0,11.0,8.5
+edad_jefe,demografia_jefe,numerica,Edad del jefe del hogar,0.0,0.010989944339522273,0.08308100337792775,16.0,3.0,9.5
+estrato,geografia,categorica,Estrato geografico,0.0,0.011298734942560396,0.03882640617878039,15.0,10.0,12.5
+piso_precario,vivienda,binaria,Indicador de piso precario,0.0,0.015288767364408637,0.01616035995917609,8.0,18.0,13.0
+n_ninos_6_16,hogar,numerica,Ninos de 6 a 16 anios,0.0,0.010195726086481116,0.04045505496240144,18.0,8.0,13.0
+p105a,vivienda,categorica,Tenencia de vivienda,0.0,0.013314472758060525,0.02264464313331593,11.0,15.0,13.0
+miembros_sin_atencion_salud,salud,numerica,Miembros sin atencion en salud,0.0,0.00893991318768883,0.03991974947713503,19.0,9.0,14.0
+internet_hogar,servicios,binaria,Conexion a internet en el hogar,0.0,0.01263387269906091,0.02190387670410201,12.0,16.0,14.0
+dominio,geografia,categorica,Dominio geografico,0.0,0.012336966054556031,0.01547024160060692,14.0,19.0,16.5
+p101,vivienda,categorica,Tipo de vivienda,0.3955,0.015005820620573873,0.008581050845856662,9.0,28.0,18.5
+p102,vivienda,categorica,Material de paredes,0.3955,0.0036698000601647074,0.025157895753827906,25.0,14.0,19.5
+acceso_desague_red,servicios,binaria,Acceso a desague por red,0.0,0.007903951293812717,0.01330153789860111,20.0,21.0,20.5
+n_6_16_no_matriculados,educacion,numerica,Conteo de menores no matriculados,0.0,0.014983766515302088,0.003596656088781915,10.0,33.0,21.5
+agua_segura_proxy,servicios,binaria,Proxy de agua segura,0.0,0.007465643613323025,0.012705949075377341,21.0,23.0,22.0
+num_perceptores,hogar,numerica,Numero de perceptores,0.0,0.0,0.028012820405337497,34.0,13.0,23.5
+acceso_agua_red,servicios,binaria,Acceso a agua por red,0.0,0.0062197208334149046,0.010709399259959979,23.0,25.0,24.0
+sexo_jefe_bin,demografia_jefe,binaria,Sexo del jefe del hogar,0.0,3.719457915124513e-05,0.016897156737693184,32.0,17.0,24.5
+agua_potable_reportada,servicios,binaria,Agua potable reportada,0.0,0.0043612143691525995,0.009861983929225803,24.0,26.0,25.0
+health_no_attention,salud,binaria,Hogar con al menos un miembro sin atencion,0.0,0.002236875195657337,0.012795425376767967,28.0,22.0,25.0
+agua_disponible_diaria,servicios,binaria,Agua disponible todos los dias,0.0,0.002379719333931579,0.01076849496044608,27.0,24.0,25.5
+n_6_16_no_asisten,educacion,numerica,Conteo de menores que no asisten,0.0,0.007316547081743785,0.0045782999118017505,22.0,30.0,26.0
+material_piso,vivienda,categorica,Material del piso,0.3955,0.010227770267257963,0.0,17.0,35.0,26.0
+n_adultos_65_mas,hogar,numerica,Adultos mayores de 65,0.0,0.0,0.015429999048380742,34.0,20.0,27.0
+area_rural_bin,geografia,binaria,Hogar en area rural,0.0,0.0031355822353700685,0.005895542550158851,26.0,29.0,27.5
+saneamiento_inadecuado,servicios,binaria,Indicador de saneamiento inadecuado,0.0,3.874552428895228e-09,0.00942591047689012,33.0,27.0,30.0
+acceso_electricidad,servicios,binaria,Acceso a electricidad,0.0,0.0021532802090135916,0.003747737223516563,29.0,32.0,30.5
+children_not_attending,educacion,binaria,Hogar con menores que no asisten,0.0,7.059236690015736e-05,0.004220562237954448,31.0,31.0,31.0
+children_not_enrolled,educacion,binaria,Hogar con menores no matriculados,0.0,0.001095994871264605,0.003364838466580625,30.0,34.0,32.0

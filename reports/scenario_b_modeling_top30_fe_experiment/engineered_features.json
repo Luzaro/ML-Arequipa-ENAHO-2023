@@ -1,0 +1,9 @@
+{
+  "engineered_features": [
+    "personas_por_habitacion",
+    "proporcion_ninos_hogar",
+    "proporcion_sin_atencion_salud",
+    "transferencias_publicas_total",
+    "indice_servicios_basicos"
+  ]
+}

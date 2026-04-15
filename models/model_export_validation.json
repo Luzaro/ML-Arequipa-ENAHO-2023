@@ -1,0 +1,17 @@
+{
+  "phase": "EXPORT_MODELS",
+  "passed": true,
+  "feature_set_official": "top30_full",
+  "n_models_exported": 6,
+  "missing_top20_columns": [],
+  "baseline_models": [
+    "logistic_regression_top30_full_pipeline.pkl",
+    "random_forest_top30_full_pipeline.pkl",
+    "xgboost_top30_full_pipeline.pkl"
+  ],
+  "tuned_models": [
+    "logistic_smote_deteccion_top30_full_pipeline.pkl",
+    "xgboost_weighted_equilibrio_top30_full_pipeline.pkl",
+    "lightgbm_smote_precision_top30_full_pipeline.pkl"
+  ]
+}

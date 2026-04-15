@@ -1,0 +1,7 @@
+﻿survey_label,category,year,period_label,module_code,module_name,preferred_format,preferred_code,csv_code,stata_code,spss_code,is_downloadable
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),1,Características de la Vivienda y del Hogar,STATA,906-Modulo01,906-Modulo01,906-Modulo01,906-Modulo01,True
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),2,Características de los Miembros del Hogar,STATA,906-Modulo02,906-Modulo02,906-Modulo02,906-Modulo02,True
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),3,Educación,STATA,906-Modulo03,906-Modulo03,906-Modulo03,906-Modulo03,True
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),4,Salud,STATA,906-Modulo04,906-Modulo04,906-Modulo04,906-Modulo04,True
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),5,Empleo e Ingresos,STATA,906-Modulo05,906-Modulo05,906-Modulo05,906-Modulo05,True
+Condiciones de Vida y Pobreza - ENAHO,ENAHO Actualizada,2023,Anual - (Ene-Dic),34,Sumarias ( Variables Calculadas ),STATA,906-Modulo34,906-Modulo34,906-Modulo34,906-Modulo34,True
