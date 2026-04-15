@@ -1,172 +1,134 @@
 # ENAHO Arequipa Pobreza 2023 ML
 
-Proyecto de clasificacion supervisada para predecir pobreza monetaria a nivel hogar en el departamento de Arequipa usando microdatos de ENAHO 2023 Anual del INEI.
+Proyecto de machine learning para predecir pobreza monetaria a nivel hogar en el departamento de Arequipa usando microdatos de la ENAHO 2023 Anual del INEI.
 
-## Descripcion general
+El repositorio integra:
 
-El proyecto construye un flujo reproducible de extraccion, transformacion y carga (ETL), prepara un dataset final a nivel hogar, evalua modelos baseline y modelos ajustados con foco en `recall`, y presenta resultados mediante notebooks y una aplicacion local en Streamlit.
+- un pipeline ETL reproducible
+- exploracion y perfilamiento del dato
+- seleccion de variables
+- comparacion de modelos baseline y ajustados
+- una aplicacion local en Streamlit para exposicion, demostracion y analisis interactivo
 
-La variable objetivo es `target_pobreza_monetaria_bin`, derivada de la variable oficial `pobreza` del modulo `Sumaria`.
+## Resumen ejecutivo
 
-La presentacion final del proyecto tiene un enfoque hibrido: mantiene la trazabilidad tecnica del pipeline, pero traduce los resultados a una narrativa mas clara para exposicion, sustentacion y demostracion local.
+La meta del proyecto es construir un flujo de datos y modelado que permita identificar hogares con mayor probabilidad de encontrarse en situacion de pobreza monetaria oficial, tomando como unidad de analisis el hogar y usando variables provenientes de vivienda, composicion del hogar, salud, educacion, empleo e ingresos.
 
-## Objetivos
+La solucion final no se limita a entrenar modelos. Tambien organiza evidencia tecnica y narrativa de resultados en una app multipagina de Streamlit pensada para:
 
-- Construir un ETL reproducible para ENAHO 2023 Anual en Arequipa.
-- Integrar modulos de vivienda, hogar, educacion, salud, empleo e ingresos a nivel hogar.
-- Preparar un dataset final limpio para modelado supervisado.
-- Comparar desempeno antes del tuning y despues del tuning.
-- Presentar los resultados en notebooks y en una app local de Streamlit.
+- sustentar el pipeline de extremo a extremo
+- mostrar hallazgos del EDA y feature selection
+- comparar escenarios de modelado
+- explorar una prediccion interactiva sobre variables del hogar
+
+## Objetivo
+
+Construir un pipeline reproducible para:
+
+1. extraer e integrar microdatos ENAHO 2023
+2. transformar la informacion a nivel hogar
+3. preparar un dataset limpio para modelado supervisado
+4. comparar modelos baseline y estrategias de ajuste para desbalance
+5. presentar resultados en notebooks y en una app local de Streamlit
 
 ## Fuente de datos
 
 - Encuesta Nacional de Hogares (ENAHO) 2023 Anual
 - Instituto Nacional de Estadistica e Informatica (INEI)
-- Acceso mediante `inei-microdatos`
+- Acceso programatico mediante `inei-microdatos`
 
 ### Modulos utilizados
 
-- `Modulo01`: Vivienda y Hogar
-- `Modulo02`: Miembros del Hogar
-- `Modulo03`: Educacion
-- `Modulo04`: Salud
-- `Modulo05`: Empleo e Ingresos
-- `Modulo34`: Sumaria
+- `Modulo01`: vivienda y hogar
+- `Modulo02`: miembros del hogar
+- `Modulo03`: educacion
+- `Modulo04`: salud
+- `Modulo05`: empleo e ingresos
+- `Modulo34`: sumaria
 
 ## Variable objetivo
 
+La variable objetivo oficial del proyecto es:
+
 - `target_pobreza_monetaria_bin`
-- `0 = no pobre`
-- `1 = pobre`
 
-## Estructura oficial del proyecto
+Interpretacion:
 
-```text
-enaho-arequipa-pobreza-2023-ml/
-  app/
-    app.py
-    streamlit_app.py
-    config.py
-    loaders.py
-    ui.py
-    narrative.py
-    feature_config.py
-    ui_helpers.py
-    pages/
-      01_inicio.py
-      02_etl.py
-      03_eda.py
-      04_feature_selection.py
-      05_baseline.py
-      06_tuning.py
-      07_modelos_finales.py
-      08_prediccion.py
-      09_conclusiones.py
-  data/
-    raw/
-    interim/
-    processed/
-      enaho_arequipa_escenario_b_clean.csv
-      enaho_arequipa_escenario_b_clean.parquet
-      enaho_arequipa_escenario_b_top30.csv
-      enaho_arequipa_escenario_b_top30.parquet
-  logs/
-  models/
-    baseline/
-    tuned/
-    model_inventory.csv
-    model_inventory.json
-    model_export_validation.json
-  notebooks/
-    01_eda_enaho_arequipa.ipynb
-    02_modelado_baseline.ipynb
-    03_modelado_recall_tuning.ipynb
-  reports/
-    eda/
-    feature_selection/
-    scenario_b_modeling/
-    scenario_b_modeling_recall/
-    scenario_b_modeling_imbalance/
-    scenario_b_modeling_top30_experiment/
-    scenario_b_modeling_all48_experiment/
-    scenario_b_modeling_top30_fe_experiment/
-  src/
-    etl/
-      extract.py
-      transform.py
-      load.py
-    modeling/
-      feature_selection.py
-      baseline.py
-      recall_tuning.py
-      export_models.py
-      imbalance_benchmark.py
-    utils/
-      paths.py
-      logging_utils.py
-      io_utils.py
-      runtime.py
-  archive/
-    processed_versions/
-    legacy_reports/
-    legacy_src/
-  .gitignore
-  README.md
-  requirements.txt
-```
+- `0`: hogar no pobre
+- `1`: hogar pobre
 
-## Convencion de carpetas
+Esta variable se deriva de la variable oficial `pobreza` presente en el modulo `Sumaria`.
 
-- `src/etl/`: capa oficial del ETL en tres etapas visibles.
-- `src/etl/`: implementacion oficial del ETL. Ya no depende del codigo historico archivado para `extract`, `transform` y `load`.
-- `src/modeling/`: capa oficial de seleccion de variables, baseline, tuning y exportacion. Ya no depende de `legacy`.
-- `src/utils/`: funciones compartidas de rutas, logging, IO y arranque.
-- `archive/legacy_src/`: scripts historicos del proyecto conservados por trazabilidad. Ya no forman parte de la ruta activa.
-- `reports/`: reportes vigentes del flujo final.
-- `archive/`: datasets y reportes historicos que ya no forman parte de la cara principal del repo.
+## Alcance del proyecto
 
-## Nombre sugerido para GitHub
-
-- Repositorio / carpeta sugerida: `enaho-arequipa-pobreza-2023-ml`
-- Motivo: resume el tema, la fuente territorial, el anio y el enfoque de machine learning en un nombre limpio y facil de versionar.
-
-## Flujo del proyecto
+El flujo del proyecto esta dividido en cuatro capas principales:
 
 ### 1. ETL
 
-Puntos de entrada oficiales:
+Pipeline para descarga, estandarizacion, filtrado geografico, integracion y consolidacion del dataset a nivel hogar.
 
-- `python src/etl/extract.py`
-- `python src/etl/transform.py`
-- `python src/etl/load.py`
+Entrypoints oficiales:
+
+```bash
+python src/etl/extract.py
+python src/etl/transform.py
+python src/etl/load.py
+```
 
 ### 2. EDA
 
+Analisis exploratorio para estudiar:
+
+- distribucion del target
+- faltantes y calidad del dato
+- relaciones por variable numerica y categorica
+- correlaciones y riesgos de redundancia
+
 Notebook principal:
 
-- `notebooks/01_eda_enaho_arequipa.ipynb`
+```bash
+notebooks/01_eda_enaho_arequipa.ipynb
+```
 
 ### 3. Modelado
 
-Notebooks principales:
+Incluye:
 
-- `notebooks/02_modelado_baseline.ipynb`
-- `notebooks/03_modelado_recall_tuning.ipynb`
+- seleccion de variables
+- modelos baseline
+- tuning con foco en `recall`
+- tratamiento del desbalance con `SMOTE`, `class_weight` y `scale_pos_weight`
+- exportacion de pipelines listos para uso en la app
 
 Scripts oficiales:
 
-- `python src/modeling/feature_selection.py`
-- `python src/modeling/baseline.py`
-- `python src/modeling/recall_tuning.py`
-- `python src/modeling/export_models.py`
+```bash
+python src/modeling/feature_selection.py
+python src/modeling/baseline.py
+python src/modeling/recall_tuning.py
+python src/modeling/export_models.py
+```
+
+Notebooks principales:
+
+```bash
+notebooks/02_modelado_baseline.ipynb
+notebooks/03_modelado_recall_tuning.ipynb
+```
 
 ### 4. Presentacion local
 
-Aplicacion Streamlit:
+La aplicacion Streamlit organiza los resultados en una experiencia navegable y visual para demo local.
 
-- `streamlit run app/streamlit_app.py`
+Ejecucion:
 
-Paginas principales de la app:
+```bash
+streamlit run app/streamlit_app.py
+```
+
+## App de Streamlit
+
+La app esta compuesta por las siguientes secciones:
 
 - `RESUMEN EJECUTIVO`
 - `PIPELINE ETL`
@@ -178,23 +140,37 @@ Paginas principales de la app:
 - `PREDICCION INTERACTIVA`
 - `RESULTADOS Y CONCLUSIONES`
 
-## Datasets principales
+Entrypoint principal:
 
-El proyecto prioriza `CSV` como formato principal.
+- [app/streamlit_app.py](app/streamlit_app.py)
 
-Archivo principal para modelado:
+## Dataset principal
+
+El proyecto prioriza `CSV` como formato principal de trabajo.
+
+Archivos principales:
 
 - `data/processed/enaho_arequipa_escenario_b_clean.csv`
-
-Archivo opcional de apoyo:
-
 - `data/processed/enaho_arequipa_escenario_b_clean.parquet`
+
+Dataset de apoyo para escenario Top 30:
+
+- `data/processed/enaho_arequipa_escenario_b_top30.csv`
+- `data/processed/enaho_arequipa_escenario_b_top30.parquet`
 
 ## Seleccion de variables
 
-La ruta oficial del proyecto se basa en un unico conjunto principal:
+La ruta oficial del proyecto adopta un conjunto principal:
 
-- `top30_full`: conjunto oficial de 30 variables seleccionadas, incluyendo indicadores monetarios y de vivienda.
+- `top30_full`
+
+Este conjunto prioriza una combinacion de variables de:
+
+- ingresos y gasto
+- condiciones de vivienda
+- acceso a servicios
+- estructura del hogar
+- salud y capital humano
 
 ## Modelos evaluados
 
@@ -206,36 +182,45 @@ La ruta oficial del proyecto se basa en un unico conjunto principal:
 - XGBoost
 - SVC
 
-### Ajustados
-
-Se realizaron pruebas con:
+### Estrategias de ajuste
 
 - `class_weight="balanced"`
 - `scale_pos_weight` para XGBoost
 - `SMOTE`
-- thresholds de decision `0.50`, `0.45`, `0.40`, `0.35`, `0.30`, `0.25`, `0.20`
+- ajuste de `threshold`
+
+Thresholds probados:
+
+- `0.50`
+- `0.45`
+- `0.40`
+- `0.35`
+- `0.30`
+- `0.25`
+- `0.20`
 
 ## Resultados principales
 
-### Baseline
+### Modelo recomendado
 
-- Baseline oficial: comparacion de `LogisticRegression`, `DecisionTreeClassifier`, `RandomForestClassifier`, `XGBoostClassifier` y `SVC` sobre `top30_full`
+El modelo final recomendado para presentacion ejecutiva es:
 
-### Tuning oficial
+| Campo | Valor |
+| --- | --- |
+| Nombre ejecutivo | Modelo balanceado recomendado |
+| Algoritmo | XGBoostClassifier |
+| Estrategia de balanceo | Ponderacion de clases |
+| Variables | Top 30 Full |
+| Threshold | 0.40 |
+| Precision | 0.416 |
+| Recall | 0.597 |
+| F1 | 0.490 |
 
-- `Modelo de maxima deteccion`: LogisticRegression + SMOTE | Top 30 Full | threshold 0.20
-- `Modelo balanceado recomendado`: XGBoostClassifier + Class Weight / Scale Pos Weight | Top 30 Full | threshold 0.40
-- `Modelo de mayor precision relativa`: LightGBMClassifier + SMOTE | Top 30 Full | threshold 0.35
+### Lectura del resultado
 
-### Modelo final recomendado
-
-- Nombre ejecutivo: `Modelo balanceado recomendado`
-- Algoritmo: `XGBoostClassifier`
-- Estrategia de balanceo: `ponderacion de clases`
-- Variables: `Top 30 Full`
-- Threshold de decision: `0.40`
-- Resultados holdout: `precision = 0.416`, `recall = 0.597`, `F1 = 0.490`
-- Lectura principal: mejor equilibrio entre `precision`, `recall` y `F1` para una presentacion final defendible
+- `Modelo de maxima deteccion`: prioriza cobertura de hogares pobres
+- `Modelo balanceado recomendado`: mejor equilibrio entre precision, recall y F1
+- `Modelo de mayor precision relativa`: escenario mas selectivo para reducir sobre-alertas
 
 ## Modelos exportados para la app
 
@@ -251,9 +236,44 @@ Se realizaron pruebas con:
 - `models/tuned/xgboost_weighted_equilibrio_top30_full_pipeline.pkl`
 - `models/tuned/lightgbm_smote_precision_top30_full_pipeline.pkl`
 
+## Estructura del repositorio
+
+```text
+ML_AREQUIPA_ENAHO_2023/
+  app/
+    app.py
+    streamlit_app.py
+    config.py
+    loaders.py
+    ui.py
+    ui_helpers.py
+    pages/
+  data/
+    processed/
+  models/
+    baseline/
+    tuned/
+  notebooks/
+  reports/
+  src/
+    etl/
+    modeling/
+    utils/
+  archive/
+  requirements.txt
+  README.md
+```
+
 ## Instalacion
 
-### 1. Crear entorno virtual
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/Luzaro/ML_AREQUIPA_ENAHO_2023.git
+cd ML_AREQUIPA_ENAHO_2023
+```
+
+### 2. Crear entorno virtual
 
 En Git Bash:
 
@@ -262,16 +282,37 @@ python -m venv .venv
 source .venv/Scripts/activate
 ```
 
-### 2. Instalar dependencias
+En PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+### 3. Instalar dependencias
 
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Ejecucion
+## Ejecucion rapida
 
-### ETL
+### Levantar la app local
+
+```bash
+source .venv/Scripts/activate
+streamlit run app/streamlit_app.py
+```
+
+Si prefieres usar Python directamente:
+
+```bash
+source .venv/Scripts/activate
+python -m streamlit run app/streamlit_app.py
+```
+
+### Ejecutar ETL
 
 ```bash
 python src/etl/extract.py
@@ -279,7 +320,7 @@ python src/etl/transform.py
 python src/etl/load.py
 ```
 
-### Modelado
+### Ejecutar modelado
 
 ```bash
 python src/modeling/feature_selection.py
@@ -288,32 +329,37 @@ python src/modeling/recall_tuning.py
 python src/modeling/export_models.py
 ```
 
-### Notebooks
+## Artefactos incluidos y artefactos ignorados
 
-Abrir y ejecutar:
+Este repositorio conserva:
 
-- `notebooks/01_eda_enaho_arequipa.ipynb`
-- `notebooks/02_modelado_baseline.ipynb`
-- `notebooks/03_modelado_recall_tuning.ipynb`
+- dataset procesado principal
+- reportes finales
+- modelos exportados
+- notebooks de analisis
+- codigo fuente oficial
 
-### Streamlit local
+No se versionan por defecto:
 
-```bash
-streamlit run app/streamlit_app.py
-```
+- `.venv/`
+- `logs/`
+- `data/raw/`
+- `data/interim/`
+
+Esto mantiene el repositorio mas limpio y evita subir artefactos pesados o temporales.
 
 ## Consideraciones metodologicas
 
 - El target corresponde a pobreza monetaria oficial del INEI.
-- No se calcula MPI como resultado final.
-- El proyecto prioriza `CSV` como formato principal de trabajo y revision.
-- El proyecto adopta oficialmente `top30_full`, incorporando de manera explicita indicadores monetarios junto con variables de vivienda, servicios, salud y composicion del hogar.
-- La etapa de tuning incorpora tratamiento del desbalance mediante ponderacion de clases, `scale_pos_weight`, `SMOTE` y ajuste de `threshold`.
-- La app final no se plantea solo como demo tecnica: organiza los hallazgos en clave descriptiva, de resultados, conclusiones y pipeline operativo.
-- La estructura nueva de `src/` es la oficial; el codigo historico fue movido a `archive/legacy_src/`.
+- El proyecto no busca estimar un MPI como salida final.
+- La ruta oficial privilegia `top30_full` como conjunto de variables principal.
+- La app no es solo una demo tecnica: tambien funciona como narrativa de sustentacion.
+- La carpeta `archive/` conserva trazabilidad historica del proyecto, pero no representa la ruta activa principal.
 
 ## Autor
 
-Proyecto: **ENAHO Arequipa Pobreza 2023 ML**
+**Luis Zavalaga Rodrigo**
 
-Autor: _[Luis Zavalaga Rodrigo]_
+## Licencia
+
+No se ha definido una licencia explicita en este repositorio. Si vas a reutilizar el proyecto o publicarlo formalmente, conviene agregar una licencia segun el uso esperado.
