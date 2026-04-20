@@ -1,5 +1,15 @@
 # ENAHO Arequipa Pobreza 2023 ML
 
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Community%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-ETL%20%26%20EDA-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-Modeling-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-FF6600?style=for-the-badge)](https://xgboost.readthedocs.io/)
+[![LightGBM](https://img.shields.io/badge/LightGBM-Classifier-00A651?style=for-the-badge)](https://lightgbm.readthedocs.io/)
+[![Status](https://img.shields.io/badge/Status-Deployed-success?style=for-the-badge)](https://ml-arequipa-enaho-2023.streamlit.app)
+
+[![Ver app en Streamlit](https://img.shields.io/badge/Ver%20app-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ml-arequipa-enaho-2023.streamlit.app)
+
 Proyecto de machine learning para predecir pobreza monetaria a nivel hogar en el departamento de Arequipa usando microdatos de la ENAHO 2023 Anual del INEI.
 
 El repositorio integra:
