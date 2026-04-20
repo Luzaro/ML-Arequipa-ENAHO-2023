@@ -249,7 +249,7 @@ El modelo final recomendado para presentacion ejecutiva es:
 ## Estructura del repositorio
 
 ```text
-ML_AREQUIPA_ENAHO_2023/
+ML-Arequipa-ENAHO-2023/
   app/
     app.py
     streamlit_app.py
@@ -279,8 +279,8 @@ ML_AREQUIPA_ENAHO_2023/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Luzaro/ML_AREQUIPA_ENAHO_2023.git
-cd ML_AREQUIPA_ENAHO_2023
+git clone https://github.com/Luzaro/ML-Arequipa-ENAHO-2023.git
+cd ML-Arequipa-ENAHO-2023
 ```
 
 ### 2. Crear entorno virtual
