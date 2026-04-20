@@ -12,11 +12,11 @@ benchmark = load_benchmark_holdout_safe()
 
 def _friendly_model_name(value: str) -> str:
     return {
-        "LogisticRegression": "Regresion logistica",
+        "LogisticRegression": "Regresión logística",
         "RandomForestClassifier": "Bosque aleatorio",
         "XGBoostClassifier": "XGBoost",
         "LightGBMClassifier": "LightGBM",
-        "Logistic": "Regresion logistica",
+        "Logistic": "Regresión logística",
         "RandomForest": "Bosque aleatorio",
         "XGBoost": "XGBoost",
         "LightGBM": "LightGBM",
@@ -25,7 +25,7 @@ def _friendly_model_name(value: str) -> str:
 
 def _friendly_strategy(value: str) -> str:
     return {
-        "weighted": "Ponderacion de clases",
+        "weighted": "Ponderación de clases",
         "smote": "SMOTE",
     }.get(str(value), str(value))
 
@@ -57,13 +57,13 @@ def _benchmark_ficha(row) -> str:
 
 render_hero(
     "Modelos finales",
-    "No existe un unico modelo mejor para todos los objetivos",
-    "La seleccion final depende del uso esperado. Esta pagina muestra tres escenarios: maxima deteccion, mejor equilibrio y benchmark complementario sin leakage.",
+    "No existe un único modelo mejor para todos los objetivos",
+    "La selección final depende del uso esperado. Esta página muestra tres escenarios: máxima detección, mejor equilibrio y benchmark complementario sin leakage.",
 )
 
 render_section_intro(
-    "Como leer esta pagina",
-    "Cada escenario responde a una prioridad distinta. La recomendacion final del proyecto privilegia equilibrio, pero el benchmarking muestra por que tambien importa observar recall maximo y una referencia sin leakage.",
+    "Cómo leer esta página",
+    "Cada escenario responde a una prioridad distinta. La recomendación final del proyecto privilegia equilibrio, pero el benchmarking muestra por qué también importa observar recall máximo y una referencia sin leakage.",
 )
 
 cards = []
@@ -73,7 +73,7 @@ if not tuning.empty:
     balance_row = tuning.sort_values(["f1", "recall", "precision"], ascending=[False, False, False]).iloc[0]
     cards.append(
         {
-            "title": "Maxima deteccion",
+            "title": "Máxima detección",
             "model_name": recall_row["display_name"],
             "technical_ficha": _tuning_ficha(recall_row),
             "precision": float(recall_row["precision"]),
@@ -100,7 +100,7 @@ if not tuning.empty:
             "fp": int(balance_row["fp"]),
             "fn": int(balance_row["fn"]),
             "tp": int(balance_row["tp"]),
-            "interpretation": "Es la opcion principal para exposicion final y decision analitica.",
+            "interpretation": "Es la opción principal para exposición final y decisión analítica.",
         }
     )
 
@@ -121,7 +121,7 @@ if not benchmark.empty:
                 "fp": int(leakage["fp"]),
                 "fn": int(leakage["fn"]),
                 "tp": int(leakage["tp"]),
-                "interpretation": "Sirve como referencia metodologica para comparar el costo de excluir variables cercanas al target.",
+                "interpretation": "Sirve como referencia metodológica para comparar el costo de excluir variables cercanas al target.",
             }
         )
 
@@ -134,18 +134,18 @@ else:
             render_story_card(
                 card["title"],
                 f"{card['technical_ficha']}\n\n"
-                f"Precision: {card['precision']:.3f}\n"
+                f"Precisión: {card['precision']:.3f}\n"
                 f"Recall: {card['recall']:.3f}\n"
                 f"F1: {card['f1']:.3f}\n\n"
                 f"{card['interpretation']}",
             )
 
-    st.markdown("### Matrices de confusion")
+    st.markdown("### Matrices de confusión")
     selector = st.selectbox("Escenario", [item["title"] for item in cards])
     selected = next(item for item in cards if item["title"] == selector)
     st.altair_chart(confusion_matrix_chart(selected["cm"], title=selected["model_name"]), width="stretch")
     render_story_card(
-        "Como interpretar esta matriz",
+        "Cómo interpretar esta matriz",
         f"{selected['technical_ficha']}\n\n"
         f"Verdaderos negativos: {selected['tn']} hogares no pobres fueron clasificados correctamente como no pobres. "
         f"Falsos positivos: {selected['fp']} hogares no pobres fueron marcados como pobres. "
@@ -154,6 +154,6 @@ else:
         f"En este escenario, la lectura de negocio es: {selected['interpretation']}",
     )
 
-    st.markdown("### Cuando elegir cada modelo")
+    st.markdown("### Cuándo elegir cada modelo")
     for card in cards:
         render_story_card(card["title"], card["interpretation"])

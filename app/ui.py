@@ -74,10 +74,10 @@ def confusion_matrix_chart(cm_value, title: str | None = None) -> alt.Chart:
 
     cm_df = pd.DataFrame(
         [
-            {"Real": "No pobre", "Prediccion": "No pobre", "Conteo": int(matrix[0][0])},
-            {"Real": "No pobre", "Prediccion": "Pobre", "Conteo": int(matrix[0][1])},
-            {"Real": "Pobre", "Prediccion": "No pobre", "Conteo": int(matrix[1][0])},
-            {"Real": "Pobre", "Prediccion": "Pobre", "Conteo": int(matrix[1][1])},
+            {"Real": "No pobre", "Predicción": "No pobre", "Conteo": int(matrix[0][0])},
+            {"Real": "No pobre", "Predicción": "Pobre", "Conteo": int(matrix[0][1])},
+            {"Real": "Pobre", "Predicción": "No pobre", "Conteo": int(matrix[1][0])},
+            {"Real": "Pobre", "Predicción": "Pobre", "Conteo": int(matrix[1][1])},
         ]
     )
     max_value = max(cm_df["Conteo"].max(), 1)
@@ -86,7 +86,7 @@ def confusion_matrix_chart(cm_value, title: str | None = None) -> alt.Chart:
         alt.Chart(cm_df)
         .mark_rect(cornerRadius=12)
         .encode(
-            x=alt.X("Prediccion:N", title=None),
+            x=alt.X("Predicción:N", title=None),
             y=alt.Y("Real:N", title=None),
             color=alt.Color(
                 "Conteo:Q",
@@ -99,13 +99,13 @@ def confusion_matrix_chart(cm_value, title: str | None = None) -> alt.Chart:
         alt.Chart(cm_df)
         .transform_filter(alt.datum.Conteo < (max_value * 0.55))
         .mark_text(fontSize=20, fontWeight="bold", color="#102235")
-        .encode(x="Prediccion:N", y="Real:N", text="Conteo:Q")
+        .encode(x="Predicción:N", y="Real:N", text="Conteo:Q")
     )
     light_text = (
         alt.Chart(cm_df)
         .transform_filter(alt.datum.Conteo >= (max_value * 0.55))
         .mark_text(fontSize=20, fontWeight="bold", color="white")
-        .encode(x="Prediccion:N", y="Real:N", text="Conteo:Q")
+        .encode(x="Predicción:N", y="Real:N", text="Conteo:Q")
     )
     chart = (base + dark_text + light_text).properties(width=300, height=250)
     if title:
@@ -179,16 +179,16 @@ def anova_top_features_chart(df: pd.DataFrame, top_n: int = 15) -> alt.Chart:
         alt.Chart(source)
         .mark_bar(cornerRadiusTopRight=6, cornerRadiusBottomRight=6)
         .encode(
-            x=alt.X("f_score_max:Q", title="F-score maximo (ANOVA)"),
+            x=alt.X("f_score_max:Q", title="F-score máximo (ANOVA)"),
             y=alt.Y("descripcion:N", sort="-x", title=None),
             color=alt.Color(
                 "dimension_analitica:N",
-                title="Dimension",
+                title="Dimensión",
                 scale=alt.Scale(range=["#0E7490", "#C98B2B", "#D1603D", "#355070", "#6D597A", "#2F6F4F"]),
             ),
             tooltip=[
                 alt.Tooltip("descripcion:N", title="Variable"),
-                alt.Tooltip("variable:N", title="Codigo"),
+                alt.Tooltip("variable:N", title="Código"),
                 alt.Tooltip("f_score_max:Q", title="F-score max", format=".3f"),
                 alt.Tooltip("p_value_min:Q", title="p-value min", format=".2e"),
                 alt.Tooltip("expanded_features:Q", title="Dummies evaluadas"),

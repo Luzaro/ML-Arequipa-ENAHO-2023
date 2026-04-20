@@ -35,27 +35,27 @@ FEATURE_CONFIG = {
     "usa_combustible_limpio": {
         "label": "El hogar usa combustible limpio para cocinar",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "usa_combustible_precario": {
         "label": "El hogar usa combustible precario para cocinar",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "dispositivo_servicio_digital_1": {
         "label": "Dispositivo o servicio digital 1",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "dispositivo_servicio_digital_2": {
         "label": "Dispositivo o servicio digital 2",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "dispositivo_servicio_digital_3": {
         "label": "Dispositivo o servicio digital 3",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "material_techo": {
         "label": "Material predominante del techo",
@@ -66,7 +66,7 @@ FEATURE_CONFIG = {
         "input_type": "selectbox",
         "display_map": {
             "Sin nivel": 1,
-            "Educacion inicial": 2,
+            "Educación inicial": 2,
             "Primaria incompleta": 3,
             "Primaria completa": 4,
             "Secundaria incompleta": 5,
@@ -75,14 +75,14 @@ FEATURE_CONFIG = {
             "Superior no universitaria completa": 8,
             "Superior universitaria incompleta": 9,
             "Superior universitaria completa": 10,
-            "Maestria o doctorado": 11,
-            "Basica especial": 12,
+            "Maestría o doctorado": 11,
+            "Básica especial": 12,
         },
     },
     "piso_precario": {
         "label": "El hogar tiene piso precario",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "ingreso_neto_total_hogar": {
         "label": "Ingreso neto total del hogar",
@@ -92,7 +92,7 @@ FEATURE_CONFIG = {
         "format": "%.2f",
     },
     "num_habitaciones": {
-        "label": "Numero de habitaciones de la vivienda",
+        "label": "Número de habitaciones de la vivienda",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
@@ -100,38 +100,38 @@ FEATURE_CONFIG = {
     "acceso_internet_hogar_derivado": {
         "label": "El hogar tiene acceso a internet",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "material_pared": {
         "label": "Material predominante de la pared",
         "input_type": "selectbox_dynamic",
     },
     "tam_hogar": {
-        "label": "Tamano del hogar",
+        "label": "Tamaño del hogar",
         "input_type": "number_input",
         "min_value": 1,
         "step": 1,
     },
     "num_ninos_0_5": {
-        "label": "Numero de ninos de 0 a 5 anos",
+        "label": "Número de niños de 0 a 5 años",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
     },
     "num_ninos_6_16": {
-        "label": "Numero de ninos y adolescentes de 6 a 16 anos",
+        "label": "Número de niños y adolescentes de 6 a 16 años",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
     },
     "num_miembros_afiliados_essalud": {
-        "label": "Numero de miembros afiliados a EsSalud",
+        "label": "Número de miembros afiliados a EsSalud",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
     },
     "estrato_geografico": {
-        "label": "Estrato geografico del hogar",
+        "label": "Estrato geográfico del hogar",
         "input_type": "selectbox_dynamic",
     },
     "monto_juntos": {
@@ -142,9 +142,9 @@ FEATURE_CONFIG = {
         "format": "%.2f",
     },
     "acceso_desague_red": {
-        "label": "El hogar tiene acceso a desague por red publica",
+        "label": "El hogar tiene acceso a desagüe por red pública",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "monto_bono_gas": {
         "label": "Monto recibido por Bono del Gas",
@@ -154,25 +154,25 @@ FEATURE_CONFIG = {
         "format": "%.2f",
     },
     "monto_pension_65": {
-        "label": "Monto recibido por Pension 65",
+        "label": "Monto recibido por Pensión 65",
         "input_type": "number_input",
         "min_value": 0.0,
         "step": 10.0,
         "format": "%.2f",
     },
     "num_miembros_sin_atencion_salud": {
-        "label": "Numero de miembros sin atencion en salud",
+        "label": "Número de miembros sin atención en salud",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
     },
     "acceso_agua_red": {
-        "label": "El hogar tiene acceso a agua por red publica",
+        "label": "El hogar tiene acceso a agua por red pública",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "num_miembros_con_enfermedad_4_sem": {
-        "label": "Numero de miembros con enfermedad en ultimas 4 semanas",
+        "label": "Número de miembros con enfermedad en últimas 4 semanas",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,
@@ -187,14 +187,14 @@ FEATURE_CONFIG = {
     "agua_potable_reportada": {
         "label": "El hogar reporta agua potable",
         "input_type": "selectbox",
-        "display_map": {"No": 0, "Si": 1},
+        "display_map": {"No": 0, "Sí": 1},
     },
     "tipo_vivienda": {
         "label": "Tipo de vivienda",
         "input_type": "selectbox_dynamic",
     },
     "monto_otras_transferencias_publicas": {
-        "label": "Monto por otras transferencias publicas",
+        "label": "Monto por otras transferencias públicas",
         "input_type": "number_input",
         "min_value": 0.0,
         "step": 10.0,
@@ -208,7 +208,7 @@ FEATURE_CONFIG = {
         "format": "%.2f",
     },
     "num_miembros_con_sintoma_4_sem": {
-        "label": "Numero de miembros con sintoma o malestar en ultimas 4 semanas",
+        "label": "Número de miembros con síntoma o malestar en últimas 4 semanas",
         "input_type": "number_input",
         "min_value": 0,
         "step": 1,

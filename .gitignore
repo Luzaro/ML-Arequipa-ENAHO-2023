@@ -6,7 +6,7 @@ __pycache__/
 .ipynb_checkpoints/
 logs/
 *.log
-.streamlit/
+.streamlit/secrets.toml
 .DS_Store
 
 # Datos fuente pesados o sensibles

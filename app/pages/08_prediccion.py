@@ -21,7 +21,7 @@ def tuned_lookup(label: str) -> dict[str, float | str]:
     option = OFFICIAL_MODEL_OPTIONS[label]
     threshold = float(option["threshold"])
     algorithm = str(option["algorithm"])
-    strategy = "weighted" if "Ponderacion" in str(option["strategy_label"]) else "smote"
+    strategy = "weighted" if "ponder" in str(option["strategy_label"]).lower() else "smote"
     row = tuning.loc[
         (tuning["modelo_familia"] == algorithm)
         & (tuning["estrategia"] == strategy)
@@ -40,23 +40,23 @@ selected_model = OFFICIAL_MODEL_OPTIONS[model_label]
 metrics = tuned_lookup(model_label)
 
 render_hero(
-    "Prediccion interactiva",
+    "Predicción interactiva",
     "Simulador de hogar",
-    "Selecciona un modelo, completa las variables del hogar y observa la clasificacion estimada junto con su probabilidad y una lectura metodologica del resultado.",
+    "Selecciona un modelo, completa las variables del hogar y observa la clasificación estimada junto con su probabilidad y una lectura metodológica del resultado.",
 )
 
 render_section_intro(
-    "Como usar esta pagina",
-    "La prediccion se basa en modelos ya entrenados y serializados. No se reentrena nada desde Streamlit. El objetivo es mostrar como cambia la decision segun el escenario elegido.",
+    "Cómo usar esta página",
+    "La predicción se basa en modelos ya entrenados y serializados. No se reentrena nada desde Streamlit. El objetivo es mostrar cómo cambia la decisión según el escenario elegido.",
 )
 
 cols = st.columns(4)
 with cols[0]:
     render_metric_card("Modelo", model_label, selected_model["technical_name"])
 with cols[1]:
-    render_metric_card("Precision esperada", format_pct(metrics["precision"]), "Que tan selectivo suele ser este escenario.")
+    render_metric_card("Precisión esperada", format_pct(metrics["precision"]), "Qué tan selectivo suele ser este escenario.")
 with cols[2]:
-    render_metric_card("Recall esperado", format_pct(metrics["recall"]), "Que tanta cobertura logra sobre hogares pobres.")
+    render_metric_card("Recall esperado", format_pct(metrics["recall"]), "Qué tanta cobertura logra sobre hogares pobres.")
 with cols[3]:
     render_metric_card("Enfoque", selected_model["story"], selected_model["note"])
 
@@ -71,12 +71,12 @@ with st.form("prediction_form"):
     with c2:
         for feature in feature_right:
             inputs[feature] = render_feature_input(feature, FEATURE_CONFIG[feature], df_reference)
-    submitted = st.form_submit_button("Calcular prediccion")
+    submitted = st.form_submit_button("Calcular predicción")
 
 model_path: Path = selected_model["path"]
 pipeline = load_model_safe(model_path)
 if pipeline is None:
-    st.warning(f"No se encontro el modelo serializado en {model_path}.")
+    st.warning(f"No se encontró el modelo serializado en {model_path}.")
 
 if submitted and pipeline is not None:
     input_df = pd.DataFrame([inputs])
@@ -85,11 +85,11 @@ if submitted and pipeline is not None:
 
     result_cols = st.columns(3)
     with result_cols[0]:
-        render_metric_card("Clasificacion", "Pobre" if pred == 1 else "No pobre", f"Threshold aplicado: {selected_model['threshold']:.2f}")
+        render_metric_card("Clasificación", "Pobre" if pred == 1 else "No pobre", f"Threshold aplicado: {selected_model['threshold']:.2f}")
     with result_cols[1]:
         render_metric_card("Probabilidad", format_pct(prob), "Probabilidad estimada de pertenecer a la clase pobre.")
     with result_cols[2]:
-        render_metric_card("Advertencia", "Uso metodologico", "Esta salida aproxima la clasificacion oficial, no reemplaza al INEI.")
+        render_metric_card("Advertencia", "Uso metodológico", "Esta salida aproxima la clasificación oficial, no reemplaza al INEI.")
 
     if pred == 1:
         st.error("El hogar queda por encima del threshold y se clasifica como pobre en el escenario seleccionado.")

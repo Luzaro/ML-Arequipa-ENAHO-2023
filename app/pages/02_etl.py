@@ -12,19 +12,19 @@ df = load_dataset_safe()
 
 render_hero(
     "Pipeline ETL",
-    "Como los datos crudos se convirtieron en una base lista para modelar",
-    "Esta etapa organiza la adquisicion, integracion y validacion de datos ENAHO 2023 hasta llegar a una base final a nivel hogar en data/processed.",
+    "Cómo los datos crudos se convirtieron en una base lista para modelar",
+    "Esta etapa organiza la adquisición, integración y validación de datos ENAHO 2023 hasta llegar a una base final a nivel hogar en data/processed.",
 )
 
 render_section_intro(
     "Una etapa clave antes de cualquier modelo",
-    "Sin ETL no habia una base consistente para comparar pobreza y no pobreza. El trabajo fue integrar modulos heterogeneos y traducirlos a una sola unidad de analisis: el hogar.",
+    "Sin ETL no había una base consistente para comparar pobreza y no pobreza. El trabajo fue integrar módulos heterogéneos y traducirlos a una sola unidad de análisis: el hogar.",
 )
 
 st.markdown("### Flujo Extract - Transform - Load")
 render_step_grid(ETL_STEPS, columns=3)
 
-st.markdown("### Modulos integrados")
+st.markdown("### Módulos integrados")
 render_step_grid([(module.split(":")[0], module.split(":")[1].strip()) for module in ETL_MODULES], columns=3)
 
 st.markdown("### Resultado del ETL")
@@ -38,11 +38,11 @@ with cols[2]:
 
 st.markdown("### Tabla resumen del dataset final")
 if df.empty:
-    st.warning("No se encontro la base final procesada. Conecta el archivo en data/processed para habilitar esta vista.")
+    st.warning("No se encontró la base final procesada. Conecta el archivo en data/processed para habilitar esta vista.")
 else:
     preview_cols = [col for col in df.columns[:12]]
     st.dataframe(df[preview_cols].head(10), width="stretch")
     render_story_card(
-        "Lectura metodologica",
-        "El ETL deja lista la materia prima del proyecto: una sola tabla a nivel hogar sobre la cual luego se construyen el EDA, la seleccion de variables y el modelado.",
+        "Lectura metodológica",
+        "El ETL deja lista la materia prima del proyecto: una sola tabla a nivel hogar sobre la cual luego se construyen el EDA, la selección de variables y el modelado.",
     )

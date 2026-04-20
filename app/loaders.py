@@ -30,6 +30,7 @@ from config import (
     LEAKAGE_RISK_PATH,
     MODEL_INVENTORY_PATH,
     OFFICIAL_MODEL_OPTIONS,
+    PROJECT_ROOT,
     REPRESENTATIVE_IMPORTANCE_ALIASES,
     SELECTKBEST_SUMMARY_PATH,
     TARGET_COL,
@@ -82,6 +83,26 @@ def _top30_features() -> list[str]:
     return list(TOP30_OFFICIAL_FEATURES or TOP30_FULL)
 
 
+def _resolve_inventory_model_path(row: pd.Series) -> Path:
+    stored_path = Path(str(row.get("path", "")))
+    if stored_path.exists():
+        return stored_path
+
+    file_name = str(row.get("file_name", "")).strip()
+    group = str(row.get("group", "")).strip()
+    if file_name and group:
+        grouped_path = PROJECT_ROOT / "models" / group / file_name
+        if grouped_path.exists():
+            return grouped_path
+
+    if file_name:
+        matches = list((PROJECT_ROOT / "models").glob(f"**/{file_name}"))
+        if matches:
+            return matches[0]
+
+    return stored_path
+
+
 def _representative_inventory() -> pd.DataFrame:
     inventory = load_model_inventory_safe()
     if inventory.empty:
@@ -105,7 +126,10 @@ def _representative_inventory() -> pd.DataFrame:
 
     if not selected_rows:
         return pd.DataFrame()
-    return pd.DataFrame(selected_rows)
+
+    resolved = pd.DataFrame(selected_rows).copy()
+    resolved["path"] = resolved.apply(_resolve_inventory_model_path, axis=1).map(str)
+    return resolved
 
 
 def _get_pipeline_parts(pipeline) -> tuple[Any | None, Any | None]:
@@ -398,7 +422,7 @@ def load_feature_ranking_safe() -> pd.DataFrame:
 
 @st.cache_data
 def load_top10_feature_influence_safe() -> dict[str, Any]:
-    inventory = _representative_inventory()
+    inventory = _representative_inventory().copy()
     if inventory.empty:
         return {"matrix": pd.DataFrame(), "long": pd.DataFrame(), "sources": pd.DataFrame()}
 

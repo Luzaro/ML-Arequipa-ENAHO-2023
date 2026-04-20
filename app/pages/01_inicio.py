@@ -21,50 +21,50 @@ poverty_rate = float(df["target_pobreza_monetaria_bin"].mean()) if (not df.empty
 
 render_hero(
     "Resumen ejecutivo",
-    "Prediccion de pobreza monetaria en hogares de Arequipa 2023",
-    "Esta aplicacion explica el proyecto completo: desde la adquisicion de datos ENAHO hasta la seleccion final de modelos y la prediccion interactiva de un hogar.",
+    "Predicción de pobreza monetaria en hogares de Arequipa 2023",
+    "Esta aplicación explica el proyecto completo: desde la adquisición de datos ENAHO hasta la selección final de modelos y la predicción interactiva de un hogar.",
 )
 
 cols = st.columns(5)
 with cols[0]:
     render_metric_card("Fuente", SOURCE_LABEL, "Microdatos oficiales del INEI.")
 with cols[1]:
-    render_metric_card("Region", REGION_LABEL, "Cobertura analitica del proyecto.")
+    render_metric_card("Región", REGION_LABEL, "Cobertura analítica del proyecto.")
 with cols[2]:
-    render_metric_card("Unidad", UNIT_LABEL, "La prediccion se realiza a nivel hogar.")
+    render_metric_card("Unidad", UNIT_LABEL, "La predicción se realiza a nivel hogar.")
 with cols[3]:
     render_metric_card("Target", "Pobreza monetaria", TARGET_LABEL)
 with cols[4]:
     render_metric_card("Muestra", f"{len(df):,}".replace(",", "."), f"Tasa de pobreza: {format_pct(poverty_rate)}")
 
 render_section_intro(
-    "Que hace y que no hace el modelo",
-    "La solucion aproxima la clasificacion oficial de pobreza monetaria con microdatos ENAHO. Sirve para analisis, comparacion de escenarios y demostracion metodologica, pero no reemplaza la medicion oficial del INEI.",
+    "Qué hace y qué no hace el modelo",
+    "La solución aproxima la clasificación oficial de pobreza monetaria con microdatos ENAHO. Sirve para análisis, comparación de escenarios y demostración metodológica, pero no reemplaza la medición oficial del INEI.",
 )
 
 left, right = st.columns([1.1, 1])
 with left:
     render_story_card(
         "Problema social",
-        "La pobreza monetaria requiere herramientas que ayuden a identificar patrones de vulnerabilidad con datos publicos, sin perder trazabilidad metodologica.",
+        "La pobreza monetaria requiere herramientas que ayuden a identificar patrones de vulnerabilidad con datos públicos, sin perder trazabilidad metodológica.",
     )
     render_story_card(
         "Objetivo del proyecto",
-        "Construir una solucion de clasificacion supervisada que permita comparar modelos, justificar decisiones y terminar en una app presentable para exposicion de resultados.",
+        "Construir una solución de clasificación supervisada que permita comparar modelos, justificar decisiones y terminar en una app presentable para exposición de resultados.",
     )
 with right:
     render_story_card(
         "Mensaje central",
-        "La app no solo predice. Tambien explica como se construyo la base, por que se eligio top30 full, como se trato el desbalance y por que existen distintos modelos finales segun el objetivo.",
+        "La app no solo predice. También explica cómo se construyó la base, por qué se eligió top30 full, cómo se trató el desbalance y por qué existen distintos modelos finales según el objetivo.",
     )
 
-st.markdown("### Flujo metodologico")
+st.markdown("### Flujo metodológico")
 render_step_grid(EXECUTIVE_FLOW, columns=3)
 
-st.markdown("### Recomendacion principal")
+st.markdown("### Recomendación principal")
 render_story_card(
     "Modelo recomendado hoy",
-    f"{OFFICIAL_MODEL_LABEL}. Se recomienda para presentacion final porque ofrece el mejor equilibrio entre precision, recall y F1 dentro del set oficial Top 30 Full.",
+    f"{OFFICIAL_MODEL_LABEL}. Se recomienda para presentación final porque ofrece el mejor equilibrio entre precisión, recall y F1 dentro del set oficial Top 30 Full.",
 )
 
 ficha_cols = st.columns(4)

@@ -42,16 +42,16 @@ PALETTE = {
 
 TARGET_LABELS = {0: "No pobre", 1: "Pobre"}
 MODEL_FULL_NAMES = {
-    "LogisticRegression": "Regresion logistica",
-    "DecisionTreeClassifier": "Arbol de decision",
+    "LogisticRegression": "Regresión logística",
+    "DecisionTreeClassifier": "Árbol de decisión",
     "RandomForestClassifier": "Bosque aleatorio",
     "XGBoostClassifier": "XGBoost",
     "LightGBMClassifier": "LightGBM",
-    "SVC": "Maquina de soporte vectorial",
+    "SVC": "Máquina de soporte vectorial",
 }
 STRATEGY_FULL_NAMES = {
     "smote": "SMOTE",
-    "weighted": "Ponderacion de clases",
+    "weighted": "Ponderación de clases",
 }
 
 
@@ -437,22 +437,22 @@ def tuned_alias(row: pd.Series) -> str:
 
 def tuned_story_name(row: pd.Series) -> str:
     if row["alias"] == "RADAR MAX":
-        return "Maxima deteccion"
+        return "Máxima detección"
     if row["alias"] == "XGB BALANCE":
         return "Mejor equilibrio"
     if row["alias"] == "LGBM PRECISO":
-        return "Mayor precision"
+        return "Mayor precisión"
     return row["alias"]
 
 
 def tuned_display_name(row: pd.Series) -> str:
     alias = str(row.get("alias", ""))
     if alias == "RADAR MAX":
-        return "Modelo de maxima deteccion"
+        return "Modelo de máxima detección"
     if alias == "XGB BALANCE":
         return "Modelo de mejor equilibrio"
     if alias == "LGBM PRECISO":
-        return "Modelo de mayor precision relativa"
+        return "Modelo de mayor precisión relativa"
 
     family = full_model_name(str(row["modelo_familia"]))
     strategy = STRATEGY_FULL_NAMES.get(str(row.get("estrategia", "")), str(row.get("estrategia", "")))
@@ -631,7 +631,7 @@ def performance_scatter(df: pd.DataFrame, label_col: str, color_col: str) -> alt
         .mark_circle(opacity=0.78, stroke="white", strokeWidth=1.2)
         .encode(
             x=alt.X("recall:Q", title="Recall", scale=alt.Scale(domain=[0, 1])),
-            y=alt.Y("precision:Q", title="Precision", scale=alt.Scale(domain=[0, 1])),
+            y=alt.Y("precision:Q", title="Precisión", scale=alt.Scale(domain=[0, 1])),
             size=alt.Size("f1:Q", title="F1", scale=alt.Scale(range=[80, 1000])),
             color=alt.Color(
                 f"{color_col}:N",
@@ -648,17 +648,17 @@ def confusion_matrix_chart(cm_value: str | list[list[int]], title: str | None = 
     matrix = parse_confusion_matrix(cm_value)
     cm_df = pd.DataFrame(
         [
-            {"Real": "No pobre", "Prediccion": "No pobre", "Conteo": matrix[0][0]},
-            {"Real": "No pobre", "Prediccion": "Pobre", "Conteo": matrix[0][1]},
-            {"Real": "Pobre", "Prediccion": "No pobre", "Conteo": matrix[1][0]},
-            {"Real": "Pobre", "Prediccion": "Pobre", "Conteo": matrix[1][1]},
+            {"Real": "No pobre", "Predicción": "No pobre", "Conteo": matrix[0][0]},
+            {"Real": "No pobre", "Predicción": "Pobre", "Conteo": matrix[0][1]},
+            {"Real": "Pobre", "Predicción": "No pobre", "Conteo": matrix[1][0]},
+            {"Real": "Pobre", "Predicción": "Pobre", "Conteo": matrix[1][1]},
         ]
     )
     heat = (
         alt.Chart(cm_df)
         .mark_rect(cornerRadius=10)
         .encode(
-            x=alt.X("Prediccion:N", title=None),
+            x=alt.X("Predicción:N", title=None),
             y=alt.Y("Real:N", title=None),
             color=alt.Color("Conteo:Q", scale=alt.Scale(range=[PALETTE["cream"], PALETTE["gold"], PALETTE["coral"], PALETTE["navy"]]), legend=None),
         )
@@ -717,7 +717,7 @@ def categorical_distribution_chart(df: pd.DataFrame, feature: str, top_n: int = 
         .fillna("Sin dato")
         .value_counts()
         .reset_index(name="hogares")
-        .rename(columns={feature: "categoria"})
+        .rename(columns={feature: "Categoría"})
         .head(top_n)
     )
     return (
@@ -725,9 +725,9 @@ def categorical_distribution_chart(df: pd.DataFrame, feature: str, top_n: int = 
         .mark_bar(cornerRadiusTopRight=6, cornerRadiusBottomRight=6)
         .encode(
             x=alt.X("hogares:Q", title="Hogares"),
-            y=alt.Y("categoria:N", sort="-x", title=feature_display_name(feature)),
+            y=alt.Y("Categoría:N", sort="-x", title=feature_display_name(feature)),
             color=alt.value(PALETTE["teal"]),
-            tooltip=["categoria:N", "hogares:Q"],
+            tooltip=["Categoría:N", "hogares:Q"],
         )
         .properties(height=320)
     )
@@ -742,16 +742,16 @@ def poverty_rate_by_category_chart(df: pd.DataFrame, feature: str, top_n: int = 
         .reset_index()
         .sort_values("hogares", ascending=False)
         .head(top_n)
-        .rename(columns={feature: "categoria"})
+        .rename(columns={feature: "Categoría"})
     )
     return (
         alt.Chart(source)
         .mark_bar(cornerRadiusTopRight=6, cornerRadiusBottomRight=6)
         .encode(
             x=alt.X("pobreza_rate:Q", title="Tasa de pobreza", axis=alt.Axis(format="%")),
-            y=alt.Y("categoria:N", sort="-x", title=feature_display_name(feature)),
+            y=alt.Y("Categoría:N", sort="-x", title=feature_display_name(feature)),
             color=alt.value(PALETTE["coral"]),
-            tooltip=["categoria:N", alt.Tooltip("pobreza_rate:Q", format=".1%"), "hogares:Q"],
+            tooltip=["Categoría:N", alt.Tooltip("pobreza_rate:Q", format=".1%"), "hogares:Q"],
         )
         .properties(height=320)
     )

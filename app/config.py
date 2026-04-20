@@ -46,30 +46,30 @@ OFFICIAL_FEATURE_SET_LABEL = "Top 30 Full"
 OFFICIAL_MODEL_LABEL = "Modelo balanceado recomendado"
 OFFICIAL_MODEL_FICHA = {
     "Algoritmo": "XGBoostClassifier",
-    "Estrategia de balanceo": "Ponderacion de clases",
+    "Estrategia de balanceo": "Ponderación de clases",
     "Conjunto de variables": "Top 30 Full",
-    "Threshold de decision": "0.40",
+    "Threshold de decisión": "0.40",
 }
 OFFICIAL_MODEL_RESULTS = {
-    "Precision": "0.416",
+    "Precisión": "0.416",
     "Recall": "0.597",
     "F1": "0.490",
 }
 
 ETL_MODULES = [
-    "Modulo01: Vivienda y hogar",
-    "Modulo02: Miembros del hogar",
-    "Modulo03: Educacion",
-    "Modulo04: Salud",
-    "Modulo05: Empleo e ingresos",
-    "Modulo34: Sumaria",
+    "Módulo01: Vivienda y hogar",
+    "Módulo02: Miembros del hogar",
+    "Módulo03: Educación",
+    "Módulo04: Salud",
+    "Módulo05: Empleo e ingresos",
+    "Módulo34: Sumaria",
 ]
 
 OFFICIAL_MODEL_OPTIONS = {
-    "Modelo de maxima deteccion": {
+    "Modelo de máxima detección": {
         "path": PROJECT_ROOT / "models" / "tuned" / "logistic_smote_deteccion_top30_full_pipeline.pkl",
         "threshold": 0.20,
-        "story": "Maxima deteccion",
+        "story": "Máxima detección",
         "note": "Escenario agresivo para ampliar cobertura de hogares pobres.",
         "algorithm": "LogisticRegression",
         "strategy_label": "SMOTE",
@@ -80,17 +80,17 @@ OFFICIAL_MODEL_OPTIONS = {
         "path": PROJECT_ROOT / "models" / "tuned" / "xgboost_weighted_equilibrio_top30_full_pipeline.pkl",
         "threshold": 0.40,
         "story": "Mejor equilibrio",
-        "note": "Escenario recomendado por balance entre precision, recall y F1.",
+        "note": "Escenario recomendado por balance entre precisión, recall y F1.",
         "algorithm": "XGBoostClassifier",
-        "strategy_label": "Ponderacion de clases",
+        "strategy_label": "Ponderación de clases",
         "feature_set_label": "Top 30 Full",
         "technical_name": "XGBoostClassifier + Class Weight / Scale Pos Weight | Top 30 Full | Threshold 0.40",
     },
-    "Modelo de mayor precision relativa": {
+    "Modelo de mayor precisión relativa": {
         "path": PROJECT_ROOT / "models" / "tuned" / "lightgbm_smote_precision_top30_full_pipeline.pkl",
         "threshold": 0.35,
-        "story": "Mayor precision relativa",
-        "note": "Escenario mas selectivo para reducir sobre-alertas.",
+        "story": "Mayor precisión relativa",
+        "note": "Escenario más selectivo para reducir sobre-alertas.",
         "algorithm": "LightGBMClassifier",
         "strategy_label": "SMOTE",
         "feature_set_label": "Top 30 Full",
