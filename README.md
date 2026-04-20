@@ -14,10 +14,10 @@ Proyecto de machine learning para predecir pobreza monetaria a nivel hogar en el
 
 El repositorio integra:
 
-- un pipeline ETL reproducible
-- exploracion y perfilamiento del dato
-- seleccion de variables
-- comparacion de modelos baseline y ajustados
+- Un pipeline ETL reproducible
+- Exploracion y perfilamiento del dato
+- Seleccion de variables
+- Comparacion de modelos baseline y ajustados
 - una aplicacion local en Streamlit para exposicion, demostracion y analisis interactivo
 
 ## Resumen ejecutivo
@@ -26,20 +26,20 @@ La meta del proyecto es construir un flujo de datos y modelado que permita ident
 
 La solucion final no se limita a entrenar modelos. Tambien organiza evidencia tecnica y narrativa de resultados en una app multipagina de Streamlit pensada para:
 
-- sustentar el pipeline de extremo a extremo
-- mostrar hallazgos del EDA y feature selection
-- comparar escenarios de modelado
-- explorar una prediccion interactiva sobre variables del hogar
+- Sustentar el pipeline de extremo a extremo
+- Mostrar hallazgos del EDA y feature selection
+- Comparar escenarios de modelado
+- Explorar una prediccion interactiva sobre variables del hogar
 
 ## Objetivo
 
 Construir un pipeline reproducible para:
 
-1. extraer e integrar microdatos ENAHO 2023
-2. transformar la informacion a nivel hogar
-3. preparar un dataset limpio para modelado supervisado
-4. comparar modelos baseline y estrategias de ajuste para desbalance
-5. presentar resultados en notebooks y en una app local de Streamlit
+1. Extraer e integrar microdatos ENAHO 2023
+2. Transformar la informacion a nivel hogar
+3. Preparar un dataset limpio para modelado supervisado
+4. Comparar modelos baseline y estrategias de ajuste para desbalance
+5. Presentar resultados en notebooks y en una app local de Streamlit
 
 ## Fuente de datos
 
@@ -89,10 +89,10 @@ python src/etl/load.py
 
 Analisis exploratorio para estudiar:
 
-- distribucion del target
-- faltantes y calidad del dato
-- relaciones por variable numerica y categorica
-- correlaciones y riesgos de redundancia
+- Distribucion del target
+- Faltantes y calidad del dato
+- Rlaciones por variable numerica y categorica
+- Correlaciones y riesgos de redundancia
 
 Notebook principal:
 
@@ -104,11 +104,11 @@ notebooks/01_eda_enaho_arequipa.ipynb
 
 Incluye:
 
-- seleccion de variables
-- modelos baseline
-- tuning con foco en `recall`
-- tratamiento del desbalance con `SMOTE`, `class_weight` y `scale_pos_weight`
-- exportacion de pipelines listos para uso en la app
+- Seleccion de variables
+- Modelos baseline
+- Tuning con foco en `recall`
+- Tratamiento del desbalance con `SMOTE`, `class_weight` y `scale_pos_weight`
+- Exportacion de pipelines listos para uso en la app
 
 Scripts oficiales:
 
@@ -176,11 +176,11 @@ La ruta oficial del proyecto adopta un conjunto principal:
 
 Este conjunto prioriza una combinacion de variables de:
 
-- ingresos y gasto
-- condiciones de vivienda
-- acceso a servicios
-- estructura del hogar
-- salud y capital humano
+- Ingresos y gasto
+- Condiciones de vivienda
+- Acceso a servicios
+- Estructura del hogar
+- Salud y capital humano
 
 ## Modelos evaluados
 
